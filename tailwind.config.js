@@ -2,10 +2,56 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "noto-sans": "'Noto Sans'",
+        poppins: "Poppins",
+        inherit: "inherit",
+        "space-grotesk": "'Space Grotesk'",
+        lato: "Lato",
+      },
+    },
+    colors: {
+      gray: {
+        "100": "#fffdfd",
+        "200": "#e2e2e2",
+        "300": "#cbcbcb",
+        "400": "#c8c8c8",
+        "500": "#c4c4c4",
+        "600": "#bcbcbc",
+        "700": "#bbb",
+        "800": "#9e9e9e",
+        "900": "#2d2d2d",
+        "1000": "#222",
+        "1100": "#1c172f",
+        "1200": "rgba(122, 122, 122, 0.5)",
+        "1300": "rgba(255, 255, 255, 0.75)",
+      },
+      white: "#fff",
+      turquoise: "#59db8a",
+      black: "#000",
+      green: { "100": "#2bff08", "200": "#1bff25" },
+      gold: "#ffe143",
+    },
+    fontSize: {
+      sm: "12px",
+      base: "18px",
+      lg: "20px",
+      xl: "22px",
+      "2xl": "24px",
+      "3xl": "25px",
+      "4xl": "30px",
+      "5xl": "32px",
+      "6xl": "35px",
+      "7xl": "36px",
+      "8xl": "40px",
+      "9xl": "48px",
+      "10xl": "50px",
+    },
+    screens: { lg: { max: "1200px" }, md: { max: "768px" } },
   },
-  plugins: [],
-}
+  corePlugins: { preflight: false },
+};
