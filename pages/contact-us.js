@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Button } from "@mui/material";
-import Header1 from "../components/header1";
+import Header from '../components/header';
 import FrameComponent2 from "../components/frame-component2";
 import FrameComponent3 from "../components/frame-component3";
 import Footer from "../components/footer";
@@ -47,7 +47,7 @@ const ContactUs = () => {
         alt=""
         src="../anirudhxu4pz7gi9jyunsplash-13@2x.png"
       />
-      <Header1 />
+      <Header />
       <div className="absolute top-[calc(50%_-_1241px)] left-[calc(50%_-_540px)] w-[1110px] h-[2416px]">
         <div
           className="absolute top-[calc(50%_-_422px)] left-[calc(50%_-_554px)] rounded-[45px] bg-gray-1100 w-[1100px] h-[727px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
