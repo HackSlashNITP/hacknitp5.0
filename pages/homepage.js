@@ -46,7 +46,7 @@ const Homepage = () => {
       />
       <div className="absolute top-[0px] left-[0px] w-full">
         <Header />
-        <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center lg:ml-4 md:mx-10 sm:mx-10 mt-20">
+        <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-20">
           <img
             className="h-[75%] w-[75%] md:h-[100%] md:w-[100%] my-2 max-w-full max-h-full [&.animate]:animate-[3s_ease_0s_1_normal_forwards_roll-in-left] opacity-[0]"
             alt=""
