@@ -45,7 +45,7 @@ const Rules = () => {
         <Header />
         <main className="w-full mt-[5%] flex flex-col justify-between items-center">
           <section
-            className="relative w-[70%] text-left text-[inherit] text-white font-inherit md:w-[700px]"
+            className="relative w-[70%] text-left text-white font-inherit md:w-[700px]"
             id="instructions"
           >
             <div
@@ -54,39 +54,33 @@ const Rules = () => {
               data-animate-on-scroll
             >
               <h1
-                className="m-[0] text-6xl font-bold font-noto-sans text-center [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                 data-animate-on-scroll
               >
                 INSTRUCTIONS
               </h1>
-              <ul className="w-[85%]">
+              <ul className="w-[85%] md:text-[15px] sm:text-[15px]">
                 <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
+                  <h3 className="m-2 font-normal font-inherit">
                     Participants can take part only as a team. A team must
                     comprise of at least 2 members and at most 6.
                   </h3>
                 </li>
                 <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
+                  <h3 className="m-2 font-normal font-inherit">
                     Participants can take part only as a team. A team must
                     comprise of at least 2 members and at most 6.
                   </h3>
                 </li>
                 <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Participants can take part only as a team. A team must
-                    comprise of at least 2 members and at most 6.
-                  </h3>
-                </li>
-                <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
+                  <h3 className="m-2 font-normal font-inherit">
                     Participants can take part only as a team. A team must
                     comprise of at least 2 members and at most 6.
                   </h3>
                 </li>
               </ul>
               <button
-                className="cursor-pointer text-[#59db8a] text-base [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                className="cursor-pointer text-[#59db8a] text-base sm:text-xs md:text-xs [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
                 data-animate-on-scroll
               >
                 Download Rulebook
@@ -94,7 +88,7 @@ const Rules = () => {
             </div>
           </section>
           <section
-            className="flex flex-col items-center justify-between w-full [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
+            className="flex flex-col items-center justify-between w-full md:mx-auto sm:mx-auto [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
             id="themes"
             data-animate-on-scroll
           >
@@ -104,8 +98,8 @@ const Rules = () => {
             >
               THEMES
             </h1>
-            <div className="w-full flex my-5 flex-row justify-between items-center">
-              <div className="relative">
+            <div className="w-full flex flex-row sm:flex-col md:flex-col justify-between items-center">
+              <div className="relative my-5">
                 <RectangleComponentofRule1 isLeft={true}/>
                 <h5
                   className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
@@ -114,7 +108,7 @@ const Rules = () => {
                   Theme name
                 </h5>
               </div>
-              <div className="relative">
+              <div className="relative my-5">
                 <RectangleComponentofRule1 isLeft={false} />
                 <h5
                   className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
@@ -124,8 +118,8 @@ const Rules = () => {
                 </h5>
               </div>
             </div>
-            <div className="w-full flex my-5 flex-row justify-between items-center">
-              <div className="relative">
+            <div className="w-full flex flex-row sm:flex-col md:flex-col justify-between items-center">
+              <div className="relative my-5">
                 <RectangleComponentofRule1 isLeft={true}/>
                 <h5
                   className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
@@ -134,7 +128,7 @@ const Rules = () => {
                   Theme name
                 </h5>
               </div>
-              <div className="relative">
+              <div className="relative my-5">
                 <RectangleComponentofRule1 isLeft={false} />
                 <h5
                   className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
@@ -144,7 +138,6 @@ const Rules = () => {
                 </h5>
               </div>
             </div>
-            
           </section>
           <section
             className="mt-20 relative w-[70%] h-[864px] text-left text-[inherit] text-white font-inherit md:w-[700px]"
