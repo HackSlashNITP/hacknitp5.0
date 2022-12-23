@@ -1,5 +1,7 @@
 import { useCallback, useEffect } from "react";
 import { useRouter } from "next/router";
+import RectangleComponentofRule1 from "../components/rectangle-componentof-rule1";
+import RectangleComponentOfrule2 from "../components/rectangle-component-ofrule2";
 
 const Rules = () => {
   const router = useRouter();
@@ -51,17 +53,17 @@ const Rules = () => {
   }, []);
 
   return (
-    <div className="relative bg-gray-1000 w-full h-[2880px] overflow-y-auto text-center text-lg text-white font-space-grotesk">
+    <div className="relative bg-gray-1000 w-full h-[2880px] overflow-y-auto text-center text-xs text-white font-space-grotesk">
       <img
         className="absolute top-[0px] left-[0px] w-[1280px] h-[2880px] object-cover"
         alt=""
-        src="/images/anirudh-Xu4Pz7GI9JY-unsplash 1.png"
+        src="../anirudhxu4pz7gi9jyunsplash-15@2x.png"
       />
       <div className="absolute h-[2.6%] w-[94.14%] top-[0.76%] right-[2.81%] bottom-[96.63%] left-[3.05%]">
         <img
           className="absolute h-full w-[19.74%] top-[0%] right-[80.26%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full cursor-pointer"
           alt=""
-          src="/images/hacknitp5.png"
+          src="../hacknitp56.svg"
           onClick={onHacknitp5Click}
         />
         <b className="absolute top-[16px] left-[407px] inline-block">
@@ -87,7 +89,7 @@ const Rules = () => {
           Contact Us
         </b>
         <button className="cursor-pointer [border:none] p-[0] bg-green-100 absolute top-[5px] left-[1025px] rounded-[15px] w-[180px] h-[50px]" />
-        <b className="absolute top-[18px] left-[1044px] text-base inline-block text-black">
+        <b className="absolute top-[18px] left-[1044px] text-2xs inline-block text-black">
           Join Our Discord
         </b>
       </div>
@@ -142,20 +144,17 @@ const Rules = () => {
             </ul>
           </p>
           <h2
-            className="m-[0] absolute top-[38.11px] left-[257px] text-9xl font-bold font-noto-sans text-center inline-block w-[516px] h-[54.14px]"
+            className="m-[0] absolute top-[38.11px] left-[257px] text-6xl font-bold font-noto-sans text-center inline-block w-[516px] h-[54.14px]"
             id="prizes_heading"
           >{`PRIZES & PERKS`}</h2>
         </section>
         <section
-          className="absolute top-[951px] left-[0px] w-[1218px] h-[734px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-9xl text-black font-space-grotesk"
+          className="absolute top-[951px] left-[0px] w-[1218px] h-[734px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
           id="themes"
           data-animate-on-scroll
         >
           <div className="absolute top-[183px] left-[0px] w-[500px] h-[73px]">
-            <div
-              className="absolute top-[-29px] left-[-68px] rounded-[20px] bg-green-100 w-[600px] h-[130px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-              data-animate-on-scroll
-            />
+            <RectangleComponentofRule1 />
             <h5
               className="m-[0] absolute top-[0px] left-[0px] text-[inherit] font-bold font-inherit flex items-center justify-center w-[500px] h-[73px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
               data-animate-on-scroll
@@ -164,10 +163,7 @@ const Rules = () => {
             </h5>
           </div>
           <div className="absolute top-[183px] left-[718px] w-[500px] h-[73px]">
-            <div
-              className="absolute top-[-29px] left-[-35px] rounded-[20px] bg-green-100 w-[600px] h-[130px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] [&.animate]:lg:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] lg:opacity-[0]"
-              data-animate-on-scroll
-            />
+            <RectangleComponentOfrule2 />
             <h5
               className="m-[0] absolute top-[0px] left-[0px] text-[inherit] font-bold font-inherit flex items-center justify-center w-[500px] h-[73px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] [&.animate]:lg:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] lg:opacity-[0]"
               data-animate-on-scroll
@@ -295,14 +291,14 @@ const Rules = () => {
             data-animate-on-scroll
           >
             <button
-              className="cursor-pointer [border:none] p-[0] bg-[transparent] relative text-4xl font-poppins text-turquoise text-center inline-block"
+              className="cursor-pointer [border:none] p-[0] bg-[transparent] relative text-xl font-poppins text-turquoise text-center inline-block"
               id="rulebook_download"
             >
-              Download Rulebook
+              Download Rulebok
             </button>
           </button>
           <h1
-            className="m-[0] absolute top-[25px] left-[258px] text-9xl font-bold font-noto-sans text-center inline-block w-[516px] h-[54px] [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+            className="m-[0] absolute top-[25px] left-[258px] text-6xl font-bold font-noto-sans text-center inline-block w-[516px] h-[54px] [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
             data-animate-on-scroll
           >
             INSTRUCTIONS
