@@ -1,5 +1,6 @@
 import { useCallback, useEffect } from "react";
 import { useRouter } from "next/router";
+import Image from 'next/image';
 
 const Loadpage = () => {
   const router = useRouter();
@@ -40,25 +41,26 @@ const Loadpage = () => {
 
   return (
     <div
-      className="relative bg-gray-1000 w-full h-[720px] overflow-y-auto cursor-pointer text-center text-2xl text-white font-space-grotesk"
+      className="flex flex-col justify-center items-center bg-gray-1000 w-full h-screen  cursor-pointer text-center text-2xl text-white font-space-grotesk"
       onClick={onLoadpageClick}
     >
-      <img
-        className="absolute top-[0px] left-[0px] w-[1280px] h-[720px] object-cover"
+      <Image
+        className="w-full object-cover"
         alt=""
-        src="../anirudhxu4pz7gi9jyunsplash-1@2x.png"
+        src="/anirudhxu4pz7gi9jyunsplash-1@2x.png"
+        layout="fill"
       />
-      <h3
-        className="m-[0] absolute top-[502px] left-[319px] text-[inherit] font-medium font-inherit inline-block w-[642px] h-[48px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
-        id="heading"
-        data-animate-on-scroll
-      >{`Innovate Far & Beyond`}</h3>
       <img
-        className="absolute h-[25.65%] w-[45.77%] top-[32.5%] right-[24.94%] bottom-[41.85%] left-[29.3%] max-w-full overflow-hidden max-h-full [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in-left] opacity-[0]"
+        className="max-w-full md:w-5/6 overflow-hidden max-h-full [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in-left] opacity-[0]"
         alt=""
         src="../hacknitp5.svg"
         data-animate-on-scroll
       />
+      <h3
+        className="mt-[2%] md:text-sm text-[inherit] font-medium font-inherit inline-block [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
+        id="heading"
+        data-animate-on-scroll
+      >{`Innovate Far & Beyond`}</h3>
     </div>
   );
 };
