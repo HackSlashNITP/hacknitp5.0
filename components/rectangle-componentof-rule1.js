@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const RectangleComponentofRule1 = () => {
+const RectangleComponentofRule1 = ({isLeft}) => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -32,8 +32,14 @@ const RectangleComponentofRule1 = () => {
   }, []);
 
   return (
+    isLeft ? 
     <div
-      className="absolute top-[-29px] left-[-68px] rounded-[20px] bg-green-100 w-[600px] h-[130px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
+      className="rounded-r-2xl bg-green-100 w-[600px] h-[130px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
+      data-animate-on-scroll
+    />
+    :
+    <div
+      className="rounded-l-2xl bg-green-100 w-[600px] h-[130px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
       data-animate-on-scroll
     />
   );
