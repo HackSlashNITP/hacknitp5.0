@@ -60,7 +60,7 @@ const Homepage = () => {
           December 20,2022 - February 19,2023
         </h3>
         <h6
-          className="m-[0] md:text-[15px] text-xs font-normal font-noto-sans text-left md:text-center inline-block w-[75%] md:w-[100%] [-webkit-text-stroke:3px_rgba(255,_255,_255,_0)] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
+          className="m-[0] md:text-[15px] bg-clip-text bg-black text-xs font-normal font-noto-sans text-left md:text-center inline-block w-[75%] md:w-[100%] [-webkit-text-stroke:3px_rgba(255,_255,_255,_0)] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
           id="texr"
           data-animate-on-scroll
         >
@@ -69,7 +69,7 @@ const Homepage = () => {
           with some of the finest minds of the nation. Just remember, taking the
           Hackathons too seriously defeats the purpose. Save the seriousness for
           pitching to investors. Keeping an open mind will open new doors, help
-          build new relationships and acquire new skills.This is hackNITP.
+          build new relationships and acquire new skills. This is HackNITP.
         </h6>
       </div>
     </div>
