@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Header = () => {
   const router = useRouter();
@@ -21,45 +22,49 @@ const Header = () => {
   }, [router]);
 
   return (
-    <div className="absolute h-[10.42%] w-[94.14%] top-[3.06%] right-[2.81%] bottom-[86.53%] left-[3.05%] text-center text-xs text-white font-space-grotesk">
+    <div className="absolute flex justify-between w-[100%] px-10 py-5 items-center text-center text-xs text-white font-space-grotesk">
       <img
-        className="absolute h-full w-[19.74%] top-[0%] right-[80.26%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+        className="min-w-[100px] w-auto"
         alt=""
         src="../hacknitp57.svg"
       />
-      <b className="absolute top-[16px] left-[407px] inline-block">About Us</b>
-      <b
-        className="absolute top-[16px] left-[536px] inline-block cursor-pointer"
-        onClick={onTimelineTextClick}
-      >
-        Timeline
-      </b>
-      <b
-        className="absolute top-[16px] left-[659px] inline-block cursor-pointer"
-        onClick={onRulesTextClick}
-      >
-        Rules
-      </b>
-      <b
-        className="absolute top-[17px] left-[754px] inline-block cursor-pointer"
-        onClick={onSponsorsTextClick}
-      >
-        Sponsors
-      </b>
-      <b
-        className="absolute top-[16px] left-[882px] inline-block cursor-pointer"
-        onClick={onContactUsTextClick}
-      >
-        Contact Us
-      </b>
-      <img
-        className="absolute top-[5px] left-[1025px] rounded-[15px] w-[180px] h-[50px]"
-        alt=""
-        src="../rectangle-39715.svg"
-      />
-      <b className="absolute top-[18px] left-[1044px] text-2xs inline-block text-black">
-        Join Our Discord
-      </b>
+      <div className="flex flex-row justify-between items-center sm:text-xs">
+        <b className="cursor-pointer mx-4">About Us</b>
+        <b
+          className="cursor-pointer mx-4"
+          onClick={onTimelineTextClick}
+        >
+          Timeline
+        </b>
+        <b
+          className="cursor-pointer mx-4"
+          onClick={onRulesTextClick}
+        >
+          Rules
+        </b>
+        <b
+          className="cursor-pointer mx-4"
+          onClick={onSponsorsTextClick}
+        >
+          Sponsors
+        </b>
+        <b
+          className="cursor-pointer mx-4"
+          onClick={onContactUsTextClick}
+        >
+          Contact Us
+        </b>
+        <div className="cursor-pointer relative z-0 mx-4">
+          <img
+            className="rounded-[15px]"
+            alt=""
+            src="/rectangle-39715.svg"
+          />
+          <b className="absolute top-[20%] left-[0px] text-2xs inline-block mx-4 z-10 text-black">
+            Join Our Discord
+          </b>
+        </div>
+      </div>
     </div>
   );
 };
