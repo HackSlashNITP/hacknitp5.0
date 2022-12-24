@@ -44,7 +44,7 @@ const AboutUs = () => {
     },
     {
       id: 2,
-      src: "/1892-2@2x.png",
+      src: "/group-1332@2x.png",
       alt: "",
     },
   ];
