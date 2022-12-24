@@ -37,10 +37,10 @@ const Rules = () => {
 
   return (
     <div className="relative bg-black w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
-      <Image
+      {/* <Image
         alt=""
         src={backgroundImage}
-      />
+      /> */}
       <div className="absolute top-0 left flex flex-col w-full h-">
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />

@@ -54,7 +54,7 @@ const AboutUs = () => {
       className="relative bg-black w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk"
       id="about"
     >
-      <Image className="absolute top-[0px] left-[0px]" alt="" src={bgImage} />
+      {/* <Image className="absolute top-[0px] left-[0px]" alt="" src={bgImage} /> */}
       <div className="absolute w-full h-screen top-0 left-0">
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />

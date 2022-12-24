@@ -55,7 +55,7 @@ const ContactUs = () => {
       className="relative bg-black w-full h-screen overflow-y-auto text-center text-2xl text-white font-space-grotesk"
       id="container"
     >
-      <Image className="absolute top-[0px] left-[0px]" alt="" src={bgImage} />
+      {/* <Image className="absolute top-[0px] left-[0px]" alt="" src={bgImage} /> */}
       <div className="absolute top-0 left-0 w-full h-screen">
         <div className="content mb-[-0px]">
           <Header />
