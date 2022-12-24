@@ -34,26 +34,15 @@ const Box2 = () => {
 
   return (
     <div
-      className="rounded-[45px] bg-gray-1000 w-[1130.4px] flex flex-row p-[54px_0px] box-border items-center justify-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] text-center text-5xl text-white font-space-grotesk lg:w-[65rem] md:pl-[0px] md:box-border md:h-[22rem] md:w-[40rem] sm:h-[15rem] sm:w-[25rem]"
+      className="rounded-3xl bg-[#1C172F] flex flex-col px-10 box-border items-center justify-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] text-center text-white font-space-grotesk"
       id="box4"
       data-animate-on-scroll
     >
-      <div className="flex-1 overflow-hidden flex flex-row p-[10px_209px] box-border items-center justify-between md:flex-col md:pr-[209px] md:box-border">
-        <div className="flex flex-row p-[0px_41px] box-border items-center justify-start md:flex-col md:pr-[41px] md:box-border md:w-[5vh]">
-          <div className="flex flex-col items-center justify-center gap-[17px] md:flex-col md:w-[50%]">
-            <h3 className="m-[0] relative text-[inherit] font-bold font-inherit inline-block w-[535.78px] md:text-3xl sm:text-lg sm:top-[3rem]">
-              Want to Sponsor us?
-            </h3>
-            <a className="[text-decoration:none] relative text-xl font-medium font-poppins text-turquoise inline-block w-[630.4px] h-[39px] shrink-0 sm:text-4xs sm:top-[3rem]">
-              <span className="[text-decoration:underline]">Click here</span>
-              {` to see our previous sponsors `}
-            </a>
-            <a className="[text-decoration:none] relative text-3xl font-bold text-[inherit] inline-block w-[579.37px] h-[113px] shrink-0 sm:text-xs sm:top-[2rem]">
-              Contact us at hackslash@nitp.ac.in
-            </a>
-            <button className="cursor-pointer [border:none] p-[0] bg-turquoise relative rounded-[20px] w-[328.49px] h-[59px] shrink-0 sm:bottom-[3rem]" />
-          </div>
-        </div>
+      <h4 className="text-4xl md:text-xl sm:text-xl">Want to Sponsor Us?</h4>
+      <p className="text-[#59DB8A] text-xl md:text-sm sm:text-sm"><span className="underline cursor-pointer">Click here</span> to see our previous sponsors </p>
+      <div className="text-2xl md:text-base sm:text-base font-bold my-[5px]">
+        <p>Contact us at</p>
+        <p>hackslash@nitp.ac.in</p>
       </div>
     </div>
   );
