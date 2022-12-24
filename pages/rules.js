@@ -63,26 +63,59 @@ const Rules = () => {
                 <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   <li>
                     <h3 className="m-2 md:m-[5px] sm:m-[5px] font-normal font-inherit">
-                      Participants can take part only as a team. A team must
-                      comprise of at least 2 members and at most 6.
+                      The 48 hours online hackathon would be live on 11/02/2022
+                      at 18:00 IST / 12:30 GMT till 13/02/2022 at 18:00 IST /
+                      12:30 GMT.
                     </h3>
                   </li>
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
-                      Participants can take part only as a team. A team must
-                      comprise of at least 2 members and at most 6.
+                      The registration for the event is absolutely free of cost,
+                      implying there is no registration fee.
                     </h3>
                   </li>
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
-                      Participants can take part only as a team. A team must
-                      comprise of at least 2 members and at most 6.
+                      To participate in the hackathon, register through{" "}
+                      <a
+                        className="text-white"
+                        href="https://hacknitp-4.devfolio.co/."
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        Devfolio.
+                      </a>
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The competition is open for teams comprising of students
+                      currently enrolled in any educational institution.
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The hackathon allows a maximum of four members in a team,
+                      for participation in the hackathon.
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      Participants are allowed to form a team with members from
+                      educational institutions other than where they are
+                      enrolled in. That is, a team may have members from
+                      multiple educational institutions.
                     </h3>
                   </li>
                 </ul>
-                <a href="https://rebrand.ly/hacknitp-4/rulebook" target={"_blank"} rel="noopener noreferrer">
+                <a
+                  href="https://rebrand.ly/hacknitp-4/rulebook"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
                   <button
-                    className="cursor-pointer text-[#59db8a] text-base sm:text-xs md:text-xs [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                    className="cursor-pointer hover:bg-[#59db8a] hover:text-black text-[#59db8a] text-base sm:text-xs md:text-xs [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
                     data-animate-on-scroll
                   >
                     Download Rulebook
