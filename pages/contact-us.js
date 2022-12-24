@@ -1,11 +1,9 @@
 import { useEffect } from "react";
-import { Button } from "@mui/material";
 import Header from "../components/header";
-import FrameComponent2 from "../components/frame-component2";
-import FrameComponent3 from "../components/frame-component3";
 import Footer from "../components/footer";
 import Form from "../components/form";
 import Image from "next/image";
+import Carousel from "../components/carousel";
 import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-13@2x.png";
 import doubtImage from "../public/Group.png";
 
@@ -40,6 +38,18 @@ const ContactUs = () => {
     };
   }, []);
 
+  const images = [
+    {
+      id: 1,
+      src: "/1892-2@2x.png",
+      alt: "",
+    },
+    {
+      id: 2,
+      src: "/group-1332@2x.png",
+      alt: "",
+    },
+  ];
   return (
     <div
       className="relative bg-black w-full h-screen overflow-y-auto text-center text-2xl text-white font-space-grotesk"
@@ -50,6 +60,12 @@ const ContactUs = () => {
         <div className="content mb-[-0px]">
           <Header />
           <div className="w-full h-full flex flex-col items-center">
+            <div className="contact-us my-5 flex flex-col justify-center items-center bg-[#1C172F] rounded-3xl mx-auto w-[100%] md:w-[100%] sm:w-[100%]">
+              <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
+                ORGANIZERS
+              </h3>
+              <Carousel images={images}/>
+            </div>
             <div className="contact-us my-5 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 CONTACT US
@@ -69,9 +85,10 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="my-5 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
+            <div className="my-10 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
-                FREQUENTLY ASKED <span className="text-[#2BFF08]">QUESTIONS</span>
+                FREQUENTLY ASKED{" "}
+                <span className="text-[#2BFF08]">QUESTIONS</span>
               </h3>
               <div className="w-[75%] mx-auto md:w-[100%] sm:w-[100%] flex flex-col justify-start items-stretch text-start px-10 md:px-1 sm:px-1 md:text-center sm:text-center">
                 <p className="text-lg md:text-[20px] sm:text-[20px]">
