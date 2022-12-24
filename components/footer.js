@@ -9,16 +9,16 @@ import { AiFillYoutube } from 'react-icons/ai';
 // CiFacebook
 const Footer = () => {
   return (
-    <footer className="p-4 bg-[#545454] md:px-6 md:py-8 font-space-grotesk">
+    <footer className="px-4 bg-[#545454] md:px-6 md:py-8 font-space-grotesk">
       <div className="flex items-center justify-between sm:flex-col md:flex-col">
-        <Link href="/" className="items-center mb-4 flex-1">
+        <Link href="/" className="items-center flex-1">
           <img
             src="../hacknitp5.svg"
             className="mr-3 min-w-[100px] w-[200px]"
             alt="Flowbite Logo"
           />
         </Link>
-        <ul className="text-center flex flex-row flex-wrap justify-center items-center mb-6 md:text-[15px] sm:text-[15px] text-xs text-white sm:mb-0 list-none flex-3">
+        <ul className="text-center flex flex-row flex-wrap justify-center items-center md:text-[15px] sm:text-[15px] text-xs text-white sm:mb-0 list-none flex-3">
           <li className="mb-1 mx-2">
             <b className="text-white none md:mr-6">
               Terms and Conditions
@@ -36,7 +36,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <hr className="my-6 border-[#545454] sm:mx-auto lg:my-8" />
+      <hr className="border-[#545454] sm:mx-auto lg:my-8" />
       <div className="flex flex-row mr-[3%] justify-between items-center md:flex-col sm:flex-col">
         <span className="block text-sm text-white text-center font-bold flex-2 md:text-[20px] sm:text-[20px]">
           © 2023 HACKSLASH | All Rights Reserved.

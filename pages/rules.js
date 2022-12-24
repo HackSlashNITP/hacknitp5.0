@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { useEffect } from "react";
-import RectangleComponentofRule1 from "../components/rectangle-componentof-rule1";
-import RectangleComponentOfrule2 from "../components/rectangle-component-ofrule2";
+import Footer from "../components/footer";
 import Header from "../components/header";
+import backgroundImage from "../public/anirudhxu4pz7gi9jyunsplash-15@2x.png";
 
 const Rules = () => {
   useEffect(() => {
@@ -35,17 +36,17 @@ const Rules = () => {
   }, []);
 
   return (
-    <div className="relative bg-gray-1000 w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
-      <img
-        className="absolute top-[0px] left-[0px] w-full h-auto object-cover"
+    <div className="relative bg-black w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
+      <Image
+        // className="absolute top-[0px] left-[0px]"
         alt=""
-        src="../anirudhxu4pz7gi9jyunsplash-15@2x.png"
+        src={backgroundImage}
       />
       <div className="absolute top-0 left flex flex-col w-full">
         <Header />
-        <main className="w-full mt-[5%] flex flex-col justify-between items-center">
+        <main className="w-full my-[5%] flex flex-col justify-between items-center">
           <section
-            className="relative w-[70%] text-left text-white font-inherit md:w-[700px]"
+            className="w-[70%] text-left text-white font-inherit md:w-[100%] sm:w-[100%]"
             id="instructions"
           >
             <div
@@ -59,9 +60,9 @@ const Rules = () => {
               >
                 INSTRUCTIONS
               </h1>
-              <ul className="w-[85%] md:text-[15px] sm:text-[15px]">
+              <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                 <li>
-                  <h3 className="m-2 font-normal font-inherit">
+                  <h3 className="m-2 md:m-[5px] sm:m-[5px] font-normal font-inherit">
                     Participants can take part only as a team. A team must
                     comprise of at least 2 members and at most 6.
                   </h3>
@@ -93,114 +94,79 @@ const Rules = () => {
             data-animate-on-scroll
           >
             <h1
-              className="text-white font-bold font-noto-sans"
+              className="text-white font-bold font-noto-sans md:text-[40px] sm:text-[40px]"
               id="themes"
             >
               THEMES
             </h1>
-            <div className="w-full flex flex-row sm:flex-col md:flex-col justify-between items-center">
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={true}/>
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
+
+            <div className="w-full sm:text-[25px] md:text-[25px]">
+              <div className="flex w-full justify-between sm:flex-col md:flex-col">
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
               </div>
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={false} />
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
-              </div>
-            </div>
-            <div className="w-full flex flex-row sm:flex-col md:flex-col justify-between items-center">
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={true}/>
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
-              </div>
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={false} />
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
+              <div className="flex w-full justify-between sm:flex-col md:flex-col">
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
               </div>
             </div>
           </section>
           <section
-            className="mt-20 relative w-[70%] h-[864px] text-left text-[inherit] text-white font-inherit md:w-[700px]"
-            id="instructions"
+            className="w-[70%] mt-10 text-left text-white font-inherit md:w-[100%] sm:w-[100%]"
+            id="prizes-section"
           >
             <div
-              className="flex flex-col p-10 justify-center items-center rounded-xl bg-gray-1100 [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
-              id="instruction"
+              className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+              id="prizes"
               data-animate-on-scroll
             >
               <h1
-                className="m-[0] text-6xl font-bold font-noto-sans text-center [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                 data-animate-on-scroll
               >
                 PRIZES & PERKS
               </h1>
-              <ul className="w-[85%]">
+              <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                 <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
+                  <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
+                    Cash prize worth 10k for best hack built on top of Ethereum
+                    and for teams that integrate Polygon in their hacks as well
+                    the prize money will be 15k along with eligibility for
+                    internship/full-time role interviews and a chance to land
+                    seed funding of upto 5000 USD(or equivalent)!*.
                   </h3>
                 </li>
                 <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
+                  <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
+                    Cash prize worth 10k for best hack built on top of Ethereum
+                    and for teams that integrate Polygon in their hacks as well
+                    the prize money will be 15k along with eligibility for
+                    internship/full-time role interviews and a chance to land
+                    seed funding of upto 5000 USD(or equivalent)!*.
                   </h3>
                 </li>
                 <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
-                  </h3>
-                </li>
-                <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
-                  </h3>
-                </li>
-                <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
-                  </h3>
-                </li>
-                <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
-                  </h3>
-                </li>
-                <li>
-                  <h3 className="m-[0] text-[inherit] font-normal font-inherit">
-                    Cash prize worth 20k sponsored by Quidnunc Infotainment and
-                    River Rises
+                  <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
+                    Cash prize worth 10k for best hack built on top of Ethereum
+                    and for teams that integrate Polygon in their hacks as well
+                    the prize money will be 15k along with eligibility for
+                    internship/full-time role interviews and a chance to land
+                    seed funding of upto 5000 USD(or equivalent)!*.
                   </h3>
                 </li>
               </ul>
             </div>
           </section>
         </main>
+        <Footer />
       </div>
     </div>
   );
