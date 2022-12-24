@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <>
-      <form>
+      <form action="mailto:hackslashclub@nitp.ac.in" method="post">
         <div className="mb-6">
           <input
             type="text"
