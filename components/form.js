@@ -1,69 +1,52 @@
-import { TextField, Button } from "@mui/material";
+import React from "react";
 
 const Form = () => {
   return (
-    <form
-      className="absolute top-[1165px] left-[122px] bg-gray-1500 overflow-hidden flex flex-col p-[31px_34px] box-border items-center justify-center gap-[32px]"
-      id="form"
-    >
-      <TextField
-        className="[border:none] bg-[transparent] relative"
-        sx={{ width: 428.5541687011719 }}
-        color="success"
-        variant="standard"
-        type="text"
-        label="Full name"
-        placeholder="Placeholder"
-        size="medium"
-        margin="none"
-        required
-      />
-      <TextField
-        className="[border:none] bg-[transparent] relative"
-        sx={{ width: 428.5541687011719 }}
-        color="success"
-        variant="filled"
-        type="text"
-        label="E-mail"
-        placeholder="Placeholder"
-        size="medium"
-        margin="none"
-        required
-      />
-      <TextField
-        className="[border:none] bg-[transparent] relative"
-        sx={{ width: 428.5541687011719 }}
-        color="success"
-        variant="filled"
-        type="text"
-        label="Mobile no."
-        placeholder="Placeholder"
-        size="medium"
-        margin="none"
-        required
-      />
-      <TextField
-        className="relative"
-        sx={{ width: 429.43780517578125 }}
-        color="success"
-        variant="standard"
-        multiline
-        rows={4}
-        maxRows={7}
-        label="Enter your message.."
-        placeholder="Textarea placeholder"
-        margin="none"
-        required
-      />
-      <Button
-        className="relative"
-        sx={{ width: 165 }}
-        variant="contained"
-        color="success"
-      >
-        Send
-      </Button>
-    </form>
+    <>
+      <form>
+        <div className="mb-6">
+          <input
+            type="text"
+            id="fullName"
+            className="bg-[transparent] focus:border-none border-collapse border-[#C0C0C0] text-[#C8C8C8] focus:border-white font-poppins text-[16px] rounded-lg block w-full px-5 py-2.5"
+            placeholder="Full name"
+            required
+          />
+        </div>
+        <div className="mb-6">
+          <input
+            type="email"
+            id="email"
+            className="bg-[transparent] focus:border-none border-collapse border-[#C0C0C0] text-[#C8C8C8] focus:border-white font-poppins text-[16px] rounded-lg block w-full px-5 py-2.5"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <div className="mb-6">
+          <input
+            type="text"
+            id="phone"
+            className="bg-[transparent] focus:border-none border-collapse border-[#C0C0C0] text-[#C8C8C8] focus:border-white font-poppins text-[16px] rounded-lg block w-full px-5 py-2.5"
+            placeholder="Mobile No."
+            required
+          />
+        </div>
+
+        <textarea
+          id="message"
+          rows="4"
+          className="block p-2.5 w-full text-[16px] bg-[transparent] focus:border-none border-collapse border-[#C0C0C0] text-[#C8C8C8] focus:border-white font-poppins rounded-lg"
+          placeholder="Leave a comment..."
+        ></textarea>
+
+        <button
+          type="submit"
+          className="text-black my-5 font-bold bg-[#2BFF08] hover:bg-[#28dd08] cursor-pointer focus:outline-none font-space-grotesk rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
+        >
+          Submit
+        </button>
+      </form>
+    </>
   );
 };
 
