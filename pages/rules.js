@@ -80,12 +80,14 @@ const Rules = () => {
                     </h3>
                   </li>
                 </ul>
-                <button
-                  className="cursor-pointer text-[#59db8a] text-base sm:text-xs md:text-xs [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Download Rulebook
-                </button>
+                <a href="https://rebrand.ly/hacknitp-4/rulebook" target={"_blank"} rel="noopener noreferrer">
+                  <button
+                    className="cursor-pointer text-[#59db8a] text-base sm:text-xs md:text-xs [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                    data-animate-on-scroll
+                  >
+                    Download Rulebook
+                  </button>
+                </a>
               </div>
             </section>
             <section
@@ -137,29 +139,32 @@ const Rules = () => {
                 <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   <li>
                     <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
-                      Cash prize worth 10k for best hack built on top of Ethereum
-                      and for teams that integrate Polygon in their hacks as well
-                      the prize money will be 15k along with eligibility for
-                      internship/full-time role interviews and a chance to land
-                      seed funding of upto 5000 USD(or equivalent)!*.
+                      Cash prize worth 10k for best hack built on top of
+                      Ethereum and for teams that integrate Polygon in their
+                      hacks as well the prize money will be 15k along with
+                      eligibility for internship/full-time role interviews and a
+                      chance to land seed funding of upto 5000 USD(or
+                      equivalent)!*.
                     </h3>
                   </li>
                   <li>
                     <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
-                      Cash prize worth 10k for best hack built on top of Ethereum
-                      and for teams that integrate Polygon in their hacks as well
-                      the prize money will be 15k along with eligibility for
-                      internship/full-time role interviews and a chance to land
-                      seed funding of upto 5000 USD(or equivalent)!*.
+                      Cash prize worth 10k for best hack built on top of
+                      Ethereum and for teams that integrate Polygon in their
+                      hacks as well the prize money will be 15k along with
+                      eligibility for internship/full-time role interviews and a
+                      chance to land seed funding of upto 5000 USD(or
+                      equivalent)!*.
                     </h3>
                   </li>
                   <li>
                     <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
-                      Cash prize worth 10k for best hack built on top of Ethereum
-                      and for teams that integrate Polygon in their hacks as well
-                      the prize money will be 15k along with eligibility for
-                      internship/full-time role interviews and a chance to land
-                      seed funding of upto 5000 USD(or equivalent)!*.
+                      Cash prize worth 10k for best hack built on top of
+                      Ethereum and for teams that integrate Polygon in their
+                      hacks as well the prize money will be 15k along with
+                      eligibility for internship/full-time role interviews and a
+                      chance to land seed funding of upto 5000 USD(or
+                      equivalent)!*.
                     </h3>
                   </li>
                 </ul>
