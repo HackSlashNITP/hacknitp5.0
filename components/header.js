@@ -4,6 +4,10 @@ import { useRouter } from "next/router";;
 const Header = () => {
   const router = useRouter();
 
+  const onAboutUsClick = useCallback(() => {
+    router.push("/about-us");
+  }, [router]);
+
   const onTimelineTextClick = useCallback(() => {
     router.push("/timeline");
   }, [router]);
@@ -13,7 +17,7 @@ const Header = () => {
   }, [router]);
 
   const onSponsorsTextClick = useCallback(() => {
-    // Please sync "6 Sponsors" to the project
+    router.push("/sponsors");
   }, []);
 
   const onContactUsTextClick = useCallback(() => {
@@ -29,10 +33,10 @@ const Header = () => {
       />
 
       <nav className="flex flex-wrap justify-center items-center md:mt-4">
-        <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={() => {}}>About Us</b>
+        <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={onAboutUsClick}>About Us</b>
         <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={onTimelineTextClick}>Timeline</b>
         <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={onRulesTextClick}>Rules</b>
-        <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={() => {}}>Sponsors</b>
+        <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={onSponsorsTextClick}>Sponsors</b>
         <b className="mr-5 cursor-pointer md:mt-1 sm:mt-1" onClick={onContactUsTextClick}>Contact Us</b>
         <button className="border-0 py-2 px-5 cursor-pointer focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
           Join Discord
