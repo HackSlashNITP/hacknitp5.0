@@ -92,47 +92,29 @@ const Rules = () => {
             id="themes"
             data-animate-on-scroll
           >
-            <h1 className="text-white font-bold font-noto-sans" id="themes">
+            <h1
+              className="text-white font-bold font-noto-sans md:text-[40px] sm:text-[40px]"
+              id="themes"
+            >
               THEMES
             </h1>
-            <div className="w-full flex flex-row sm:flex-col md:flex-col justify-between items-center">
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={true} />
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
+
+            <div className="w-full sm:text-[25px] md:text-[25px]">
+              <div className="flex w-full justify-between sm:flex-col md:flex-col">
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
               </div>
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={false} />
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
-              </div>
-            </div>
-            <div className="w-full flex flex-row sm:flex-col md:flex-col justify-between items-center">
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={true} />
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
-              </div>
-              <div className="relative my-5">
-                <RectangleComponentofRule1 isLeft={false} />
-                <h5
-                  className="absolute top-[-20%] left-[30%] font-bold [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-                  data-animate-on-scroll
-                >
-                  Theme name
-                </h5>
+              <div className="flex w-full justify-between sm:flex-col md:flex-col">
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
+                <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                  <b className="text-black text-lg">Theme</b>
+                </div>
               </div>
             </div>
           </section>
@@ -179,7 +161,6 @@ const Rules = () => {
                     seed funding of upto 5000 USD(or equivalent)!*.
                   </h3>
                 </li>
-                
               </ul>
             </div>
           </section>
