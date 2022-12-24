@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import RectangleComponentOfAbbout from "../components/rectangle-component-of-abbout";
 import Image from "next/image";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-11@2x.png";
+import Carousel from "../components/carousel";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -36,6 +36,19 @@ const AboutUs = () => {
     };
   }, []);
 
+  const images = [
+    {
+      id: 1,
+      src: "/1892-2@2x.png",
+      alt: "",
+    },
+    {
+      id: 2,
+      src: "/1892-2@2x.png",
+      alt: "",
+    },
+  ];
+
   return (
     <div
       className="relative bg-black w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk"
@@ -46,29 +59,30 @@ const AboutUs = () => {
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />
           <div className="content w-full h-full flex flex-col justify-start items-center ">
-            <h1 className="text-3xl md:text-xl sm:text-xl">ABOUT US</h1>
-            <div className="w-full flex justify-start my-4 md:w-[90%] sm:w-[90%]">
-              <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full">
-                <p>
-                  National Institute of Technology Patna is the 18th National
-                  Institute of Technology created by the Ministry of H.R.D.
-                  Government of India after rechristening the erstwhile Bihar
-                  College of Engineering Patna on 28. 01. 2004.
-                </p>
+            <div className="about-us-info">
+              <h1 className="text-3xl md:text-xl sm:text-xl">ABOUT US</h1>
+              <div className="w-full flex justify-start my-4 md:w-[90%] sm:w-[90%]">
+                <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full">
+                  <p>
+                    National Institute of Technology Patna is the 18th National
+                    Institute of Technology created by the Ministry of H.R.D.
+                    Government of India after rechristening the erstwhile Bihar
+                    College of Engineering Patna on 28. 01. 2004.
+                  </p>
+                </div>
+              </div>
+              <div className="w-full flex justify-end my-4 md:w-[90%] sm:w-[90%]">
+                <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full">
+                  <p>
+                    National Institute of Technology Patna is the 18th National
+                    Institute of Technology created by the Ministry of H.R.D.
+                    Government of India after rechristening the erstwhile Bihar
+                    College of Engineering Patna on 28. 01. 2004.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="w-full flex justify-end my-4 md:w-[90%] sm:w-[90%]">
-              <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full">
-                <p>
-                  National Institute of Technology Patna is the 18th National
-                  Institute of Technology created by the Ministry of H.R.D.
-                  Government of India after rechristening the erstwhile Bihar
-                  College of Engineering Patna on 28. 01. 2004.
-                </p>
-              </div>
-            </div>
-            
-
+            <Carousel images={images} />
             {/* <h3
                 className="m-[0]  top-[1959px] left-[472px] text-6xl font-bold font-noto-sans inline-block w-[336px] h-[54px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
                 id="judges"
@@ -138,8 +152,8 @@ const AboutUs = () => {
               /> */}
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
