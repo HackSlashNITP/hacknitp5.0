@@ -59,8 +59,8 @@ const AboutUs = () => {
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />
           <div className="content w-full h-full flex flex-col justify-start items-center ">
-            <div className="about-us-info">
-              <h1 className="text-3xl md:text-xl sm:text-xl">ABOUT US</h1>
+            <div className="about-us-info my-10">
+              <h1 className="text-5xl md:text-xl sm:text-xl">ABOUT US</h1>
               <div className="w-full flex justify-start my-4 md:w-[90%] sm:w-[90%]">
                 <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full">
                   <p>
@@ -82,7 +82,10 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <Carousel images={images} />
+            <div className="about-us-judges w-full flex flex-col justify-center items-center">
+              <h1 className="text-5xl md:text-xl sm:text-xl my-10">JUDGES</h1>
+              <Carousel images={images} />
+            </div>
             {/* <h3
                 className="m-[0]  top-[1959px] left-[472px] text-6xl font-bold font-noto-sans inline-block w-[336px] h-[54px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
                 id="judges"
