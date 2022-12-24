@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { useEffect } from "react";
-import RectangleComponentofRule1 from "../components/rectangle-componentof-rule1";
-import RectangleComponentOfrule2 from "../components/rectangle-component-ofrule2";
+import Footer from "../components/footer";
 import Header from "../components/header";
+import backgroundImage from "../public/anirudhxu4pz7gi9jyunsplash-15@2x.png";
 
 const Rules = () => {
   useEffect(() => {
@@ -36,14 +37,14 @@ const Rules = () => {
 
   return (
     <div className="relative bg-black w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
-      <img
-        className="absolute top-[0px] left-[0px] w-full h-auto object-cover"
+      <Image
+        // className="absolute top-[0px] left-[0px]"
         alt=""
-        src="../anirudhxu4pz7gi9jyunsplash-15@2x.png"
+        src={backgroundImage}
       />
       <div className="absolute top-0 left flex flex-col w-full">
         <Header />
-        <main className="w-full mt-[5%] flex flex-col justify-between items-center">
+        <main className="w-full my-[5%] flex flex-col justify-between items-center">
           <section
             className="w-[70%] text-left text-white font-inherit md:w-[100%] sm:w-[100%]"
             id="instructions"
@@ -165,6 +166,7 @@ const Rules = () => {
             </div>
           </section>
         </main>
+        <Footer />
       </div>
     </div>
   );
