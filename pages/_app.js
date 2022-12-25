@@ -5,7 +5,7 @@ import Script from "next/script";
 import { ThemeProvider, createTheme } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 
-import "./global.css";
+import '../styles/globals.css';
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
