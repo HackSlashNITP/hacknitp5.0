@@ -88,8 +88,8 @@
   .info {
     display: flex;
     flex-direction: column;
-    background: #333;
-    color: gray;
+    background:#1C172F;
+    color: white;
     border-radius: 10px;
     padding: 10px;
   }
