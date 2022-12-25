@@ -6,6 +6,7 @@ import { ThemeProvider, createTheme } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import '../styles/globals.css';
+import { AnimatePresence } from "framer-motion";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;

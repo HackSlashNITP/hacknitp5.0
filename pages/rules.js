@@ -50,12 +50,12 @@ const Rules = () => {
               id="instructions"
             >
               <div
-                className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0.5s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="instruction"
                 data-animate-on-scroll
               >
                 <h1
-                  className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                   data-animate-on-scroll
                 >
                   INSTRUCTIONS
@@ -78,10 +78,11 @@ const Rules = () => {
                     <h3 className="m-2 font-normal font-inherit">
                       To participate in the hackathon, register through{" "}
                       <a
-                        className="text-white"
+                        className="text-[#2BFF08] hover:[border:2px_solid_#2BFF08] "
                         href="https://hacknitp-4.devfolio.co/."
                         target="_blank"
                         rel="noreferrer"
+                        
                       >
                         {" "}
                         Devfolio.
@@ -115,7 +116,7 @@ const Rules = () => {
                   rel="noopener noreferrer"
                 >
                   <button
-                    className="cursor-pointer hover:bg-[#59db8a] hover:text-black text-[#59db8a] text-base sm:text-xs md:text-xs [border:2px_solid_#59db8a] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                    className="cursor-pointer hover:bg-[#22c55e] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
                     data-animate-on-scroll
                   >
                     Download Rulebook
@@ -124,7 +125,7 @@ const Rules = () => {
               </div>
             </section>
             <section
-              className="flex flex-col items-center justify-between w-full md:mx-auto sm:mx-auto [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
+              className="flex flex-col items-center justify-between w-full md:mx-auto sm:mx-auto [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
               id="themes"
               data-animate-on-scroll
             >
@@ -136,22 +137,43 @@ const Rules = () => {
               </h1>
 
               <div className="w-full sm:text-[25px] md:text-[25px]">
+
                 <div className="flex w-full justify-between sm:flex-col md:flex-col">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
+                  <div className="bg-[#2BFF08] hover:bg-[#22c55e]  hover:[border:3px_solid_#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                    <b className="text-black text-lg hover:color-white">Education</b>
                   </div>
                   <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
+                    <b className="text-black text-lg">Employability</b>
                   </div>
                 </div>
+
                 <div className="flex w-full justify-between sm:flex-col md:flex-col">
                   <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
+                    <b className="text-black text-lg">Food</b>
                   </div>
                   <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
+                    <b className="text-black text-lg">Healthcare</b>
                   </div>
                 </div>
+
+                <div className="flex w-full justify-between sm:flex-col md:flex-col">
+                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                    <b className="text-black text-lg">Social Security and Awareness</b>
+                  </div>
+                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                    <b className="text-black text-lg">Sustainable Development</b>
+                  </div>
+                </div>
+
+                <div className="flex w-full justify-between sm:flex-col md:flex-col">
+                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
+                    <b className="text-black text-lg">Blockchain Technology</b>
+                  </div>
+                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%] ">
+                    <b className="text-black text-lg ">Open Innovation</b>
+                  </div>
+                </div>
+
               </div>
             </section>
             <section
@@ -159,12 +181,12 @@ const Rules = () => {
               id="prizes-section"
             >
               <div
-                className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
                 data-animate-on-scroll
               >
                 <h1
-                  className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                   data-animate-on-scroll
                 >
                   PRIZES & PERKS
