@@ -37,7 +37,7 @@ const Header= () => {
 
   return (
     <nav
-      className="relative w-full flex flex-row p-[5px_0px] box-border items-center justify-center gap-[25px] md:flex-col"
+      className="relative w-full flex flex-row p-[5px_0px] box-border items-center justify-between gap-[25px] md:flex-col"
       id="navbar"
     >
       <img
