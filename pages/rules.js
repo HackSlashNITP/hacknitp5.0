@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import ThemeCard from "../components/themeCard";
 import backgroundImage from "../public/anirudhxu4pz7gi9jyunsplash-15@2x.png";
 
 const Rules = () => {
@@ -35,6 +36,43 @@ const Rules = () => {
     };
   }, []);
 
+  const tracks = [
+    {
+      'id': 1,
+      'img': '/theme/edu.svg',
+      'desc': 'Education'
+    },
+    {
+      'id': 2,
+      'img': '/theme/employ.svg',
+      'desc': 'Employability'
+    },
+    {
+      'id': 3,
+      'img': '/theme/food.svg',
+      'desc': 'Food'
+    },
+    {
+      'id': 4,
+      'img': '/theme/health.svg',
+      'desc': 'Healthcare'
+    },
+    {
+      'id': 5,
+      'img': '/theme/social.svg',
+      'desc': 'Social Security And Awareness'
+    },
+    {
+      'id': 6,
+      'img': '/theme/open.svg',
+      'desc': 'Open Innovation'
+    },
+    {
+      'id': 7,
+      'img': '/theme/blockchain.svg',
+      'desc': 'Blockchain'
+    },
+  ];
   return (
     <div className="relative bg-black w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
       {/* <Image
@@ -116,7 +154,7 @@ const Rules = () => {
                   rel="noopener noreferrer"
                 >
                   <button
-                    className="cursor-pointer hover:bg-[#22c55e] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                    className="cursor-pointer hover:bg-[#22c55e] hover:[border:3px_solid_transparent] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
                     data-animate-on-scroll
                   >
                     Download Rulebook
@@ -125,7 +163,7 @@ const Rules = () => {
               </div>
             </section>
             <section
-              className="flex flex-col items-center justify-between w-full md:mx-auto sm:mx-auto [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
+              className="flex flex-col my-10 items-center justify-between w-full md:mx-auto sm:mx-auto [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
               id="themes"
               data-animate-on-scroll
             >
@@ -136,43 +174,13 @@ const Rules = () => {
                 THEMES
               </h1>
 
-              <div className="w-full sm:text-[25px] md:text-[25px]">
-                <div className="flex w-full justify-between sm:flex-col md:flex-col h-auto">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%] h-auto">
-                    <img src="/theme/edu.svg" alt=""/>
-                  </div>
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Employability</b>
-                  </div>
-                </div>
-
-                <div className="flex w-full justify-between sm:flex-col md:flex-col">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Food</b>
-                  </div>
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Healthcare</b>
-                  </div>
-                </div>
-
-                <div className="flex w-full justify-between sm:flex-col md:flex-col">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Social Security and Awareness</b>
-                  </div>
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Sustainable Development</b>
-                  </div>
-                </div>
-
-                <div className="flex w-full justify-between sm:flex-col md:flex-col">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Blockchain Technology</b>
-                  </div>
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%] ">
-                    <b className="text-black text-lg ">Open Innovation</b>
-                  </div>
-                </div>
-
+              <div className="w-full sm:text-[25px] md:text-[25px] md:w-[90%] grid md:grid-cols-1 sm:grid-cols-1 grid-cols-2 gap-x-[15%]">
+                {
+                  tracks.map((track) => {
+                    return <ThemeCard img={track.img} desc={track.desc} key={track.id}/>;
+                  })
+                }
+                
               </div>
             </section>
             <section

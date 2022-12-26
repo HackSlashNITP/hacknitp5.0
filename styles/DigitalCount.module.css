@@ -21,7 +21,8 @@
 }
 .blocks {
   display: block;
-  border-radius: 12px;
+  border-radius: 0.5rem;
+  width: 100%;
   font-size: 4.5rem;
 }
 
