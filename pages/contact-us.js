@@ -6,6 +6,7 @@ import Image from "next/image";
 import Carousel from "../components/carousel";
 import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-13@2x.png";
 import doubtImage from "../public/Group.png";
+import Faq from "../components/faq";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -50,6 +51,30 @@ const ContactUs = () => {
       alt: "",
     },
   ];
+
+  const faqs = [
+    {
+      'id': 0,
+      'query': 'Who can apply for the hackathon?',
+      'ans': 'Participants can take part only as a team. A team must comprise of at least 2 members and at.',
+    },
+    {
+      'id': 1,
+      'query': 'What can be the size of Team ?',
+      'ans': 'A team can consist of 1-4 members.',
+    },
+    {
+      'id': 2,
+      'query': 'Are there any registration charges ?',
+      'ans': 'Nope! None at all.',
+    },
+    {
+      'id': 3,
+      'query': 'Do we get any certificate for participation ?',
+      'ans': 'Yes, you do get a Certificate of Participation if your hack is submitted successfully.',
+    },
+  ];
+
   return (
     <div
       className="relative bg-black w-full h-screen overflow-y-auto text-center text-2xl text-white font-space-grotesk"
@@ -64,9 +89,9 @@ const ContactUs = () => {
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 ORGANIZERS
               </h3>
-              <Carousel images={images}/>
+              <Carousel images={images} />
             </div>
-            <div className="contact-us my-5 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
+            <div className="contact-us my-5 py-6 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 CONTACT US
               </h3>
@@ -85,66 +110,32 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="my-10 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
+            <div className="my-10 py-6 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%] px-5">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 FREQUENTLY ASKED{" "}
                 <span className="text-[#2BFF08]">QUESTIONS</span>
               </h3>
-              <div className="w-[75%] mx-auto md:w-[100%] sm:w-[100%] flex flex-col justify-start items-stretch text-start px-10 md:px-1 sm:px-1 md:text-center sm:text-center">
-                <p className="text-lg md:text-[20px] sm:text-[20px]">
-                  Who can apply for the hackathon?
+              <div className="w-[75%] md:my-5 sm:my-5 my-10 mx-auto md:w-[100%] sm:w-[100%] flex flex-col justify-start items-stretch text-start px-10 md:px-1 sm:px-1 md:text-center sm:text-center">
+                {faqs.map((faq) => {
+                  return <Faq query={faq.query} ans={faq.ans} key={faq.id} id={faq.id}/>
+                })}
+                {/* <p className="text-lg md:text-[20px] sm:text-[20px]">
+                  Do you have a particular theme for the Hackathon ?
                 </p>
                 <p className="text-lg md:text-[20px] sm:text-[20px]">
-                  Who can apply for the hackathon?
+                What can be the size of Team ?
                 </p>
                 <p className="text-lg md:text-[20px] sm:text-[20px]">
-                  Who can apply for the hackathon?
+                What do I need to do to participate?
                 </p>
                 <p className="text-lg md:text-[20px] sm:text-[20px]">
-                  Who can apply for the hackathon?
+                Are there any registration charges ?
                 </p>
+                <p className="text-lg md:text-[20px] sm:text-[20px]">
+                Do we get any certificate for participation ? 
+                </p> */}
               </div>
             </div>
-
-            {/* <div
-              className=" top-[calc(50%_-_1208px)] left-[calc(50%_-_555px)] rounded-[45px] bg-gray-1100 w-[1100px] h-[714px] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
-              id="box1"
-              data-animate-on-scroll
-            />
-            <div
-              className=" top-[calc(50%_-_1026px)] left-[calc(50%_-_555px)] w-[1100px] h-[425px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-              id="sub1Box1"
-              data-animate-on-scroll
-            >
-              <div className=" top-[calc(50%_-_208.5px)] left-[calc(50%_-_550px)] w-[1093px] h-[421px] overflow-x-auto">
-                <iframe
-                  className="[border:none]  top-[0px] left-[0px] bg-gray-1400 w-[252px] h-[421px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                  data-animate-on-scroll
-                />
-                <FrameComponent2 />
-                <iframe
-                  className="[border:none]  top-[0px] left-[562px] bg-gray-1400 w-[253px] h-[421px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1]"
-                  data-animate-on-scroll
-                />
-                <FrameComponent3 />
-              </div>
-              <img
-                className=" top-[calc(50%_-_212.5px)] left-[calc(50%_-_550px)] w-[1180px] h-[152px]"
-                alt=""
-                src="../ellipse-116.svg"
-              />
-              <img
-                className=" top-[calc(50%_+_151.5px)] left-[calc(50%_-_550px)] w-[1180px] h-[152px]"
-                alt=""
-                src="../ellipse-117.svg"
-              />
-            </div>
-            <h3
-              className="m-[0]  top-[45px] left-[calc(50%_-_287px)] text-6xl font-bold font-noto-sans inline-block w-[563px] h-[65px]"
-              id="heading1"
-            >
-              ORGANIZERS
-            </h3> */}
           </div>
         </div>
         <Footer />
