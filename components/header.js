@@ -1,10 +1,10 @@
 import { useCallback } from "react";
-import { useRouter } from "next/router";;
+import { useRouter } from "next/router";
 
-const Header = () => {
+const Header= () => {
   const router = useRouter();
 
-  const onLogoClick = useCallback(() => {
+  const onHacknitp5ImageClick = useCallback(() => {
     router.push("/homepage");
   }, [router]);
 
@@ -12,44 +12,81 @@ const Header = () => {
     router.push("/about-us");
   }, [router]);
 
-  const onTimelineTextClick = useCallback(() => {
+  const onTimelineClick = useCallback(() => {
     router.push("/timeline");
   }, [router]);
 
-  const onRulesTextClick = useCallback(() => {
+  const onUlClick = useCallback(() => {
     router.push("/rules");
-  }, [router]);
-
-  const onSponsorsTextClick = useCallback(() => {
-    router.push("/sponsors");
+    // Please sync "5 Rules" to the project
   }, []);
 
-  const onContactUsTextClick = useCallback(() => {
+  const onSponsorsClick = useCallback(() => {
+    router.push("/sponsors");
+  }, [router]);
+
+  const onContactUsClick = useCallback(() => {
     router.push("/contact-us");
   }, [router]);
 
+  const onRectangleImageClick = useCallback(() => {
+    window.open(
+      "https://discord.com/channels/773227056573448192/980693078258090014"
+    );
+  }, []);
+
   return (
-    <div className="flex w-full flex-wap p-5 md:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-[17px] text-white flex-row items-center justify-between  font-space-grotesk">
+    <nav
+      className="relative w-full flex flex-row p-[5px_0px] box-border items-center justify-center gap-[25px] md:flex-col"
+      id="navbar"
+    >
       <img
-        className="min-w-[150px] max-w-[250px] w-[20%] cursor-pointer"
+        className="relative w-[236.15px] h-[75px] shrink-0 pr-[35px] cursor-pointer hover:animate-[1s_ease_0s_2_alternate-reverse_none_roll-in-left] hover:opacity-[1]"
         alt=""
         src="../hacknitp57.svg"
-        onClick={onLogoClick}
+        onClick={onHacknitp5ImageClick}
       />
-
-      <nav className="flex mt-1 flex-wrap justify-center items-center text-xs gap-x-5 gap-y-1 font-normal md:text-[16px] sm:text-[16px]">
-        <b className="cursor-pointer" onClick={onAboutUsClick}>About Us</b>
-        <b className="cursor-pointer" onClick={onTimelineTextClick}>Timeline</b>
-        <b className="cursor-pointer" onClick={onRulesTextClick}>Rules</b>
-        <b className="cursor-pointer" onClick={onSponsorsTextClick}>Sponsors</b>
-        <b className="cursor-pointer" onClick={onContactUsTextClick}>Contact Us</b>
-        <a href="https://bit.ly/hacknitp-4-discord" target={"_blank"} rel="noreferrer noopener">
-          <button className="border-0 font-semibold py-2 px-5 text-xs cursor-pointer md:text-[14px] hover:bg-[#28e706] sm:text-[14px] focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
+      <h3
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120.05px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_shake-horizontal] hover:opacity-[1]"
+        id="About_us"
+        onClick={onAboutUsClick}
+      >
+        About Us
+      </h3>
+      <h3
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[109px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_reverse_none_tilt-in-top-1] hover:opacity-[1]"
+        id="Timeline"
+        onClick={onTimelineClick}
+      >
+        Timeline
+      </h3>
+      <h3
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[52.6px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_2_alternate_none_flip-horizontal-bottom] hover:opacity-[1]"
+        id="Rules"
+        onClick={onUlClick}
+      >
+        Rules
+      </h3>
+      <h3
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_2_alternate-reverse_none_rotate-center] hover:opacity-[1]"
+        id="Sponsors"
+        onClick={onSponsorsClick}
+      >
+        Sponsors
+      </h3>
+      <h3
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[107.19px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_jello-horizontal] hover:opacity-[1]"
+        onClick={onContactUsClick}
+      >
+        Contact Us
+      </h3>
+      <a href="https://bit.ly/hacknitp-4-discord" target={"_blank"} rel="noreferrer noopener">
+        <button className="border-0 font-bold py-2 px-5 text-xs cursor-pointer focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
             Join Discord
           </button>
-        </a>
-      </nav>
-    </div>
+          </a>
+
+    </nav>
   );
 };
 
