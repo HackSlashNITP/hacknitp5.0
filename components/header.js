@@ -37,7 +37,7 @@ const Header = () => {
         onClick={onLogoClick}
       />
 
-      <nav className="flex mt-1 flex-wrap justify-center items-center text-xs gap-x-5 gap-y-1 font-semibold md:text-[16px] sm:text-[16px]">
+      <nav className="flex mt-1 flex-wrap justify-center items-center text-xs gap-x-5 gap-y-1 font-normal md:text-[16px] sm:text-[16px]">
         <b className="cursor-pointer" onClick={onAboutUsClick}>About Us</b>
         <b className="cursor-pointer" onClick={onTimelineTextClick}>Timeline</b>
         <b className="cursor-pointer" onClick={onRulesTextClick}>Rules</b>
