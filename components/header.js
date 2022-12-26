@@ -29,7 +29,7 @@ const Header = () => {
   }, [router]);
 
   return (
-    <div className="flex flex-wap p-5 md:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-[17px] text-white flex-row items-center justify-between  font-space-grotesk">
+    <div className="flex w-full flex-wap p-5 md:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-[17px] text-white flex-row items-center justify-between  font-space-grotesk">
       <img
         className="min-w-[150px] max-w-[250px] w-[20%] cursor-pointer"
         alt=""
@@ -37,7 +37,7 @@ const Header = () => {
         onClick={onLogoClick}
       />
 
-      <nav className="flex mt-1 flex-wrap justify-center items-center text-xs gap-x-5 gap-y-1 font-semibold md:text-[14px] sm:text-[14px]">
+      <nav className="flex mt-1 flex-wrap justify-center items-center text-xs gap-x-5 gap-y-1 font-semibold md:text-[16px] sm:text-[16px]">
         <b className="cursor-pointer" onClick={onAboutUsClick}>About Us</b>
         <b className="cursor-pointer" onClick={onTimelineTextClick}>Timeline</b>
         <b className="cursor-pointer" onClick={onRulesTextClick}>Rules</b>
