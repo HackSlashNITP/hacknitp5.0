@@ -36,10 +36,11 @@ var x = setInterval(function() {
 //   + minutes + "m " + seconds + "s ";
     
 //   // If the count down is over, write some text 
-//   if (distance < 0) {
-//     clearInterval(x);
-//     document.getElementById("demo").innerHTML = "EXPIRED";
-//   }
+  if (distance < 0) {
+    clearInterval(x);
+    setEnd({...end,days:0,hours:0,min:0,sec:0});
+   // document.getElementById("demo").innerHTML = "EXPIRED";
+  }
 }, 1000);
 
     

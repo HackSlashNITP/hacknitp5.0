@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-11@2x.png";
 import Carousel from "../components/carousel";
+import JudgesCarousel from "../components/judgesCarousel";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -84,7 +85,8 @@ const AboutUs = () => {
             </div>
             <div className="about-us-judges w-full flex flex-col justify-center items-center">
               <h1 className="text-5xl md:text-xl sm:text-xl my-10">JUDGES</h1>
-              <Carousel images={images} />
+              {/* <Carousel images={images} /> */}
+              <JudgesCarousel/>
             </div>
             {/* <h3
                 className="m-[0]  top-[1959px] left-[472px] text-6xl font-bold font-noto-sans inline-block w-[336px] h-[54px] [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
