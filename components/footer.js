@@ -6,8 +6,8 @@ import { AiFillYoutube } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="px-4 bg-[#545454] md:px-6 md:py-8 font-space-grotesk">
-      <div className="flex items-center justify-between sm:flex-col md:flex-col">
+    <footer className="px-4 bg-[#545454] py-3 font-space-grotesk">
+      <div className="flex items-center justify-between sm:flex-col md:flex-col mb-3 gap-y-5 text-center">
         <Link href="/homepage" className="items-center flex-1">
           <img
             src="../hacknitp5.svg"
@@ -15,35 +15,38 @@ const Footer = () => {
             alt="Flowbite Logo"
           />
         </Link>
-        <ul className="text-center flex flex-row flex-wrap justify-center items-center md:text-[15px] sm:text-[15px] text-xs text-white sm:mb-0 list-none flex-3">
-          <li className="mb-1 mx-2">
+        <ul className="text-center font-semibold flex flex-row flex-wrap justify-center gap-y-2 items-center md:text-[15px] sm:text-[15px] text-xs text-white list-none">
+          <li className="mx-2">
             <a
               href="https://rebrand.ly/hacknitp-4/rulebook"
               target={"_blank"}
               rel="noopener noreferrer"
+              className="no-underline"
             >
-              <b className="text-white none md:mr-6 cursor-pointer">
+              <b className="text-white cursor-pointer font-light hover:font-semibold">
                 Terms and Conditions
               </b>
             </a>
           </li>
-          <li className="mb-1 mx-2">
+          <li className="mx-2">
             <a
               href={"https://rebrand.ly/hackslash/community-guidelines"}
               target="_blank"
               rel="noreferrer noopener"
+              className="no-underline"
             >
-              <b className="text-white none cursor-pointer">Code of Conduct</b>
+              <b className="text-white none cursor-pointer font-light hover:font-semibold">Code of Conduct</b>
             </a>
           </li>
-          <li className="mb-1 mx-2">
+          <li className="mx-2">
             <b className="text-white none">
               <a
                 href="https://bit.ly/hacknitp-4-discord"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="no-underline"
               >
-                <button class="border-0 py-2 px-5 cursor-pointer text-xs font-bold focus:outline-none rounded-xl md:text-[15px] sm:text-[15px] md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
+                <button class="border-0 py-2 px-5 cursor-pointer text-xs font-semibold focus:outline-none rounded-xl md:text-[15px] sm:text-[15px] text-black bg-[#2BFF08] hover:bg-[#28e706]">
                   Join our Discord
                 </button>
               </a>
@@ -53,7 +56,7 @@ const Footer = () => {
       </div>
       <hr className="border-[#545454] sm:mx-auto lg:my-8" />
       <div className="flex flex-row mr-[3%] justify-between items-center md:flex-col sm:flex-col">
-        <span className="block text-sm text-white text-center font-bold flex-2 md:text-[20px] sm:text-[20px]">
+        <span className="block text-sm text-white text-center font-normal flex-2 md:text-[20px] sm:text-[20px]">
           © 2023 HACKSLASH | All Rights Reserved.
         </span>
         <span class="flex flex-wrap sm:mt-0 mt-4 items-center justify-center sm:center flex-3">

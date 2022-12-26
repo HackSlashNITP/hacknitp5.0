@@ -44,7 +44,7 @@ const Header = () => {
         <b className="cursor-pointer" onClick={onSponsorsTextClick}>Sponsors</b>
         <b className="cursor-pointer" onClick={onContactUsTextClick}>Contact Us</b>
         <a href="https://bit.ly/hacknitp-4-discord" target={"_blank"} rel="noreferrer noopener">
-          <button className="border-0 font-semibold py-2 px-5 text-xs cursor-pointer md:text-[16px] sm:text-[16px] focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
+          <button className="border-0 font-semibold py-2 px-5 text-xs cursor-pointer md:text-[16px] hover:bg-[#28e706] sm:text-[16px] focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
             Join Discord
           </button>
         </a>
