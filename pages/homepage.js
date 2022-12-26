@@ -40,23 +40,23 @@ const Homepage = () => {
       className="relative bg-black w-full h-screen overflow-y-auto text-center text-5xl text-white font-space-grotesk"
       id="homepage"
     >
-      <Image
+      {/* <Image
         className="absolute top-[0px] left-[0px]"
         alt=""
         src={bgImage}
-      />
+      /> */}
       <div className="absolute top-[0px] left-[0px] w-full h-screen flex flex-col justify-between">
-        <div className="wrapper min-h-full mb-[-0px]">
+        <div className="wrapper min-h-full">
           <Header />
-          <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] my-10">
+          <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[100px]">
             <img
-              className="h-[75%] w-[75%] md:h-[100%] md:w-[100%] my-2 max-w-full max-h-full [&.animate]:animate-[3s_ease_0s_1_normal_forwards_roll-in-left] opacity-[0]"
+              className="my-2 w-[75%] h-[75%] min-w-[200px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
               alt=""
               src="../group-1303.svg"
               data-animate-on-scroll
             />
             <h3
-              className="mb-8 md:text-[25px] text-lg font-bold font-noto-sans text-green-100 inline-block [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
+              className="mb-8 md:text-[20px] sm:text-[20px] text-lg font-bold md:font-semibold sm:font-semibold font-noto-sans text-green-100 inline-block [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
               id="date"
               data-animate-on-scroll
             >
