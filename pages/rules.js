@@ -137,10 +137,9 @@ const Rules = () => {
               </h1>
 
               <div className="w-full sm:text-[25px] md:text-[25px]">
-
-                <div className="flex w-full justify-between sm:flex-col md:flex-col">
-                  <div className="bg-[#2BFF08] hover:bg-[#22c55e]  hover:[border:3px_solid_#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg hover:color-white">Education</b>
+                <div className="flex w-full justify-between sm:flex-col md:flex-col h-auto">
+                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%] h-auto">
+                    <img src="/theme/edu.svg" alt=""/>
                   </div>
                   <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
                     <b className="text-black text-lg">Employability</b>

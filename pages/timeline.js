@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const timeline = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <Header/>
       <DigitalCountdown/>
       <Scheduling/>

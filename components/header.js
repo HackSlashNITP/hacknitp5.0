@@ -29,7 +29,7 @@ const Header = () => {
   }, [router]);
 
   return (
-    <div className="mx-auto flex flex-wrap p-5 md:flex-col text-[17px] flex-row items-center justify-between w-full font-space-grotesk">
+    <div className="mx-auto flex flex-wrap p-5 md:flex-col text-[17px] text-white flex-row items-center justify-between w-full font-space-grotesk">
       <img
         className="min-w-[100px] w-[200px] cursor-pointer"
         alt=""
