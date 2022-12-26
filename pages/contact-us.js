@@ -54,24 +54,24 @@ const ContactUs = () => {
 
   const faqs = [
     {
-      'id': 0,
-      'query': 'Who can apply for the hackathon?',
-      'ans': 'Participants can take part only as a team. A team must comprise of at least 2 members and at.',
+      id: 0,
+      query: "Who can apply for the hackathon?",
+      ans: "Participants can take part only as a team. A team must comprise of at least 2 members and at.",
     },
     {
-      'id': 1,
-      'query': 'What can be the size of Team ?',
-      'ans': 'A team can consist of 1-4 members.',
+      id: 1,
+      query: "What can be the size of Team ?",
+      ans: "A team can consist of 1-4 members.",
     },
     {
-      'id': 2,
-      'query': 'Are there any registration charges ?',
-      'ans': 'Nope! None at all.',
+      id: 2,
+      query: "Are there any registration charges ?",
+      ans: "Nope! None at all.",
     },
     {
-      'id': 3,
-      'query': 'Do we get any certificate for participation ?',
-      'ans': 'Yes, you do get a Certificate of Participation if your hack is submitted successfully.',
+      id: 3,
+      query: "Do we get any certificate for participation ?",
+      ans: "Yes, you do get a Certificate of Participation if your hack is submitted successfully.",
     },
   ];
 
@@ -95,7 +95,7 @@ const ContactUs = () => {
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 CONTACT US
               </h3>
-              <h5 className="text-[#9E9E9E] text-lg md:text-sm sm:text-sm">
+              <h5 className="text-[#9E9E9E] text-lg md:text-sm sm:text-sm font-normal">
                 For any query contact us
               </h5>
               <div className="flex flex-row w-full items-end mb-20 md:mb-5 sm:md-5 md:flex-col-reverse sm:flex-col-reverse md:items-center sm:items-center">
@@ -115,25 +115,26 @@ const ContactUs = () => {
                 FREQUENTLY ASKED{" "}
                 <span className="text-[#2BFF08]">QUESTIONS</span>
               </h3>
-              <div className="w-[75%] md:my-5 sm:my-5 my-10 mx-auto md:w-[100%] sm:w-[100%] flex flex-col justify-start items-stretch text-start px-10 md:px-1 sm:px-1 md:text-center sm:text-center">
+              <div className="w-full md:my-5 sm:my-5 my-10 mx-auto md:w-[100%] sm:w-[100%] flex flex-col justify-start items-stretch text-start px-10 md:px-1 sm:px-1 md:text-center sm:text-center">
                 {faqs.map((faq) => {
-                  return <Faq query={faq.query} ans={faq.ans} key={faq.id} id={faq.id}/>
+                  return (
+                    <Faq
+                      query={faq.query}
+                      ans={faq.ans}
+                      key={faq.id}
+                      id={faq.id}
+                    />
+                  );
                 })}
-                {/* <p className="text-lg md:text-[20px] sm:text-[20px]">
-                  Do you have a particular theme for the Hackathon ?
+              </div>
+              <hr className="text-[#545454] w-[95%] mx-auto"/>
+              <div className="flex flex-col justify-center items-center">
+                <p className="my-5 text-base font-bold text-[#1BFF25]">
+                  What are you waiting for? Register Now!
                 </p>
-                <p className="text-lg md:text-[20px] sm:text-[20px]">
-                What can be the size of Team ?
-                </p>
-                <p className="text-lg md:text-[20px] sm:text-[20px]">
-                What do I need to do to participate?
-                </p>
-                <p className="text-lg md:text-[20px] sm:text-[20px]">
-                Are there any registration charges ?
-                </p>
-                <p className="text-lg md:text-[20px] sm:text-[20px]">
-                Do we get any certificate for participation ? 
-                </p> */}
+                <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:bg-[#28e307] w-[400px] bg-[#2BFF08] h-[50px] flex justify-center items-center text-black rounded-[15px]">
+                  <b className="text-xs">Register Now</b>
+                </div>
               </div>
             </div>
           </div>
