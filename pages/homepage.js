@@ -37,15 +37,10 @@ const Homepage = () => {
 
   return (
     <div
-      className="relative bg-black w-full h-screen overflow-y-auto text-center text-5xl text-white font-space-grotesk"
+      className=" bg-black w-full h-screen overflow-y-auto text-center text-5xl text-white font-space-grotesk"
       id="homepage"
     >
-      {/* <Image
-        className="absolute top-[0px] left-[0px]"
-        alt=""
-        src={bgImage}
-      /> */}
-      <div className="absolute top-[0px] left-[0px] w-full h-screen md:h-auto sm:h-auto flex flex-col justify-between">
+      <div className="w-full h-screen bg-[url('../public/background.jpg')] bg-cover md:bg-center md:bg-fixed bg-no-repeat md:h-auto flex flex-col justify-between">
         <div className="wrapper min-h-full md:mb-[100px] sm:mb-[100px]">
           <Header />
           <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[100px]">

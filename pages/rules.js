@@ -79,7 +79,7 @@ const Rules = () => {
         alt=""
         src={backgroundImage}
       /> */}
-      <div className="absolute top-0 left flex flex-col w-full h-">
+      <div className="absolute bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat top-0 left flex flex-col w-full h-">
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />
           <main className="w-full my-[5%] flex flex-col justify-between items-center">
