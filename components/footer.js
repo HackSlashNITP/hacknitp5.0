@@ -46,7 +46,7 @@ const Footer = () => {
                 rel="noreferrer noopener"
                 className="no-underline"
               >
-                <button class="border-0 py-2 px-5 cursor-pointer text-xs font-semibold focus:outline-none rounded-xl md:text-[15px] sm:text-[15px] text-black bg-[#2BFF08] hover:bg-[#28e706]">
+                <button className="border-0 py-2 px-5 cursor-pointer text-xs font-semibold focus:outline-none rounded-xl md:text-[15px] sm:text-[15px] text-black bg-[#2BFF08] hover:bg-[#28e706]">
                   Join our Discord
                 </button>
               </a>
@@ -59,7 +59,7 @@ const Footer = () => {
         <span className="block text-sm text-white text-center font-normal flex-2 md:text-[20px] sm:text-[20px]">
           © 2023 HACKSLASH | All Rights Reserved.
         </span>
-        <span class="flex flex-wrap sm:mt-0 mt-4 items-center justify-center sm:center flex-3">
+        <span className="flex flex-wrap sm:mt-0 mt-4 items-center justify-center sm:center flex-3">
           <a
             href="https://www.instagram.com/hackslash.nitp/?hl=en"
             target="_blank"

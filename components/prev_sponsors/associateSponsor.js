@@ -8,31 +8,31 @@ import Foss from '../../public/prevSponsors/Foss.svg';
 
 const associate = [
   {
-    logo: `${devfolio}`,
+    logo: devfolio,
     link: "https://devfolio.co/",
   },
   {
-    logo: `${tezos}`,
+    logo: tezos,
     link: "https://tezos.com/",
   },
   {
-    logo: `${filecoin}`,
+    logo: filecoin,
     link: "https://filecoin.io/",
   },
   {
-    logo: `${polygon}`,
+    logo: polygon,
     link: "https://polygon.technology/",
   },
   {
-    logo: `${celo}`,
+    logo: celo,
     link: "https://celo.org/",
   },
   {
-    logo: `${postman}`,
+    logo: postman,
     link: "https://www.postman.com/",
   },
   {
-    logo: `${Foss}`,
+    logo: Foss,
     link: "https://fossunited.org/",
   },
 ];

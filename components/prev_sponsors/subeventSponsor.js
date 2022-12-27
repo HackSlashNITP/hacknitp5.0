@@ -11,43 +11,43 @@ import Github from '../../public/prevSponsors/github-logo.png';
 
 const subevent = [
   {
-    logo: `${echo}`,
+    logo: echo,
     link: "https://www.echo3d.co/",
   },
   {
-    logo: `${interview}`,
+    logo: interview,
     link: "https://www.interviewcake.com/",
   },
   {
-    logo: `${voiceflow}`,
+    logo: voiceflow,
     link: "https://www.voiceflow.com/",
   },
   {
-    logo: `${clerky}`,
+    logo: clerky,
     link: "https://www.clerky.com/",
   },
   {
-    logo: `${Axure}`,
+    logo: Axure,
     link: "https://www.axure.com/",
   },
   {
-    logo: `${Taskade}`,
+    logo: Taskade,
     link: "https://www.taskade.com/",
   },
   {
-    logo: `${gfg}`,
+    logo: gfg,
     link: "https://www.geeksforgeeks.org/",
   },
   {
-    logo: `${wolfram}`,
+    logo: wolfram,
     link: "https://www.wolfram.com/",
   },
   {
-    logo: `${Sketch}`,
+    logo: Sketch,
     link: "https://www.sketch.com/",
   },
   {
-    logo: `${Github}`,
+    logo: Github,
     link: "https://github.com/",
   },
 ];
