@@ -174,33 +174,12 @@ const Rules = () => {
                 THEMES
               </h1>
 
-<<<<<<< Updated upstream
               <div className="w-full sm:text-[25px] md:text-[25px] md:w-[90%] grid md:grid-cols-1 sm:grid-cols-1 grid-cols-2 gap-x-[15%]">
                 {
                   tracks.map((track) => {
                     return <ThemeCard img={track.img} desc={track.desc} key={track.id}/>;
                   })
                 }
-                
-=======
-              <div className="w-full sm:text-[25px] md:text-[25px]">
-                <div className="flex w-full justify-between sm:flex-col md:flex-col h-auto">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%] h-auto">
-                    <img src="/theme/edu.svg" alt=""/>
-                  </div>
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
-                  </div>
-                </div>
-                <div className="flex w-full justify-between sm:flex-col md:flex-col">
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
-                  </div>
-                  <div className="bg-[#2BFF08] my-4 p-5 flex justify-center items-center w-[40%] sm:w-[100%] md:w-[100%]">
-                    <b className="text-black text-lg">Theme</b>
-                  </div>
-                </div>
->>>>>>> Stashed changes
               </div>
             </section>
             <section
