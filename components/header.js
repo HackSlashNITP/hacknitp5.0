@@ -29,53 +29,47 @@ const Header= () => {
     router.push("/contact-us");
   }, [router]);
 
-  const onRectangleImageClick = useCallback(() => {
-    window.open(
-      "https://discord.com/channels/773227056573448192/980693078258090014"
-    );
-  }, []);
-
   return (
     <nav
-      className="relative w-full flex flex-row p-[5px_0px] box-border items-center justify-between gap-[25px] md:flex-col"
+      className="relative w-full flex flex-row p-[5px_20px] box-border items-center justify-between gap-[25px] md:flex-col"
       id="navbar"
     >
       <img
-        className="relative w-[236.15px] h-[75px] shrink-0 pr-[35px] cursor-pointer hover:animate-[1s_ease_0s_2_alternate-reverse_none_roll-in-left] hover:opacity-[1]"
+        className="relative w-[236.15px] h-[75px] shrink-0 pr-[35px] cursor-pointer"
         alt=""
         src="../hacknitp57.svg"
         onClick={onHacknitp5ImageClick}
       />
       <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120.05px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_shake-horizontal] hover:opacity-[1]"
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120.05px] shrink-0 cursor-pointer"
         id="About_us"
         onClick={onAboutUsClick}
       >
         About Us
       </h3>
       <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[109px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_reverse_none_tilt-in-top-1] hover:opacity-[1]"
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[109px] shrink-0 cursor-pointer"
         id="Timeline"
         onClick={onTimelineClick}
       >
         Timeline
       </h3>
       <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[52.6px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_2_alternate_none_flip-horizontal-bottom] hover:opacity-[1]"
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[52.6px] shrink-0 cursor-pointer"
         id="Rules"
         onClick={onUlClick}
       >
         Rules
       </h3>
       <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_2_alternate-reverse_none_rotate-center] hover:opacity-[1]"
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120px] shrink-0 cursor-pointer"
         id="Sponsors"
         onClick={onSponsorsClick}
       >
         Sponsors
       </h3>
       <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[107.19px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_jello-horizontal] hover:opacity-[1]"
+        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[107.19px] shrink-0 cursor-pointer"
         onClick={onContactUsClick}
       >
         Contact Us
