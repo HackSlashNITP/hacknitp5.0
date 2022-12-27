@@ -1,10 +1,11 @@
 import { useCallback } from "react";
 import { useRouter } from "next/router";
+import { GiHamburgerMenu } from 'react-icons/gi';
 
-const Header= () => {
+const Header = () => {
   const router = useRouter();
 
-  const onHacknitp5ImageClick = useCallback(() => {
+  const onLogoClick = useCallback(() => {
     router.push("/homepage");
   }, [router]);
 
@@ -12,81 +13,66 @@ const Header= () => {
     router.push("/about-us");
   }, [router]);
 
-  const onTimelineClick = useCallback(() => {
+  const onTimelineTextClick = useCallback(() => {
     router.push("/timeline");
   }, [router]);
 
-  const onUlClick = useCallback(() => {
+  const onRulesTextClick = useCallback(() => {
     router.push("/rules");
-    // Please sync "5 Rules" to the project
-  }, []);
-
-  const onSponsorsClick = useCallback(() => {
-    router.push("/sponsors");
   }, [router]);
 
-  const onContactUsClick = useCallback(() => {
+  const onSponsorsTextClick = useCallback(() => {
+    router.push("/sponsors");
+  }, []);
+
+  const onContactUsTextClick = useCallback(() => {
     router.push("/contact-us");
   }, [router]);
 
-  const onRectangleImageClick = useCallback(() => {
-    window.open(
-      "https://discord.com/channels/773227056573448192/980693078258090014"
-    );
-  }, []);
-
+  const handleHamburgerClick = () => {
+    document.querySelector('.navigation-links').classList.toggle('md:hidden');
+  };
   return (
-    <nav
-      className="relative w-full flex flex-row p-[5px_0px] box-border items-center justify-center gap-[25px] md:flex-col"
-      id="navbar"
-    >
-      <img
-        className="relative w-[236.15px] h-[75px] shrink-0 pr-[35px] cursor-pointer hover:animate-[1s_ease_0s_2_alternate-reverse_none_roll-in-left] hover:opacity-[1]"
-        alt=""
-        src="../hacknitp57.svg"
-        onClick={onHacknitp5ImageClick}
-      />
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120.05px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_shake-horizontal] hover:opacity-[1]"
-        id="About_us"
-        onClick={onAboutUsClick}
-      >
-        About Us
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[109px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_reverse_none_tilt-in-top-1] hover:opacity-[1]"
-        id="Timeline"
-        onClick={onTimelineClick}
-      >
-        Timeline
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[52.6px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_2_alternate_none_flip-horizontal-bottom] hover:opacity-[1]"
-        id="Rules"
-        onClick={onUlClick}
-      >
-        Rules
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_2_alternate-reverse_none_rotate-center] hover:opacity-[1]"
-        id="Sponsors"
-        onClick={onSponsorsClick}
-      >
-        Sponsors
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[107.19px] shrink-0 cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_jello-horizontal] hover:opacity-[1]"
-        onClick={onContactUsClick}
-      >
-        Contact Us
-      </h3>
-      <a href="https://bit.ly/hacknitp-4-discord" target={"_blank"} rel="noreferrer noopener">
-        <button className="border-0 font-bold py-2 px-5 text-xs cursor-pointer focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
-            Join Discord
-          </button>
-          </a>
+    <div className="relative top-0 left-0 w-full">
+      <div className="absolute right-0 top-0 md:my-10 md:mr-10">
+        <GiHamburgerMenu className="text-white text-sm hidden md:block" onClick={handleHamburgerClick}/>
+      </div>
+      <div className="flex w-full flex-wap p-5 bp:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-white flex-row items-center justify-between  font-space-grotesk">
+        <img
+          className="min-w-[200px] max-w-[250px] w-[20%] cursor-pointer mr-10 bp:mr-0"
+          alt=""
+          src="../hacknitp57.svg"
+          onClick={onLogoClick}
+        />
 
-    </nav>
+        <nav className="navigation-links md:hidden flex mt-1 min-w-[700px] md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-extralight md:text-[17px]">
+          <b className="cursor-pointer" onClick={onAboutUsClick}>
+            About Us
+          </b>
+          <b className="cursor-pointer" onClick={onTimelineTextClick}>
+            Timeline
+          </b>
+          <b className="cursor-pointer" onClick={onRulesTextClick}>
+            Rules
+          </b>
+          <b className="cursor-pointer" onClick={onSponsorsTextClick}>
+            Sponsors
+          </b>
+          <b className="cursor-pointer" onClick={onContactUsTextClick}>
+            Contact Us
+          </b>
+          <a
+            href="https://bit.ly/hacknitp-4-discord"
+            target={"_blank"}
+            rel="noreferrer noopener"
+          >
+            <button className="border-0 font-normal py-2 px-5 text-xs cursor-pointer md:text-[17px] hover:bg-[#28e706] focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
+              Join Discord
+            </button>
+          </a>
+        </nav>
+      </div>
+    </div>
   );
 };
 

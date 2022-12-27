@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Box2 from "../components/box2";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import EmptyBox from "../components/emptyBox";
 
 const Sponsors = () => {
   useEffect(() => {
@@ -34,13 +35,24 @@ const Sponsors = () => {
     };
   }, []);
 
+  const platinumSponsors = [
+    {
+      id: 0,
+    },
+    {
+      id: 1,
+    },
+    {
+      id: 2,
+    },
+  ];
   return (
-    <div className="bg-black w-screen overflow-y-auto flex flex-col box-border items-center justify-center gap-[0px] text-center text-5xl text-white font-space-grotesk">
+    <div className="bg-black w-full overflow-y-auto flex flex-col items-center justify-center gap-[0px] text-center text-5xl text-white font-space-grotesk">
       <Header />
       <div className="self-stretch overflow-hidden flex flex-col p-[16px_0px] box-border items-center justify-center text-4xl font-noto-sans">
         <div className="overflow-hidden flex flex-row box-border items-center justify-center">
           <h3
-            className="text-[inherit] font-bold font-inherit inline-block"
+            className="text-[inherit] font-inherit inline-block font-normal md:text-xl"
             id="heading"
           >
             SPONSORS
@@ -49,172 +61,41 @@ const Sponsors = () => {
       </div>
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center gap-[22px] lg:h-[auto] md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto]">
         <div className="overflow-hidden flex flex-col box-border items-center justify-center">
-          <b className="text-lg">Platinum Sponsors</b>
+          <b className="text-lg font-light md:text-sm">Platinum Sponsors</b>
         </div>
         <div
-          className="self-stretch overflow-hidden flex flex-col items-center justify-center [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
+          className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
           data-animate-on-scroll
         >
-          <div className="overflow-hidden flex flex-row box-border items-center justify-center sm:flex-col">
-            <div className="flex flex-row items-start justify-start gap-20 md:flex-col">
-            <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              
-            </div>
-          </div>
+          {platinumSponsors.map((sponsor) => {
+            return <EmptyBox key={sponsor.id} />;
+          })}
         </div>
       </div>
       <div className="self-stretch my-10 overflow-hidden flex flex-col items-center justify-center gap-[22px] md:flex-col md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto]">
         <div className="overflow-hidden flex flex-col box-border items-center justify-center">
-          <b className="text-lg text-[#FFE143]">Gold Sponsors</b>
+          <b className="text-lg text-[#FFE143] font-light md:text-sm">Gold Sponsors</b>
         </div>
         <div
-          className="self-stretch flex-1 overflow-hidden flex flex-row items-center justify-center [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] lg:flex-row md:flex-row"
+          className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
           data-animate-on-scroll
         >
-          <div className="overflow-hidden flex flex-row p-[44px_36px] box-border items-center justify-center md:flex-col sm:flex-col">
-            <div className="flex flex-row items-center justify-center gap-10 md:flex-col">
-            <div className="flex flex-row items-start justify-start gap-20 md:flex-col">
-             
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-            </div>
-          </div>
+          {platinumSponsors.map((sponsor) => {
+            return <EmptyBox key={sponsor.id} />;
+          })}
         </div>
       </div>
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center gap-[22px] lg:h-[auto] md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto] sm:h-[auto]">
         <div className="shrink-0 overflow-hidden flex flex-col px-20 box-border items-center justify-center">
-          <b className="text-lg text-[#BCBCBC]">Silver Sponsors</b>
+          <b className="text-lg text-[#BCBCBC] font-light md:text-sm">Silver Sponsors</b>
         </div>
         <div
-          className="self-stretch overflow-hidden flex flex-col items-center justify-center gap-[0px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
+          className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
           data-animate-on-scroll
         >
-          <div className="overflow-hidden flex flex-row p-[44px_36px] box-border items-center justify-center gap-[74px] sm:flex-col">
-            <div className="flex flex-row items-start justify-start gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <div/>
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-            <div className="flex flex-row items-center justify-center gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-          </div>
-          <div className=" overflow-hidden flex flex-row p-[44px_36px] box-border items-center justify-center gap-[74px] sm:flex-col">
-            <div className="flex flex-row items-center justify-center gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-            <div className="flex flex-row items-center justify-center gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-          </div>
-          <div className=" overflow-hidden flex flex-row p-[44px_36px] box-border items-start justify-start gap-[74px] sm:flex-col">
-            <div className="flex flex-row items-start justify-start gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-            <div className="flex flex-row items-start justify-start gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-          </div>
-          <div
-            className=" overflow-hidden flex flex-row p-[44px_36px] box-border items-center justify-center gap-[74px] sm:flex-col"
-            id="4contentBox"
-          >
-            <div className="flex flex-row items-center justify-center gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-            <div className="flex flex-row items-center justify-center gap-[74px] md:flex-col">
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-              <img
-                className="relative rounded-[20px] w-[230px] h-[118px] shrink-0 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
-                alt=""
-                src="../rectangle-39525.svg"
-              />
-            </div>
-          </div>
+          {platinumSponsors.map((sponsor) => {
+            return <EmptyBox key={sponsor.id} />;
+          })}
         </div>
       </div>
       <div className="w-full md:w-full sm:w-full my-20 flex flex-col box-border items-center justify-center">

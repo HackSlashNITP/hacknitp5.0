@@ -45,8 +45,8 @@ const Homepage = () => {
         alt=""
         src={bgImage}
       /> */}
-      <div className="absolute top-[0px] left-[0px] w-full h-screen flex flex-col justify-between">
-        <div className="wrapper min-h-full">
+      <div className="absolute top-[0px] left-[0px] w-full h-screen md:h-auto sm:h-auto flex flex-col justify-between">
+        <div className="wrapper min-h-full md:mb-[100px] sm:mb-[100px]">
           <Header />
           <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[100px]">
             <img

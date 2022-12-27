@@ -62,7 +62,7 @@ const AboutUs = () => {
             <div className="about-us-info my-10">
               <h1 className="text-5xl md:text-[25px] sm:text-[25px]">ABOUT US</h1>
               <div className="w-full flex justify-start my-4 md:w-full sm:w-full sm:text-[15px] md:text-[16px]">
-                <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full">
+                <div className="bg-[#1C172F] p-5 w-[45%] rounded-4xl md:w-full sm:w-full">
                   <p>
                     National Institute of Technology Patna is the 18th National
                     Institute of Technology created by the Ministry of H.R.D.
@@ -72,7 +72,7 @@ const AboutUs = () => {
                 </div>
               </div>
               <div className="w-full flex justify-end my-4 md:w-full sm:w-full">
-                <div className="bg-[#1C172F] p-5 w-[50%] rounded-4xl md:w-full sm:w-full sm:text-[15px] md:text-[16px]">
+                <div className="bg-[#1C172F] p-5 w-[45%] rounded-4xl md:w-full sm:w-full sm:text-[15px] md:text-[16px]">
                   <p>
                     National Institute of Technology Patna is the 18th National
                     Institute of Technology created by the Ministry of H.R.D.
