@@ -29,10 +29,13 @@ const Header = () => {
     router.push("/contact-us");
   }, [router]);
 
+  const handleHamburgerClick = () => {
+    document.querySelector('.navigation-links').classList.toggle('md:hidden');
+  };
   return (
     <div className="relative top-0 left-0">
       <div className="absolute right-0 top-0 md:my-10 md:mr-10">
-        <GiHamburgerMenu className="text-white text-sm hidden md:block"/>
+        <GiHamburgerMenu className="text-white text-sm hidden md:block" onClick={handleHamburgerClick}/>
       </div>
       <div className="flex w-full flex-wap p-5 bp:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-[17px] text-white flex-row items-center justify-between  font-space-grotesk">
         <img
@@ -42,7 +45,7 @@ const Header = () => {
           onClick={onLogoClick}
         />
 
-        <nav className="flex mt-1 min-w-[700px] md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-light md:text-sm sm:text-sm">
+        <nav className="navigation-links md:hidden flex mt-1 min-w-[700px] md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-light md:text-sm sm:text-sm">
           <b className="cursor-pointer" onClick={onAboutUsClick}>
             About Us
           </b>
