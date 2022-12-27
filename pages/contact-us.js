@@ -7,6 +7,7 @@ import Carousel from "../components/carousel";
 import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-13@2x.png";
 import doubtImage from "../public/Group.png";
 import Faq from "../components/faq";
+import Organizers from "../components/organizers";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -89,7 +90,7 @@ const ContactUs = () => {
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 ORGANIZERS
               </h3>
-              <Carousel images={images} />
+              <Organizers />
             </div>
             <div className="contact-us my-5 py-6 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
