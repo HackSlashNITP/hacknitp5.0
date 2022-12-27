@@ -8,7 +8,7 @@ import Scheduling from '../components/scheduling'
 
 const timeline = () => {
   return (
-    <div className="bg-black bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat w-screen overflow-y-auto flex flex-col  relative text-base font-bold font-space-grotesk text-white ">
+    <div className="bg-black md:bg-[url('../public/background-medium.jpg')]  bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat w-screen overflow-y-auto flex flex-col  relative text-base font-bold font-space-grotesk text-white ">
     
     <div>
      <Header />
