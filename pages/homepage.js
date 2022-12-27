@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import Header from "../components/header";
-import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-16@2x.png";
+import bgImage from "../public/background.jpg";
 import Footer from "../components/footer";
 
 const Homepage = () => {
@@ -36,16 +36,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div
-      className="relative bg-black w-full h-screen overflow-y-auto text-center text-5xl text-white font-space-grotesk"
-      id="homepage"
-    >
-      {/* <Image
-        className="absolute top-[0px] left-[0px]"
-        alt=""
-        src={bgImage}
-      /> */}
-      <div className="absolute top-[0px] left-[0px] w-full h-screen flex flex-col justify-between">
+      <div style={{backgroundImage: "url('../public/background.jpg')"}} className="text-center text-5xl bg-black w-full relative z-1 h-screen text-white flex flex-col justify-between font-space-grotesk">
         <div className="wrapper min-h-full">
           <Header />
           <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[100px]">
@@ -78,7 +69,7 @@ const Homepage = () => {
         </div>
         <Footer />
       </div>
-    </div>
+    
   );
 };
 
