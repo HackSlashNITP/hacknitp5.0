@@ -33,7 +33,7 @@ const Header = () => {
     document.querySelector('.navigation-links').classList.toggle('md:hidden');
   };
   return (
-    <div className="relative top-0 left-0">
+    <div className="relative top-0 left-0 w-full">
       <div className="absolute right-0 top-0 md:my-10 md:mr-10">
         <GiHamburgerMenu className="text-white text-sm hidden md:block" onClick={handleHamburgerClick}/>
       </div>

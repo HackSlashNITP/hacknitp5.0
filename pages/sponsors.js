@@ -47,7 +47,7 @@ const Sponsors = () => {
     },
   ];
   return (
-    <div className="bg-black w-screen overflow-y-auto flex flex-col box-border items-center justify-center gap-[0px] text-center text-5xl text-white font-space-grotesk">
+    <div className="bg-black w-full overflow-y-auto flex flex-col items-center justify-center gap-[0px] text-center text-5xl text-white font-space-grotesk">
       <Header />
       <div className="self-stretch overflow-hidden flex flex-col p-[16px_0px] box-border items-center justify-center text-4xl font-noto-sans">
         <div className="overflow-hidden flex flex-row box-border items-center justify-center">
