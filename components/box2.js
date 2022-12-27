@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Link from "next/link";
 
 const Box2 = () => {
   useEffect(() => {
@@ -38,7 +39,7 @@ const Box2 = () => {
       data-animate-on-scroll
     >
       <h4 className="text-4xl md:text-base sm:text-base font-light">Want to Sponsor Us?</h4>
-      <p className="text-[#59DB8A] text-lg md:text-sm sm:text-sm"><span className="underline cursor-pointer">Click here</span> to see our previous sponsors </p>
+      <p className="text-[#59DB8A] text-lg md:text-sm sm:text-sm"><Link href={'/prevSponsors'}><span className="underline cursor-pointer">Click here</span></Link> to see our previous sponsors </p>
       <div className="text-xl md:text-base sm:text-base font-normal my-[5px]">
         <p>Contact us at</p>
         <p className="font-semibold">hackslash@nitp.ac.in</p>
