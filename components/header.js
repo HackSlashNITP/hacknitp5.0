@@ -1,10 +1,10 @@
 import { useCallback } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/router";;
 
-const Header= () => {
+const Header = () => {
   const router = useRouter();
 
-  const onHacknitp5ImageClick = useCallback(() => {
+  const onLogoClick = useCallback(() => {
     router.push("/homepage");
   }, [router]);
 
@@ -12,75 +12,44 @@ const Header= () => {
     router.push("/about-us");
   }, [router]);
 
-  const onTimelineClick = useCallback(() => {
+  const onTimelineTextClick = useCallback(() => {
     router.push("/timeline");
   }, [router]);
 
-  const onUlClick = useCallback(() => {
+  const onRulesTextClick = useCallback(() => {
     router.push("/rules");
-    // Please sync "5 Rules" to the project
-  }, []);
-
-  const onSponsorsClick = useCallback(() => {
-    router.push("/sponsors");
   }, [router]);
 
-  const onContactUsClick = useCallback(() => {
+  const onSponsorsTextClick = useCallback(() => {
+    router.push("/sponsors");
+  }, []);
+
+  const onContactUsTextClick = useCallback(() => {
     router.push("/contact-us");
   }, [router]);
 
   return (
-    <nav
-      className="relative w-full flex flex-row p-[5px_20px] box-border items-center justify-between gap-[25px] md:flex-col"
-      id="navbar"
-    >
+    <div className="flex w-full flex-wap p-5 bp:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-[17px] text-white flex-row items-center justify-between  font-space-grotesk">
       <img
-        className="relative w-[236.15px] h-[75px] shrink-0 cursor-pointer"
+        className="min-w-[200px] max-w-[250px] w-[20%] cursor-pointer mr-10"
         alt=""
         src="../hacknitp57.svg"
-        onClick={onHacknitp5ImageClick}
+        onClick={onLogoClick}
       />
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120.05px] shrink-0 cursor-pointer"
-        id="About_us"
-        onClick={onAboutUsClick}
-      >
-        About Us
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[109px] shrink-0 cursor-pointer"
-        id="Timeline"
-        onClick={onTimelineClick}
-      >
-        Timeline
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[52.6px] shrink-0 cursor-pointer"
-        id="Rules"
-        onClick={onUlClick}
-      >
-        Rules
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[120px] shrink-0 cursor-pointer"
-        id="Sponsors"
-        onClick={onSponsorsClick}
-      >
-        Sponsors
-      </h3>
-      <h3
-        className="m-[0] relative text-2xs font-bold font-space-grotesk text-white text-center flex items-center justify-center w-[107.19px] shrink-0 cursor-pointer"
-        onClick={onContactUsClick}
-      >
-        Contact Us
-      </h3>
-      <a href="https://bit.ly/hacknitp-4-discord" target={"_blank"} rel="noreferrer noopener">
-        <button className="border-0 font-bold py-2 px-5 text-xs cursor-pointer focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
+
+      <nav className="flex mt-1 min-w-[700px] md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-light md:text-sm sm:text-sm">
+        <b className="cursor-pointer" onClick={onAboutUsClick}>About Us</b>
+        <b className="cursor-pointer" onClick={onTimelineTextClick}>Timeline</b>
+        <b className="cursor-pointer" onClick={onRulesTextClick}>Rules</b>
+        <b className="cursor-pointer" onClick={onSponsorsTextClick}>Sponsors</b>
+        <b className="cursor-pointer" onClick={onContactUsTextClick}>Contact Us</b>
+        <a href="https://bit.ly/hacknitp-4-discord" target={"_blank"} rel="noreferrer noopener">
+          <button className="border-0 font-semibold py-2 px-5 text-xs cursor-pointer md:text-sm hover:bg-[#28e706] sm:text-sm focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
             Join Discord
           </button>
-          </a>
-
-    </nav>
+        </a>
+      </nav>
+    </div>
   );
 };
 
