@@ -59,8 +59,8 @@ const JudgesCarousel = () => {
         <div className={styles.slide_track}>
           {judges.map((judge) => {
             return (
-              <div className={styles.slide}>
-                <Image className={styles.images} src={judge.url} key={judge.id} layout="fill"/>
+              <div className={styles.slide} key={judge.id} >
+                <Image className={styles.images} src={judge.url} layout="fill"/>
               </div>
             );
           })}

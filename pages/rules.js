@@ -180,7 +180,6 @@ const Rules = () => {
                     return <ThemeCard img={track.img} desc={track.desc} key={track.id}/>;
                   })
                 }
-                
               </div>
             </section>
             <section
