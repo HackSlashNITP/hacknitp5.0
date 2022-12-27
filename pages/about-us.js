@@ -55,7 +55,7 @@ const AboutUs = () => {
       id="about"
     >
       {/* <Image className="absolute top-[0px] left-[0px]" alt="" src={bgImage} /> */}
-      <div className="absolute w-full h-screen top-0 left-0">
+      <div className="absolute w-full bg-[url('../public/background.jpg')] bg-cover md:bg-center bg-no-repeat h-screen top-0 left-0">
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />
           <div className="content w-full h-full flex flex-col justify-start items-center md:justify-center sm:justify-center">

@@ -78,12 +78,11 @@ const ContactUs = () => {
 
   return (
     <div
-      className="relative bg-black w-full h-screen overflow-y-auto text-center text-2xl text-white font-space-grotesk"
+      className="bg-black w-full h-screen overflow-y-auto text-center text-2xl text-white font-space-grotesk"
       id="container"
     >
-      {/* <Image className="absolute top-[0px] left-[0px]" alt="" src={bgImage} /> */}
-      <div className="absolute top-0 left-0 w-full h-screen">
-        <div className="content mb-[-0px]">
+      <div className="w-full h-screen">
+        <div className="bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat content mb-[-0px]">
           <Header />
           <div className="w-full h-full flex flex-col items-center">
             <div className="contact-us my-5 flex flex-col justify-center items-center bg-[#1C172F] rounded-3xl mx-auto w-[100%] md:w-[100%] sm:w-[100%]">
