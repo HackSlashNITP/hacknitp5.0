@@ -1,11 +1,12 @@
 .container {
   color: #FFF;
   width: fit-content;
-  padding: 10px 2rem;
-  margin: 5rem auto;
+  padding: 8px 0rem;
+  margin: 2rem auto;
   text-align: center;
   background: #2D2D2D;
   border-radius: 25px;
+  padding-bottom: 0;
 }
 .headline {
   font-weight: normal;

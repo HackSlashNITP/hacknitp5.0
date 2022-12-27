@@ -16,7 +16,7 @@
 
 .slide_track {
   display: flex;
-  width: calc(250px * 18);
+  width: calc(250px * 12);
   animation: scroll 30s linear infinite;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .images:hover {
-  transform: translateZ(20px);
+  transform: translateZ(40px);
   cursor: pointer;
 }
 
