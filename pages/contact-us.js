@@ -96,12 +96,12 @@ const ContactUs = () => {
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 CONTACT US
               </h3>
-              <h5 className="text-[#9E9E9E] text-lg md:text-sm sm:text-sm font-normal p-0 ">
+              <h5 className="text-[#9E9E9E] text-lg md:text-sm sm:text-sm font-normal">
                 For any query contact us
               </h5>
-              <div className="flex flex-row w-full items-end mb-0 ml-0 md:mb-5 sm:md-5 md:flex-col-reverse sm:flex-col-reverse md:items-center sm:items-center">
-                <div className="form-field flex flex-col  ml-0 w-[50%]  md:w-full sm:w-full justify-center items-center">
-                  <b className="text-xs text-[#2BFF08] font-normal my-4 md:text-xs sm:text-xs mb-0 ml-0 ">
+              <div className="flex flex-row w-full items-end mb-20 md:mb-5 sm:md-5 md:flex-col-reverse sm:flex-col-reverse md:items-center sm:items-center">
+                <div className="form-field flex flex-col w-[50%] md:w-full sm:w-full justify-center items-center">
+                  <b className="text-xs text-[#2BFF08] font-normal my-4 md:text-xs sm:text-xs">
                     Fill the details
                   </b>
                   <Form />
