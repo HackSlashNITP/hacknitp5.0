@@ -35,7 +35,7 @@ const Header= () => {
       id="navbar"
     >
       <img
-        className="relative w-[236.15px] h-[75px] shrink-0 pr-[35px] cursor-pointer"
+        className="relative w-[236.15px] h-[75px] shrink-0 cursor-pointer"
         alt=""
         src="../hacknitp57.svg"
         onClick={onHacknitp5ImageClick}
