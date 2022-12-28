@@ -87,8 +87,8 @@ const AboutUs = () => {
               <h1 className="text-5xl md:text-[25px] sm:text-[25px]">
                 ABOUT US
               </h1>
-              <div className="w-full flex justify-start rounded-r-2xl my-4 md:w-full sm:w-full sm:text-[15px] md:text-[16px]">
-                <div className="bg-[#1C172F] p-5 w-[45%] rounded-4xl md:w-full sm:w-full flex flex-col gap-y-3 justify-center items-center">
+              <div className="w-full flex justify-start my-4 px-10 md:px-0 md:w-full sm:w-full sm:text-[15px] md:text-[16px]">
+                <div className="bg-[#1C172F] p-5 w-[45%] rounded-r-3xl md:rounded-none md:w-full sm:w-full flex flex-col gap-y-3 justify-center items-center">
                   <Image
                     src={data[0].logo.src}
                     alt={data[0].name}
@@ -129,8 +129,8 @@ const AboutUs = () => {
                   <p className="p-3">{data[0].desc}</p>
                 </div>
               </div>
-              <div className="w-full flex justify-end my-4 md:my-10 md:w-full sm:w-full">
-                <div className="bg-[#1C172F] p-5 w-[45%] rounded-4xl md:w-full sm:w-full flex flex-col gap-y-3 justify-center items-center">
+              <div className="w-full flex justify-end my-4 px-10 md:px-0 md:my-10 md:w-full sm:w-full sm:text-[15px] md:text-[16px]">
+                <div className="bg-[#1C172F] p-5 w-[45%] rounded-l-3xl md:rounded-none md:w-full sm:w-full flex flex-col gap-y-3 justify-center items-center">
                   <Image
                     src={data[1].logo.src}
                     alt={data[1].name}
