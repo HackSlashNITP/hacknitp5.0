@@ -260,8 +260,8 @@ const organizersList = [
     imgUrl: Ritwik.src,
     name: "Ritwik Singh",
     role: "Event Management Lead",
-    linkedin: "",
-    github: "",
+    linkedin: "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
+    github: "https://github.com/RitwikSingh28",
     twitter: "",
   },
   {
