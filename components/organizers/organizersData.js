@@ -2,8 +2,8 @@ import Shivam from "../../public/organizers/Shivam Jha.jpg";
 import Saizal from "../../public/organizers/Saizal Sinha.jpg";
 import Tejas from "../../public/organizers/Tejas Manhas.jpg";
 import Pulkit from "../../public/organizers/Pulkit Agarwal.jpeg";
-// import PragatiV from "../../public/organizers/Pragati Verma.jpg"
-// import Tanvi from '../../public/organizers/Tanvi Tanya.heic';
+import PragatiV from "../../public/organizers/Pragati Verma.jpg"
+import Tanvi from '../../public/organizers/Tanvi Tanya.jpg';
 import Srijan from "../../public/organizers/Srijan Shovit.png";
 import Paras from "../../public/organizers/Paras punjabi.jpg";
 import Harsh from "../../public/organizers/Harsh Anand.JPG";
@@ -74,20 +74,22 @@ const organizersList = [
     linkedin: "",
     github: "",
   },
-  // {
-  //     'id': 4,
-  //     'imgUrl': PragatiV.src,
-  //     'name': 'Pragati Verma',
-  //     'role': 'Event Management Lead',
-  //     'linkedin': 'https://www.linkedin.com/in/pragati-verma-654639212',
-  //     'github': 'https://github.com/Pragati1122',
-  // },
-  // {
-  //     'id': 5,
-  //     'imgUrl': Tanvi.src,
-  //     'name': 'Tanvi Tanya',
-  //     'role': 'Event Management Lead'
-  // },
+  {
+      'id': 4,
+      'imgUrl': PragatiV.src,
+      'name': 'Pragati Verma',
+      'role': 'Event Management Lead',
+      'linkedin': 'https://www.linkedin.com/in/pragati-verma-654639212',
+      'github': 'https://github.com/Pragati1122',
+  },
+  {
+      'id': 5,
+      'imgUrl': Tanvi.src,
+      'name': 'Tanvi Tanya',
+      'role': 'Event Management Lead',
+      'linkedin': '',
+      'github': '',
+  },
   {
     id: 6,
     imgUrl: Srijan.src,

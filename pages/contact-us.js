@@ -120,7 +120,6 @@ const ContactUs = () => {
                 {show || <p className="text-xs">Click to reveal...</p>}
               </div>
               {show && <Organizers />}
-              {/* {show && <Organizers />} */}
             </div>
             <div className="contact-us my-5 py-6 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
