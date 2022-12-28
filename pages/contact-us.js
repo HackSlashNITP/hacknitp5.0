@@ -5,7 +5,7 @@ import Form from "../components/form";
 import Image from "next/image";
 import doubtImage from "../public/Group.png";
 import Faq from "../components/faq";
-import Organizers from "../components/organizers";
+import Organizers from "../components/organizers/organizers.js";
 
 const ContactUs = () => {
   useEffect(() => {
