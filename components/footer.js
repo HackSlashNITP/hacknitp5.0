@@ -6,7 +6,7 @@ import { AiFillYoutube } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="px-4 bg-[#545454] py-3 font-space-grotesk">
+    <footer className="px-4 bg-[#2a2a2a] py-3 font-space-grotesk">
       <div className="flex items-center justify-between sm:flex-col md:flex-col mb-3 gap-y-5 text-center">
         <Link href="/homepage" className="items-center flex-1">
           <img
