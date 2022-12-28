@@ -14,7 +14,6 @@ const timeline = () => {
      <Header />
       <DigitalCountdown/>
       <Scheduling/>
-
       <div className="w-full">
         <Footer />
       </div>
