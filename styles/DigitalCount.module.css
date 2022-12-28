@@ -8,23 +8,28 @@
   border-radius: 25px;
   padding-bottom: 0;
 }
-.headline {
-  font-weight: normal;
+/* #headline {
+  font-weight: 4rem;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
-}
+} */
 .lists {
+  font-weight: normal;
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+  justify-content: center ;
 }
 .blocks {
   display: block;
   border-radius: 0.5rem;
-  width: 100%;
-  font-size: 4.5rem;
+  width: 40%;
+  font-size: 3rem;
+  font-weight: normal;
+  color: rgb(11, 255, 64);
+  margin-left: 1rem;
 }
 
 @media all and (max-width: 768px) {
@@ -38,3 +43,19 @@
     font-size: calc(3.375rem * var(--smaller));
   }
 }
+
+@media only screen and (max-width: 400px) {
+  
+  .lists {
+    font-size: 1rem;
+  }
+  .blocks {
+    font-size: calc(0.1% var(--smaller));
+  }
+  .container{
+    width: 90vw;
+  }
+}
+
+
+

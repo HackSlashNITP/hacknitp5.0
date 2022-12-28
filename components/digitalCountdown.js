@@ -47,8 +47,8 @@ var x = setInterval(function() {
 
   return (
     <div className={styles.container}>
-<div  className="{styles.headline} text-center text-5xl text-white font-Poppins" id="headline">EVENT STARTS IN</div>
-<div id="countdown" className="text-center text-sm text-white font-Poppins">
+<div  className=" text-center text-5xl text-white font-Poppins font-medium sm:text-sm" id="headline">EVENT STARTS IN</div>
+<div id="countdown" className="text-center text-sm text-white font-Poppins ">
 <ul>
 <li className={styles.lists}><span className={styles.blocks}  id="days">{end.days}</span>days</li>
 <li className={styles.lists}><span className={styles.blocks} id="hours">{end.hours}</span>Hours</li>
