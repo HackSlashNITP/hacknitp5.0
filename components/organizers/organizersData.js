@@ -49,7 +49,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 1,
@@ -58,7 +57,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/saizal",
     github: "https://github.com/Saizalsinha",
-    twitter: "",
   },
   {
     id: 2,
@@ -67,7 +65,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 3,
@@ -76,7 +73,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   // {
   //     'id': 4,
@@ -85,7 +81,6 @@ const organizersList = [
   //     'role': 'Event Management Lead',
   //     'linkedin': 'https://www.linkedin.com/in/pragati-verma-654639212',
   //     'github': 'https://github.com/Pragati1122',
-  //     'twitter': ''
   // },
   // {
   //     'id': 5,
@@ -100,7 +95,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba",
     github: "https://github.com/SrijanShovit",
-    twitter: "https://twitter.com/shovitsrijan",
   },
   {
     id: 7,
@@ -109,7 +103,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/paras-punjabi-0b7669220/",
     github: "https://github.com/Paras-Punjabi",
-    twitter: "",
   },
   {
     id: 8,
@@ -118,7 +111,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/devharsh01",
     github: "https://github.com/its-me-Harsh-Anand",
-    twitter: "",
   },
   {
     id: 9,
@@ -127,7 +119,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 10,
@@ -136,7 +127,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 11,
@@ -145,7 +135,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 12,
@@ -154,7 +143,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/mohit-kumar-02b07667",
     github: "https://github.com/mohit-kumar-b2",
-    twitter: "",
   },
   {
     id: 13,
@@ -163,7 +151,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 14,
@@ -172,7 +159,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 15,
@@ -181,7 +167,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/ayushgautam07",
     github: "https://github.com/ayushgautam7",
-    twitter: "",
   },
   {
     id: 16,
@@ -190,7 +175,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/shashank-yadav-294092230",
     github: "https://github.com/Shashank2104125",
-    twitter: "https://twitter.com/Shashanky01",
   },
   {
     id: 17,
@@ -199,7 +183,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/shrey-kashyap-a47b67240",
     github: "https://github.com/shreyneol",
-    twitter: "",
   },
   {
     id: 18,
@@ -208,7 +191,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/devatraj-bhattacharya-6a22611b4",
     github: "https://www.github.com/devatraj",
-    twitter: "",
   },
   {
     id: 19,
@@ -217,7 +199,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/sakshi-singh-02658a22b",
     github: "",
-    twitter: "",
   },
   {
     id: 20,
@@ -226,7 +207,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 21,
@@ -235,7 +215,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 22,
@@ -244,7 +223,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/rani-kumari-a74915229/",
     github: "https://github.com/rani620",
-    twitter: "https://twitter.com/rani6201",
   },
   {
     id: 23,
@@ -253,7 +231,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "http://www.linkedin.com/in/susajjit",
     github: "https://github.com/SUSAJJIT",
-    twitter: "",
   },
   {
     id: 24,
@@ -262,7 +239,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
     github: "https://github.com/RitwikSingh28",
-    twitter: "",
   },
   {
     id: 25,
@@ -271,7 +247,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 26,
@@ -280,7 +255,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 27,
@@ -289,7 +263,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 28,
@@ -298,7 +271,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 29,
@@ -307,7 +279,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/sameer-choudhary-2255ab222",
     github: "https://github.com/samzorroak",
-    twitter: "https://twitter.com/sam_zorroak?t=0N_6eYGYjk8GOXMZN0Hfyg&s=09",
   },
   {
     id: 30,
@@ -316,7 +287,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
     github: "https://github.com/RohanKumarChoudhary",
-    twitter: "",
   },
   {
     id: 31,
@@ -325,7 +295,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/nisarg-patel-293454229/",
     github: "https://www.linkedin.com/in/nisarg-patel-293454229/",
-    twitter: "https://twitter.com/Nisarg2003",
   },
   {
     id: 32,
@@ -334,7 +303,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/mandeep-singh-saluja-70a695231",
     github: "https://github.com/MandeepSaluja",
-    twitter: "https://mobile.twitter.com/mindtheman",
   },
   {
     id: 33,
@@ -343,7 +311,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 34,
@@ -352,7 +319,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 35,
@@ -361,7 +327,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/public-profile/settings",
     github: "https://github.com/sAchin12320-web",
-    twitter: "",
   },
   {
     id: 36,
@@ -370,7 +335,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/sanya-kumari-8ba878228",
     github: "https://www.github.com/Sanaya56",
-    twitter: "",
   },
   {
     id: 37,
@@ -379,7 +343,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/simranpreet-kaur-8b669b238",
     github: "https://github.com/03Simran",
-    twitter: "",
   },
   {
     id: 38,
@@ -388,7 +351,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/anshu-gupta-66519122a/",
     github: "https://github.com/Anshu1Gupta",
-    twitter: "https://twitter.com/rahul10096218",
   },
   {
     id: 39,
@@ -397,7 +359,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/anushka-d-751b20229",
     github: "https://github.com/anush07k",
-    twitter: "https://twitter.com/nushk0807",
   },
   {
     id: 40,
@@ -406,7 +367,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "",
     github: "",
-    twitter: "",
   },
   {
     id: 41,
@@ -415,7 +375,6 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/avinash-kumar-0a66a782/",
     github: "https://github.com/Avik17",
-    twitter: "https://twitter.com/avik_1706",
   },
 ];
 

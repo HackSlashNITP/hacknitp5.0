@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import style from "../../styles/organisers.module.css";
 import SocialMediaIcon from "../social_media_icon";
-import { AiFillLinkedin, AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
-const OrganizerCard = ({imgUrl, name, role, linkedin, twitter, github}) => {
+const OrganizerCard = ({imgUrl, name, role, linkedin, github}) => {
   return (
     <div className="m-4 ">
       <div className={style.container}>
@@ -35,7 +35,6 @@ const OrganizerCard = ({imgUrl, name, role, linkedin, twitter, github}) => {
       <div className="social-media-handles flex flex-row gap-x-3 justify-center items-center">
         {linkedin && <SocialMediaIcon link={linkedin} icon={<AiFillLinkedin />}/>}
         {github && <SocialMediaIcon link={github} icon={<AiFillGithub />}/>}
-        {twitter && <SocialMediaIcon link={twitter} icon={<AiFillTwitterCircle />}/>}
       </div>
     </div>
   );

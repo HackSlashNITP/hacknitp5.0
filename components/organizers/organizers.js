@@ -14,7 +14,6 @@ const Organizers = () => {
             role={organizer.role}
             linkedin={organizer.linkedin}
             github={organizer.github}
-            twitter={organizer.twitter}
           />
         );
       })}
