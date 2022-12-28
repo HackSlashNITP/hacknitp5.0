@@ -103,7 +103,7 @@ const AboutUs = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center">
+                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center hover:scale-150 hover:text-[#a21caf]">
                         <AiFillInstagram />
                       </div>
                     </a>
@@ -112,7 +112,7 @@ const AboutUs = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center">
+                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center hover:scale-150 hover:text-[#0ea5e9]">
                         <AiFillFacebook />
                       </div>
                     </a>
@@ -121,7 +121,7 @@ const AboutUs = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center">
+                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center hover:scale-150 hover:text-[#2563eb]">
                         <AiFillLinkedin />
                       </div>
                     </a>
@@ -145,7 +145,7 @@ const AboutUs = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center">
+                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center hover:scale-150 hover:text-[#a21caf]">
                         <AiFillInstagram />
                       </div>
                     </a>
@@ -154,7 +154,7 @@ const AboutUs = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center">
+                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center hover:scale-150 hover:text-[#0ea5e9]">
                         <AiFillFacebook />
                       </div>
                     </a>
@@ -163,7 +163,7 @@ const AboutUs = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center">
+                      <div className="cursor-pointer bg-[transparent] mb-3 flex text-white text-4xl justify-center items-center hover:scale-150 hover:text-[#2563eb]">
                         <AiFillLinkedin />
                       </div>
                     </a>

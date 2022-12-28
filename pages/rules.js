@@ -70,11 +70,6 @@ const Rules = () => {
       'img': '/theme/blockchain.svg',
       'desc': 'Blockchain'
     },
-    {
-      'id': 8,
-      'img': '/theme/subs.svg',
-      'desc': 'Sustainable Development'
-    }
   ];
   return (
     <div className="bg-black md:bg-[url('../public/background-medium.jpg')] w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">

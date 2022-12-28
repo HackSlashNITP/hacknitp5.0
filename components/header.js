@@ -46,19 +46,19 @@ const Header = () => {
         />
 
         <nav className="navigation-links md:hidden flex mt-1 md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-extralight md:text-[17px]">
-          <b className="cursor-pointer" onClick={onAboutUsClick}>
+          <b className="cursor-pointer  hover:text-[#2BFF08]" onClick={onAboutUsClick}>
             About Us
           </b>
-          <b className="cursor-pointer" onClick={onTimelineTextClick}>
+          <b className="cursor-pointer hover:text-[#2BFF08]" onClick={onTimelineTextClick}>
             Timeline
           </b>
-          <b className="cursor-pointer" onClick={onRulesTextClick}>
+          <b className="cursor-pointer hover:text-[#2BFF08]" onClick={onRulesTextClick}>
             Rules
           </b>
-          <b className="cursor-pointer" onClick={onSponsorsTextClick}>
+          <b className="cursor-pointer hover:text-[#2BFF08]" onClick={onSponsorsTextClick}>
             Sponsors
           </b>
-          <b className="cursor-pointer" onClick={onContactUsTextClick}>
+          <b className="cursor-pointer hover:text-[#2BFF08]" onClick={onContactUsTextClick}>
             Contact Us
           </b>
           <a
