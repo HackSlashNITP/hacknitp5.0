@@ -65,7 +65,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3">
+            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3 hover:text-[#f472b6]">
               <AiFillInstagram />
             </div>
           </a>
@@ -74,7 +74,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3">
+            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3 hover:text-[#0ea5e9]">
               <AiFillTwitterCircle />
             </div>
           </a>
@@ -83,7 +83,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3">
+            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3 hover:text-[#2563eb]">
               <AiFillLinkedin />
             </div>
           </a>
@@ -92,7 +92,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3">
+            <div className="cursor-pointer bg-black mb-3 flex text-white text-base justify-center items-center w-[40px] h-[40px] rounded-full mx-3 hover:text-[#dc2626]">
               <AiFillYoutube />
             </div>
           </a>

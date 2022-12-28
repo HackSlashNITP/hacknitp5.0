@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/judgesCarousel.module.css";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 const JudgesCarousel = () => {
   const judges = [
@@ -60,9 +62,26 @@ const JudgesCarousel = () => {
           {judges.map((judge) => {
             return (
               <div className={styles.slide} key={judge.id} >
-                <Image className={styles.images} src={judge.url} layout="fill"/>
+                
+                {/* trying apply overlay here */}
+                
+                <div className={styles.wrapper}>
+                <img className={styles.images} src={judge.url} layout="fill"/>
+                <div className={styles.overlay}>
+                <div className={styles.content}>
+                 {/* <div>Shashank</div> */}
+                 <a className={styles.tag}>Shashank Yadav</a>
+                 <div className={styles.tag}>
+                  <a href="#" target="_blank" className="text-[#2BFF08]"><AiFillLinkedin/></a>
+                  <a href="#" target="_blank" className="text-[#2BFF08]"><AiFillGithub/></a>
+                  </div>
+                </div>
               </div>
-            );
+           </div>
+
+
+          </div>
+          );
           })}
         </div>
       </div>
