@@ -83,7 +83,7 @@ const ContactUs = () => {
         <div className="bg-[url('../public/background.jpg')] md:bg-[url('../public/background-medium.jpg')] bg-cover md:bg-fixed bg-no-repeat content mb-[-0px]">
           <Header />
           <div className="w-full h-full flex flex-col items-center">
-            <div className="contact-us my-5 flex flex-col justify-center items-center bg-[#1C172F] rounded-3xl mx-auto w-[100%] md:w-[100%] sm:w-[100%]">
+            <div className="contact-us p-5 my-5 flex flex-col justify-center items-center bg-[#1C172F] rounded-3xl mx-auto w-[100%] md:w-[100%] gap-y-3 ">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 ORGANIZERS
               </h3>

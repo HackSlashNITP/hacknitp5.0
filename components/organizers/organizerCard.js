@@ -10,17 +10,17 @@ const OrganizerCard = ({imgUrl, name, role, linkedin, github}) => {
       <div className={style.container}>
         <Image
           src={imgUrl}
-          width={100}
-          height={100}
+          width={125}
+          height={125}
           objectFit='cover'
-          className="border-2 rounded-full w-58 hover:bg-[#d4d4d8] hover:scale-150 transition duration-300 ease-in-out hover:opacity-50"
+          className="border-2 rounded-full sm:w-[100px] sm:h-[100px]"
           id="pic"
         />
       </div>
 
       <figcaption
         className="text-xs text-yellow-900"
-        style={{ fontSize: "1rem" }}
+        style={{ fontSize: "1.2rem" }}
       >
         {name}
       </figcaption>
