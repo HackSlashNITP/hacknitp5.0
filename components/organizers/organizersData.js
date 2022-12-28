@@ -2,8 +2,8 @@ import Shivam from "../../public/organizers/Shivam Jha.jpg";
 import Saizal from "../../public/organizers/Saizal Sinha.jpg";
 import Tejas from "../../public/organizers/Tejas Manhas.jpg";
 import Pulkit from "../../public/organizers/Pulkit Agarwal.jpeg";
-import PragatiV from "../../public/organizers/Pragati Verma.jpg"
-import Tanvi from '../../public/organizers/Tanvi Tanya.jpg';
+import PragatiV from "../../public/organizers/Pragati Verma.jpg";
+import Tanvi from "../../public/organizers/Tanvi Tanya.jpg";
 import Srijan from "../../public/organizers/Srijan Shovit.png";
 import Paras from "../../public/organizers/Paras punjabi.jpg";
 import Harsh from "../../public/organizers/Harsh Anand.JPG";
@@ -40,6 +40,7 @@ import Anushka from "../../public/organizers/anushka dubey.jpg";
 import Pawni from "../../public/organizers/pawni chauhan.jpg";
 import AnshuG from "../../public/organizers/anshu gupta.jpg";
 import Avinash from "../../public/organizers/Avinash Kumar.jpg";
+import Rakshit from "../../public/organizers/rakshit.jpg";
 
 const organizersList = [
   {
@@ -75,20 +76,20 @@ const organizersList = [
     github: "",
   },
   {
-      'id': 4,
-      'imgUrl': PragatiV.src,
-      'name': 'Pragati Verma',
-      'role': 'Event Management Lead',
-      'linkedin': 'https://www.linkedin.com/in/pragati-verma-654639212',
-      'github': 'https://github.com/Pragati1122',
+    id: 4,
+    imgUrl: PragatiV.src,
+    name: "Pragati Verma",
+    role: "Event Management Lead",
+    linkedin: "https://www.linkedin.com/in/pragati-verma-654639212",
+    github: "https://github.com/Pragati1122",
   },
   {
-      'id': 5,
-      'imgUrl': Tanvi.src,
-      'name': 'Tanvi Tanya',
-      'role': 'Event Management Lead',
-      'linkedin': '',
-      'github': '',
+    id: 5,
+    imgUrl: Tanvi.src,
+    name: "Tanvi Tanya",
+    role: "Event Management Lead",
+    linkedin: "",
+    github: "",
   },
   {
     id: 6,
@@ -377,6 +378,14 @@ const organizersList = [
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/avinash-kumar-0a66a782/",
     github: "https://github.com/Avik17",
+  },
+  {
+    id: 42,
+    imgUrl: Rakshit.src,
+    name: "Rakshit Sinha",
+    role: "Event Management Lead",
+    linkedin: "https://www.linkedin.com/in/rakshit-sinha-089992234",
+    github: "https://www.github.com/Vicrease",
   },
 ];
 
