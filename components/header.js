@@ -41,7 +41,7 @@ const Header = () => {
         <img
           className="min-w-[200px] max-w-[250px] w-[20%] cursor-pointer mr-10 bp:mr-0"
           alt=""
-          src="../hacknitp57.svg"
+          src="../hacknitp5.svg"
           onClick={onLogoClick}
         />
 

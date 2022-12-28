@@ -1,9 +1,7 @@
-import Image from "next/image";
 import { useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import ThemeCard from "../components/themeCard";
-import backgroundImage from "../public/anirudhxu4pz7gi9jyunsplash-15@2x.png";
 
 const Rules = () => {
   useEffect(() => {

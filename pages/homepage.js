@@ -1,7 +1,5 @@
-import Image from "next/image";
 import { useEffect } from "react";
 import Header from "../components/header";
-import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-16@2x.png";
 import Footer from "../components/footer";
 
 const Homepage = () => {

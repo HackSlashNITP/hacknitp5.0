@@ -3,8 +3,6 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Form from "../components/form";
 import Image from "next/image";
-import Carousel from "../components/carousel";
-import bgImage from "../public/anirudhxu4pz7gi9jyunsplash-13@2x.png";
 import doubtImage from "../public/Group.png";
 import Faq from "../components/faq";
 import Organizers from "../components/organizers";
