@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import style from "../../styles/organisers.module.css";
-import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
+import SocialMediaIcon from "../social_media_icon";
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
 
-const OrganizerCard = ({imgUrl, name, role}) => {
+const OrganizerCard = ({imgUrl, name, role, linkedin, twitter, github}) => {
   return (
     <div className="m-4 ">
       <div className={style.container}>
@@ -22,21 +23,20 @@ const OrganizerCard = ({imgUrl, name, role}) => {
         style={{ fontSize: "1rem" }}
       >
         {name}
-        <a
-          className="text-[#4ade80] hover:scale-150"
-          href="https://www.linkedin.com/company/hackslash"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <AiFillLinkedin /> <AiFillTwitterCircle />
-        </a>
       </figcaption>
+
       <figcaption
         className="p-0 m-0 text-[#4ade80]"
         style={{ fontSize: "0.8rem" }}
       >
         {role}
       </figcaption>
+
+      <div className="social-media-handles flex flex-row gap-x-3 justify-center items-center">
+        {linkedin && <SocialMediaIcon link={linkedin} icon={<AiFillLinkedin />}/>}
+        {github && <SocialMediaIcon link={github} icon={<AiFillGithub />}/>}
+        {twitter && <SocialMediaIcon link={twitter} icon={<AiFillTwitterCircle />}/>}
+      </div>
     </div>
   );
 };
