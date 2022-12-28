@@ -10,7 +10,7 @@ import certificationsSponsor from "../components/prev_sponsors/certificationsSpo
 
 const PrevSponsors = () => {
   return (
-    <div className="bg-black w-full text-white font-space-grotesk">
+    <div className="bg-black md:bg-[url('../public/background-medium.jpg')] bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat w-full text-white font-space-grotesk">
       <Header />
       <div className="w-full main-content flex flex-col items-center">
         <h2 className="text-6xl font-semibold my-10 md:text-4xl md:y-3">Sponsors</h2>

@@ -41,11 +41,11 @@ const Header = () => {
         <img
           className="min-w-[200px] max-w-[250px] w-[20%] cursor-pointer mr-10 bp:mr-0"
           alt=""
-          src="../hacknitp57.svg"
+          src="../hacknitp5.svg"
           onClick={onLogoClick}
         />
 
-        <nav className="navigation-links md:hidden flex mt-1 min-w-[700px] md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-extralight md:text-[17px]">
+        <nav className="navigation-links md:hidden flex mt-1 md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-extralight md:text-[17px]">
           <b className="cursor-pointer" onClick={onAboutUsClick}>
             About Us
           </b>

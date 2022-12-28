@@ -9,8 +9,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Organizers = () => {
   return (
-    <div class="grid grid-cols-8 md:grid-cols-3 lg:grid-cols-6 sm:grid-col-2">
-      
+ <div className="grid grid-cols-8 md:grid-cols-3 lg:grid-cols-6 sm:grid-col-2">
        <div className='m-4 '>
   {/* container */}
    <div className={style.container} >
