@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import ThemeCard from "../components/themeCard";
+import ListItem from "../components/prev_prizes/listItem";
+import allparticpant from "../components/prev_prizes/allParticipants";
 
 const Rules = () => {
   useEffect(() => {
@@ -36,44 +38,44 @@ const Rules = () => {
 
   const tracks = [
     {
-      'id': 1,
-      'img': '/theme/edu.svg',
-      'desc': 'Education'
+      id: 1,
+      img: "/theme/edu.svg",
+      desc: "Education",
     },
     {
-      'id': 2,
-      'img': '/theme/employ.svg',
-      'desc': 'Employability'
+      id: 2,
+      img: "/theme/employ.svg",
+      desc: "Employability",
     },
     {
-      'id': 3,
-      'img': '/theme/food.svg',
-      'desc': 'Food'
+      id: 3,
+      img: "/theme/food.svg",
+      desc: "Food",
     },
     {
-      'id': 4,
-      'img': '/theme/health.svg',
-      'desc': 'Healthcare'
+      id: 4,
+      img: "/theme/health.svg",
+      desc: "Healthcare",
     },
     {
-      'id': 5,
-      'img': '/theme/social.svg',
-      'desc': 'Social Security And Awareness'
+      id: 5,
+      img: "/theme/social.svg",
+      desc: "Social Security And Awareness",
     },
     {
-      'id': 6,
-      'img': '/theme/open.svg',
-      'desc': 'Open Innovation'
+      id: 6,
+      img: "/theme/open.svg",
+      desc: "Open Innovation",
     },
     {
-      'id': 7,
-      'img': '/theme/blockchain.svg',
-      'desc': 'Blockchain'
+      id: 7,
+      img: "/theme/blockchain.svg",
+      desc: "Blockchain",
     },
     {
-      'id': 8,
-      'img': '/theme/subst.svg',
-      'desc': 'Sustainable Development'
+      id: 8,
+      img: "/theme/subst.svg",
+      desc: "Sustainable Development",
     },
   ];
   return (
@@ -118,7 +120,6 @@ const Rules = () => {
                         href="https://hacknitp-4.devfolio.co/."
                         target="_blank"
                         rel="noreferrer"
-                        
                       >
                         {" "}
                         Devfolio.
@@ -173,11 +174,15 @@ const Rules = () => {
               </h1>
 
               <div className="w-full px-10 md:px-0 sm:text-[25px] md:text-[25px] md:w-[90%] grid md:grid-cols-1 sm:grid-cols-1 grid-cols-2 gap-x-[15%]">
-                {
-                  tracks.map((track) => {
-                    return <ThemeCard img={track.img} desc={track.desc} key={track.id}/>;
-                  })
-                }
+                {tracks.map((track) => {
+                  return (
+                    <ThemeCard
+                      img={track.img}
+                      desc={track.desc}
+                      key={track.id}
+                    />
+                  );
+                })}
               </div>
             </section>
             <section
@@ -193,40 +198,21 @@ const Rules = () => {
                   className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                   data-animate-on-scroll
                 >
-                  PRIZES & PERKS
+                  PREVIOUS YEAR PRIZES & PERKS
                 </h1>
-                <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
-                  <li>
-                    <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
-                      Cash prize worth 10k for best hack built on top of
-                      Ethereum and for teams that integrate Polygon in their
-                      hacks as well the prize money will be 15k along with
-                      eligibility for internship/full-time role interviews and a
-                      chance to land seed funding of upto 5000 USD(or
-                      equivalent)!*.
-                    </h3>
-                  </li>
-                  <li>
-                    <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
-                      Cash prize worth 10k for best hack built on top of
-                      Ethereum and for teams that integrate Polygon in their
-                      hacks as well the prize money will be 15k along with
-                      eligibility for internship/full-time role interviews and a
-                      chance to land seed funding of upto 5000 USD(or
-                      equivalent)!*.
-                    </h3>
-                  </li>
-                  <li>
-                    <h3 className="m-2 md:mx-[5px] sm:mx-[5px] font-normal font-inherit">
-                      Cash prize worth 10k for best hack built on top of
-                      Ethereum and for teams that integrate Polygon in their
-                      hacks as well the prize money will be 15k along with
-                      eligibility for internship/full-time role interviews and a
-                      chance to land seed funding of upto 5000 USD(or
-                      equivalent)!*.
-                    </h3>
-                  </li>
-                </ul>
+                <div className="perksForEveryone w-full m-[0]">
+                  <h1
+                    className="m-[0] my-5 text-3xl sm:text-base md:text-base font-normal font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                    data-animate-on-scroll
+                  >
+                    PERKS FOR EACH PARTICIPANT
+                  </h1>
+                  <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                    {allparticpant.map((perk) => {
+                      return <ListItem key={perk.id} msg={perk.msg} />;
+                    })}
+                  </ul>
+                </div>
               </div>
             </section>
           </main>
