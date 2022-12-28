@@ -61,7 +61,7 @@ const Sponsors = () => {
       </div>
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center gap-[22px] lg:h-[auto] md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto]">
         <div className="overflow-hidden flex flex-col box-border items-center justify-center">
-          <b className="text-lg font-light md:text-sm">Platinum Sponsors</b>
+          <b className="text-lg font-light md:text-sm">Title Sponsors</b>
         </div>
         <div
           className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
@@ -74,7 +74,7 @@ const Sponsors = () => {
       </div>
       <div className="self-stretch my-10 overflow-hidden flex flex-col items-center justify-center gap-[22px] md:flex-col md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto]">
         <div className="overflow-hidden flex flex-col box-border items-center justify-center">
-          <b className="text-lg text-[#FFE143] font-light md:text-sm">Gold Sponsors</b>
+          <b className="text-lg font-light md:text-sm">Associate Sponsors</b>
         </div>
         <div
           className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
@@ -87,7 +87,20 @@ const Sponsors = () => {
       </div>
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center gap-[22px] lg:h-[auto] md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto] sm:h-[auto]">
         <div className="shrink-0 overflow-hidden flex flex-col px-20 box-border items-center justify-center">
-          <b className="text-lg text-[#BCBCBC] font-light md:text-sm">Silver Sponsors</b>
+          <b className="text-lg font-light md:text-sm">Subevent Sponsors</b>
+        </div>
+        <div
+          className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
+          data-animate-on-scroll
+        >
+          {platinumSponsors.map((sponsor) => {
+            return <EmptyBox key={sponsor.id} />;
+          })}
+        </div>
+      </div>
+      <div className="self-stretch overflow-hidden flex flex-col items-center justify-center gap-[22px] lg:h-[auto] md:pt-[0px] md:pb-[0px] md:box-border md:h-[auto] sm:h-[auto]">
+        <div className="shrink-0 overflow-hidden flex flex-col px-20 box-border items-center justify-center">
+          <b className="text-lg font-light md:text-sm">Certificate Sponsors</b>
         </div>
         <div
           className="grid grid-cols-3 md:grid-cols-1 gap-x-20 gap-y-10 [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
