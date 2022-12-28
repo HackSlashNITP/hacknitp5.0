@@ -38,10 +38,10 @@ const Homepage = () => {
       className=" bg-black w-full h-screen overflow-y-auto text-center text-5xl text-white font-space-grotesk"
       id="homepage"
     >
-      <div className="w-full h-screen bg-black bg-[url('../public/background-medium.jpg')] bg-cover md:bg-center md:bg-fixed bg-no-repeat md:h-auto flex flex-col justify-between">
+      <div className="w-full h-screen md:h-auto bg-black bg-[url('../public/background-medium.jpg')] bg-cover md:bg-center md:bg-fixed bg-no-repeat flex flex-col justify-between">
         <div className="wrapper min-h-full md:mb-[100px] sm:mb-[100px]">
           <Header />
-          <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[100px]">
+          <div className="max-w-[800px] flex flex-col items-start md:items-center lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[50px]">
             <img
               className="my-2 w-[75%] h-[75%] min-w-[200px] [&.animate]:animate-[3s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
               alt=""
@@ -56,16 +56,25 @@ const Homepage = () => {
               December 20,2022 - February 19,2023
             </h3>
             <h6
-              className="m-[0] md:text-[15px] bg-clip-text bg-black text-xs font-normal font-noto-sans text-left md:text-center inline-block w-[75%] md:w-[100%] [-webkit-text-stroke:3px_rgba(255,_255,_255,_0)] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
+              className="m-[0] md:text-[16px] bg-clip-text bg-black text-xs font-normal font-noto-sans text-left md:text-center inline-block w-[100%] [-webkit-text-stroke:3px_rgba(255,_255,_255,_0)] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
               id="texr"
               data-animate-on-scroll
             >
-              The hack is only a small part of the competition. The real spirit lies
-              in building your network in the growing tech community and collaborating
-              with some of the finest minds of the nation. Just remember, taking the
-              Hackathons too seriously defeats the purpose. Save the seriousness for
-              pitching to investors. Keeping an open mind will open new doors, help
-              build new relationships and acquire new skills. This is HackNITP.
+              While it might appear at first stance that the logistics of a
+              hackathon seemingly only pivot around rigorous and brain-wracking
+              coding discourses, its composition is not solely limited to
+              problem solving. Hack NITP has been engineered so to provide
+              medium for like-minded individuals with a technical bent of mind
+              to get together and evolve into bigger, better communities and
+              forums, thereby facilitating efficient networking in the
+              technology sector. Not only that, the event will be packed with
+              numerous sessions directed towards better understanding in legion
+              of domains as in Machine Learning, Web Technology, Blockchain, so
+              on and so forth. For the likes of absolute beginners as well as
+              trained professionals all set to step into the corporate world,
+              the ideals of HACK NITP have been built to appeal to serve to one
+              and all. Hereby lies altiore proposito for our collective
+              endeavor, HACK NITP.
             </h6>
           </div>
         </div>
