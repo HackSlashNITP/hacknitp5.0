@@ -54,7 +54,7 @@ module.exports = {
       "6xl": "48px",
       "7xl": "50px",
     },
-    screens: { lg: { max: "1200px" }, md: { max: "768px" }, bp: {max: '980px'} },
+    screens: { lg: { max: "1200px" }, md: { max: "768px" }, bp: {max: '980px'}, sm: { max: "580px" } },
   },
   corePlugins: { preflight: false },
 };

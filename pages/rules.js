@@ -70,19 +70,10 @@ const Rules = () => {
       'img': '/theme/blockchain.svg',
       'desc': 'Blockchain'
     },
-    {
-      'id': 8,
-      'img': '/theme/subst.svg',
-      'desc': 'Sustainable Development'
-    },
   ];
   return (
-    <div className="relative bg-black md:bg-[url('../public/background-medium.jpg')] w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
-      {/* <Image
-        alt=""
-        src={backgroundImage}
-      /> */}
-      <div className="absolute bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat top-0 left flex flex-col w-full h-">
+    <div className="bg-black md:bg-[url('../public/background-medium.jpg')] w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
+      <div className="bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat flex flex-col w-full h-">
         <div className="wrapper min-h-full mb-[-0px]">
           <Header />
           <main className="w-full my-[5%] flex flex-col justify-between items-center">
@@ -104,9 +95,8 @@ const Rules = () => {
                 <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   <li>
                     <h3 className="m-2 md:m-[5px] sm:m-[5px] font-normal font-inherit">
-                      The 48 hours online hackathon would be live on 11/02/2022
-                      at 18:00 IST / 12:30 GMT till 13/02/2022 at 18:00 IST /
-                      12:30 GMT.
+                      The 32 hours hybrid hackathon would be live on 11/02/2023
+                      at 12:00 IST till 12/02/2022 at 20:00 IST
                     </h3>
                   </li>
                   <li>
@@ -177,7 +167,7 @@ const Rules = () => {
                 THEMES
               </h1>
 
-              <div className="w-full sm:text-[25px] md:text-[25px] md:w-[90%] grid md:grid-cols-1 sm:grid-cols-1 grid-cols-2 gap-x-[15%]">
+              <div className="w-full px-10 md:px-0 sm:text-[25px] md:text-[25px] md:w-[90%] grid md:grid-cols-1 sm:grid-cols-1 grid-cols-2 gap-x-[15%]">
                 {
                   tracks.map((track) => {
                     return <ThemeCard img={track.img} desc={track.desc} key={track.id}/>;

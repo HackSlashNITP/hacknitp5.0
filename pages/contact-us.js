@@ -1,12 +1,34 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Form from "../components/form";
 import Image from "next/image";
 import doubtImage from "../public/Group.png";
 import Faq from "../components/faq";
-import Organizers from "../components/organizers";
+import Organizers from "../components/organizers/organizers.js";
+import { IoIosArrowDown } from "react-icons/io";
 
+function useWindowSize() {
+  const [windowWidth, setWindowWidth] = useState({ width: undefined });
+
+  //handle to call on window resize
+  useEffect(() => {
+    function handleResize() {
+      //set window width to state
+      setWindowWidth({ width: window.innerWidth });
+    }
+
+    //add event listener
+    window.addEventListener("resize", handleResize);
+
+    //call handle right away so that the state gets initialized with original window size
+    handleResize();
+
+    //remove listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return windowWidth;
+}
 const ContactUs = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -38,41 +60,47 @@ const ContactUs = () => {
     };
   }, []);
 
-  const images = [
-    {
-      id: 1,
-      src: "/1892-2@2x.png",
-      alt: "",
-    },
-    {
-      id: 2,
-      src: "/group-1332@2x.png",
-      alt: "",
-    },
-  ];
-
   const faqs = [
     {
       id: 0,
-      query: "Who can apply for the hackathon?",
-      ans: "Participants can take part only as a team. A team must comprise of at least 2 members and at.",
+      query: "What do I need to do to participate?",
+      ans: "Apply using Devfolio and join HackSlash Discord server",
     },
     {
       id: 1,
       query: "What can be the size of Team ?",
-      ans: "A team can consist of 1-4 members.",
+      ans: "A team can consist of 1-4 members",
     },
     {
       id: 2,
       query: "Are there any registration charges ?",
-      ans: "Nope! None at all.",
+      ans: "Nope! None at all",
     },
     {
       id: 3,
       query: "Do we get any certificate for participation ?",
-      ans: "Yes, you do get a Certificate of Participation if your hack is submitted successfully.",
+      ans: "Yes, you do get a Certificate of Participation if your hack is submitted successfully",
     },
   ];
+
+  const [show, setShow] = useState(false);
+  const [showIndicator, setShowIndicator] = useState(false);
+  const size = useWindowSize();
+
+  useEffect(() => {
+    if (size.width > 990) {
+      setShow(true);
+      setShowIndicator(false);
+    } else {
+      setShow(false);
+      setShowIndicator(true);
+    }
+  }, [size]);
+
+  const revealOrganizers = () => {
+    setShow(!show);
+    document.querySelector(".showOrganizers").classList.toggle("rotate-180");
+  };
 
   return (
     <div
@@ -83,11 +111,15 @@ const ContactUs = () => {
         <div className="bg-[url('../public/background.jpg')] md:bg-[url('../public/background-medium.jpg')] bg-cover md:bg-fixed bg-no-repeat content mb-[-0px]">
           <Header />
           <div className="w-full h-full flex flex-col items-center">
-            <div className="contact-us my-5 flex flex-col justify-center items-center bg-[#1C172F] rounded-3xl mx-auto w-[100%] md:w-[100%] sm:w-[100%]">
+            <div className="contact-us p-5 my-5 flex flex-col justify-center items-center bg-[#1C172F] rounded-3xl mx-auto w-[100%] md:w-[100%] gap-y-3 ">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
                 ORGANIZERS
               </h3>
-              <Organizers />
+              <div className="flex flex-col justify-center items-center gap-y-0" onClick={revealOrganizers}>
+                {showIndicator && <IoIosArrowDown className="showOrganizers cursor-pointer transition-transform" />}
+                {show || <p className="text-xs">Click to reveal...</p>}
+              </div>
+              {show && <Organizers />}
             </div>
             <div className="contact-us my-5 py-6 bg-[#1C172F] rounded-3xl w-[75%] md:w-[100%] sm:w-[100%]">
               <h3 className="font-noto-sans text-5xl md:text-xl sm:text-xl">
@@ -125,7 +157,7 @@ const ContactUs = () => {
                   );
                 })}
               </div>
-              <hr className="text-[#545454] w-[95%] mx-auto"/>
+              <hr className="text-[#545454] w-[95%] mx-auto" />
               <div className="flex flex-col justify-center items-center">
                 <p className="my-5 text-base font-bold text-[#1BFF25]">
                   What are you waiting for? Register Now!

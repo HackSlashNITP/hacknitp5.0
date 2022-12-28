@@ -5,22 +5,32 @@
 
 .heading {
   text-align: center;
-  font-size: 200%;
-  font-weight:45rem;
+  font-size: 150%;
+  font-weight: bold;
   color: aliceblue;
+  margin: 1rem 0;
 }
 .main {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 5rem 15px;
   padding: 0;
 }
 
+@media screen and (max-width: 860px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 15px;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
 /* Timeline Container */
 .timeline {
   background: var(--primary-color);
   margin: 0px auto;
-  padding: 20px;
+  padding: 0px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -28,7 +38,7 @@
 /* Card container */
 .card {
   position: relative;
-  max-width: 400px;
+  max-width: 1000px;
   margin: 0;
   padding: 0;
 }
@@ -45,7 +55,7 @@
   content: "";
   position: absolute;
   width: 50%;
-  border: solid green;
+  border: solid rgb(0, 175, 0);
 }
 
 /* Setting the border of top, bottom, left */
@@ -96,7 +106,7 @@
 
 /* Title of the card */
 .title {
-  color: green;
+  color: rgb(0, 187, 0);
   position: relative;
 }
 
@@ -112,7 +122,7 @@
 }
 
 /* text right if the card is even  */
-.card:nth-child(even) > .info > .title {
+.card:nth-child(even) > .info, .card:nth-child(even) > .info > .title {
   text-align: right;
 }
 
