@@ -41,15 +41,9 @@ const Loadpage = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-center bg-gray-1000 w-full h-screen  cursor-pointer text-center text-2xl text-white font-space-grotesk"
+      className="flex flex-col justify-center bg-[url('../public/background-medium.jpg')]  items-center bg-black bg-cover md:bg-center md:bg-fixed bg-no-repeat w-full h-screen  cursor-pointer text-center text-2xl text-white font-space-grotesk"
       onClick={onLoadpageClick}
     >
-      <Image
-        className="w-full object-cover"
-        alt=""
-        src="/anirudhxu4pz7gi9jyunsplash-1@2x.png"
-        layout="fill"
-      />
       <img
         className="max-w-full md:w-5/6 overflow-hidden max-h-full [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in-left] opacity-[0]"
         alt=""

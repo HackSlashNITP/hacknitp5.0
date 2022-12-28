@@ -38,7 +38,7 @@ const Homepage = () => {
       className=" bg-black w-full h-screen overflow-y-auto text-center text-5xl text-white font-space-grotesk"
       id="homepage"
     >
-      <div className="w-full h-screen bg-black bg-[url('../public/background.jpg')] md:bg-[url('../public/background-medium.jpg')] bg-cover md:bg-center md:bg-fixed bg-no-repeat md:h-auto flex flex-col justify-between">
+      <div className="w-full h-screen bg-black bg-[url('../public/background-medium.jpg')] bg-cover md:bg-center md:bg-fixed bg-no-repeat md:h-auto flex flex-col justify-between">
         <div className="wrapper min-h-full md:mb-[100px] sm:mb-[100px]">
           <Header />
           <div className="max-w-[800px] sm:w-[70%] flex flex-col items-start lg:items-center md:mx-10 sm:mx-10 mx-[10%] mt-[100px]">
