@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Box2 from "../components/box2";
 import SponsorGrid from "../components/prev_sponsors/sponsorGrid";
 
 import titleSponsor from "../components/prev_sponsors/titleSponsor";
@@ -20,6 +21,7 @@ const PrevSponsors = () => {
           <SponsorGrid sponsors={subeventSponsor} title='Subevent Sponsor'/>
           <SponsorGrid sponsors={certificationsSponsor} title='Certificate Sponsor'/>
         </main>
+        <Box2 />
       </div>
       <Footer />
     </div>
