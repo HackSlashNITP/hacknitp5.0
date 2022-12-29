@@ -28,7 +28,7 @@ import Amisha from "../../public/organizers/Amisha Bharti.jpg";
 import Vishal from "../../public/organizers/vishal_gaurav.jpg";
 import Deepak from "../../public/organizers/Deepak Kumar.jpeg";
 import Sameer from "../../public/organizers/Sameer Choudhary.jpg";
-import Rohan from "../../public/organizers/Rohan Shetty.png";
+import Rohan from "../../public/organizers/Rohan_kumar_choudhary.jpg";
 import Nisarg from "../../public/organizers/Nisarg Patel.jpg";
 import Mandeep from "../../public/organizers/Mandeep_Singh_Saluja.png";
 import RohanS from "../../public/organizers/Rohan Shetty.png";
