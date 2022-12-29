@@ -22,7 +22,7 @@ const Header = () => {
   }, [router]);
 
   const onSponsorsTextClick = useCallback(() => {
-    router.push("/sponsors");
+    router.push("/prevSponsors");
   }, []);
 
   const onContactUsTextClick = useCallback(() => {
