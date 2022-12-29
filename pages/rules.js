@@ -4,6 +4,11 @@ import Header from "../components/header";
 import ThemeCard from "../components/themeCard";
 import ListItem from "../components/prev_prizes/listItem";
 import allparticpant from "../components/prev_prizes/allParticipants";
+import firstPrize from "../components/prev_prizes/firstPrize";
+import secondPrize from "../components/prev_prizes/secondPrize";
+import thirdPrize from "../components/prev_prizes/thirdPrize";
+import girlsPrize from "../components/prev_prizes/girlsPrize";
+import trackPrize from "../components/prev_prizes/trackPrize";
 
 const Rules = () => {
   useEffect(() => {
@@ -78,6 +83,7 @@ const Rules = () => {
       desc: "Sustainable Development",
     },
   ];
+
   return (
     <div className="bg-black md:bg-[url('../public/background-medium.jpg')] w-full h-screen overflow-y-auto text-center text-xs text-white font-space-grotesk">
       <div className="bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat flex flex-col w-full h-">
@@ -189,30 +195,196 @@ const Rules = () => {
               className="w-[70%] mt-10 text-left text-white font-inherit md:w-[100%] sm:w-[100%]"
               id="prizes-section"
             >
+              <h1
+                className="m-[0] my-5 text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                data-animate-on-scroll
+              >
+                PREVIOUS YEAR PRIZES & PERKS
+              </h1>
+              
+              {/* For winners */}
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  WINNER
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 10,000/- Cash Prize</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {firstPrize.map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              {/* For 1st Runner Up */}
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  1st RUNNER UP
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 8,000/- Cash Prize</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {secondPrize.map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              {/* For 2nd Runner Up */}
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  2nd RUNNER UP
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 5,000/- Cash Prize</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {thirdPrize.map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              {/* For 1st All Girls Team */}
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  TOP ALL-GIRLS TEAM
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 2,500/- Cash Prize</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {girlsPrize.map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  TRACK PRIZE
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">POLYGON</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {trackPrize[0].map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  TRACK PRIZE
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">TEZOS</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {trackPrize[1].map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  TRACK PRIZE
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">FILECOIN</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {trackPrize[2].map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  TRACK PRIZE
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">CELO</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {trackPrize[3].map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  TRACK PRIZE
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">FOSS</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {trackPrize[4].map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
               <div
                 className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
                 data-animate-on-scroll
               >
                 <h1
-                  className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                   data-animate-on-scroll
                 >
-                  PREVIOUS YEAR PRIZES & PERKS
+                  FOR ALL PARTICIPANTS
                 </h1>
-                <div className="perksForEveryone w-full m-[0]">
-                  <h1
-                    className="m-[0] my-5 text-3xl sm:text-base md:text-base font-normal font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
-                    data-animate-on-scroll
-                  >
-                    PERKS FOR EACH PARTICIPANT
-                  </h1>
-                  <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
-                    {allparticpant.map((perk) => {
-                      return <ListItem key={perk.id} msg={perk.msg} />;
-                    })}
-                  </ul>
-                </div>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {allparticpant.map((perk) => {
+                    return <ListItem key={perk.id} msg={perk.msg} />;
+                  })}
+                </ul>
               </div>
             </section>
           </main>
