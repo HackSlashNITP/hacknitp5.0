@@ -13,7 +13,7 @@ const PrevSponsors = () => {
     <div className="bg-black md:bg-[url('../public/background-medium.jpg')] bg-[url('../public/background.jpg')] bg-cover md:bg-fixed bg-no-repeat w-full text-white font-space-grotesk">
       <Header />
       <div className="w-full main-content flex flex-col items-center">
-        <h2 className="text-6xl font-semibold my-10 md:text-4xl md:y-3">Sponsors</h2>
+        <h2 className="text-6xl font-semibold my-10 md:text-4xl md:y-3">Previous Sponsors</h2>
         <main className="sponsors w-full flex flex-col justify-between items-center">
           <SponsorGrid sponsors={titleSponsor} title='Title Sponsor'/>
           <SponsorGrid sponsors={associateSponsor} title='Associate Sponsor'/>
