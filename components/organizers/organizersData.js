@@ -297,7 +297,7 @@ const organizersList = [
     name: "Nisarg Patel",
     role: "Event Management Lead",
     linkedin: "https://www.linkedin.com/in/nisarg-patel-293454229/",
-    github: "https://www.linkedin.com/in/nisarg-patel-293454229/",
+    github: "https://github.com/Nisarg1206",
   },
   {
     id: 32,
@@ -312,7 +312,7 @@ const organizersList = [
     imgUrl: RohanS.src,
     name: "Rohan Shetty",
     role: "Event Management Lead",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rohan-shetty-7b87a2229",
     github: "",
   },
   {
