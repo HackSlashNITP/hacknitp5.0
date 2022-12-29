@@ -42,7 +42,7 @@ const Box2 = () => {
       <p className="text-[#59DB8A] text-lg md:text-sm sm:text-sm"><Link href={'/prevSponsors'}><span className=" text-[#2BFF08] underline cursor-pointer hover:[border:2px_solid_#2BFF08]">Click here</span></Link> to see our previous sponsors </p>
       <div className="text-xl md:text-base sm:text-base font-normal my-[5px]">
         <p>Contact us at</p>
-        <p className="font-semibold">hackslash@nitp.ac.in</p>
+        <a className="font-medium text-[#16a34a] hover:text-[#2BFF08]" href="mailto:hackslashclub@nitp.ac.in" target="_blank">hackslashclub@nitp.ac.in</a>
       </div>
     </div>
   );

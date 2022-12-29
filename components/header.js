@@ -66,7 +66,7 @@ const Header = () => {
             target={"_blank"}
             rel="noreferrer noopener"
           >
-            <button className="border-0 font-normal py-2 px-5 text-xs cursor-pointer md:text-[17px] hover:bg-[#28e706] focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
+            <button className="border-0 font-semibold py-2 px-5 text-xs cursor-pointer md:text-[17px] hover:bg-[#28e706] focus:outline-none rounded-xl  md:mt-1 sm:mt-1 text-black bg-[#2BFF08]">
               Join Discord
             </button>
           </a>

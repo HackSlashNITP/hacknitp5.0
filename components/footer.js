@@ -47,7 +47,7 @@ const Footer = () => {
                 className="no-underline"
               >
                 <button className="border-0 py-2 px-5 cursor-pointer text-xs font-semibold focus:outline-none rounded-xl md:text-[15px] sm:text-[15px] text-black bg-[#2BFF08] hover:bg-[#28e706]">
-                  Join our Discord
+                  Join Discord
                 </button>
               </a>
             </b>
