@@ -110,7 +110,7 @@ const JudgesCarousel = () => {
       id: 11,
       name: 'Kaustubh M. Patil',
             role: 'Software Developer',
-            url: "/judges/kaustub.jpeg",
+            url: "/judges/kas.jpeg",
             des:'FOSS United',
             linkedin: 'https://www.linkedin.com/in/kaustubh42/',
             twitter: '',
