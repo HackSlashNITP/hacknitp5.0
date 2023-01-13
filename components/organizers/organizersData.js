@@ -208,8 +208,8 @@ const organizersList = [
     imgUrl: Ashutosh.src,
     name: "Ashutosh Bind",
     role: "Event Management Lead",
-    linkedin: "",
-    github: "",
+    linkedin: "https://www.linkedin.com/in/ashutosh-bind-56806b22b/",
+    github: "https://github.com/ashutoshbind15",
   },
   {
     id: 21,
