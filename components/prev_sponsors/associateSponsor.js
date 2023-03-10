@@ -3,7 +3,6 @@ import tezos from '../../public/prevSponsors/tezos.png';
 import filecoin from '../../public/prevSponsors/filecoin.png';
 import polygon from '../../public/prevSponsors/polygon.png';
 import celo from '../../public/prevSponsors/celo.png';
-import postman from '../../public/prevSponsors/postman.png';
 import Foss from '../../public/prevSponsors/Foss.svg';
 
 const associate = [
@@ -26,10 +25,6 @@ const associate = [
   {
     logo: celo,
     link: "https://celo.org/",
-  },
-  {
-    logo: postman,
-    link: "https://www.postman.com/",
   },
   {
     logo: Foss,
