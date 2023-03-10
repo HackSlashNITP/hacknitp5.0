@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Apidays from '../components/apidays';
 
 import DigitalCountdown from '../components/digitalCountdown'
 import Scheduling from '../components/scheduling'
@@ -14,6 +15,7 @@ const timeline = () => {
      <Header />
       <DigitalCountdown/>
       <Scheduling/>
+      <Apidays/>
       <div className="w-full">
         <Footer />
       </div>
