@@ -46,8 +46,8 @@ const Header = () => {
           src="../hacknitp5.svg"
           onClick={onLogoClick}
         />
-        <figcaption className="text-xs font-bold">X</figcaption>
-        <figcaption className="text-sm font-bold">API-Days Patna</figcaption>
+        <figcaption className="text-xs  font-bold m-auto">X</figcaption>
+        <figcaption className="text-sm font-bold m-atuo">API-Days Patna</figcaption>
         </figure>
 
         <nav className="navigation-links md:hidden flex mt-1 md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-extralight md:text-[17px]">
