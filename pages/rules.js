@@ -108,8 +108,8 @@ const Rules = () => {
                 <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   <li>
                     <h3 className="m-2 md:m-[5px] sm:m-[5px] font-normal font-inherit">
-                      The 32 hours hybrid hackathon would be live on 11/02/2023
-                      at 12:00 IST till 12/02/2022 at 20:00 IST
+                      The 32 hours hybrid hackathon would be live on 14/04/2023
+                      at 12:00 IST till 16/04/2022 at 20:00 IST
                     </h3>
                   </li>
                   <li>
