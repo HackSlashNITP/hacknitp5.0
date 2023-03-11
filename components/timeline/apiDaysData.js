@@ -2,12 +2,13 @@ const apiData=[
     {
         id: 0,
         title: 'Day 0',
-        schedule: 'Online Postman Student Expert Training Session. (YouTube Live)',
+        schedule: 'Online Student Expert Training',
     },
     {
         id: 1,
         title: 'Day 1',
-        schedule: 'Inauguration of API Days Patna and special API-Public Workspace ',
+        schedule1: '- APIS 101',
+        schedule2: '- APIS 102',
     },
     {
         id: 2,
