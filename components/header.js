@@ -38,12 +38,16 @@ const Header = () => {
         <GiHamburgerMenu className="text-white text-sm hidden md:block" onClick={handleHamburgerClick}/>
       </div>
       <div className="flex w-full flex-wap p-5 bp:flex-col md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center text-white flex-row items-center justify-between  font-space-grotesk">
+       
+       <figure>
         <img
           className="min-w-[200px] max-w-[250px] w-[20%] cursor-pointer mr-10 bp:mr-0"
           alt=""
           src="../hacknitp5.svg"
           onClick={onLogoClick}
         />
+        <figcaption className="text-xs">X API-Days Patna</figcaption>
+        </figure>
 
         <nav className="navigation-links md:hidden flex mt-1 md:flex-col md:mt-10 md:gap-y-2 justify-center items-center text-xs gap-x-5 gap-y-1 font-light md:font-extralight md:text-[17px]">
           <b className="cursor-pointer  hover:text-[#2BFF08]" onClick={onAboutUsClick}>
