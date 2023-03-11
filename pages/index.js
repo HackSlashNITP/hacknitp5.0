@@ -51,10 +51,15 @@ const Loadpage = () => {
         data-animate-on-scroll
       />
       <h3
+        className="mt-[2%] md:text-lg text-[inherit] font-large font-inherit inline-block [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
+        id="heading"
+        data-animate-on-scroll
+      >{`X`}</h3>
+      <h3
         className="mt-[2%] md:text-sm text-[inherit] font-large font-inherit inline-block [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
         id="heading"
         data-animate-on-scroll
-      >{`X API-DAYS PATNA`}</h3>
+      >{`API-DAYS PATNA`}</h3>
       <h3
         className="mt-[2%] md:text-sm text-[inherit] font-medium font-inherit inline-block [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in] opacity-[0]"
         id="heading"
