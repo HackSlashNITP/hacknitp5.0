@@ -47,7 +47,7 @@ const Loadpage = () => {
       <img
         className="max-w-full md:w-5/6 overflow-hidden max-h-full [&.animate]:animate-[4s_ease_0s_1_normal_forwards_fade-in-left] opacity-[0]"
         alt=""
-        src="../hacknitp5.svg"
+        src="../Byteverse_logo2.png"
         data-animate-on-scroll
       />
       <h3
