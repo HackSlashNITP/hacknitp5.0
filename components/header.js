@@ -43,7 +43,7 @@ const Header = () => {
         <img
           className="min-w-[200px] max-w-[250px] w-[20%] cursor-pointer mr-10 bp:mr-0"
           alt=""
-          src="../hacknitp5.svg"
+          src="../Byteverse_logo2.png"
           onClick={onLogoClick}
         />
         <figcaption className="text-xs  font-bold m-auto">X</figcaption>
