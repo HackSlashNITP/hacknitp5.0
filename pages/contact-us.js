@@ -160,10 +160,18 @@ const ContactUs = () => {
               <hr className="text-[#545454] w-[95%] mx-auto" />
               <div className="flex flex-col justify-center items-center">
                 <p className="my-5 text-base font-bold text-[#1BFF25]">
-                  What are you waiting for? Register Now!
+                  What are you waiting for? Apppy with!!
                 </p>
-                <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:bg-[#28e307] w-[400px] bg-[#2BFF08] h-[50px] flex justify-center items-center text-black rounded-[15px]">
-                  <b className="text-xs">Register Now</b>
+                <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:text-white w-[400px]  h-[50px] flex justify-center items-center text-black rounded-[15px]">
+                  {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
+                <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
+                  <img
+        className="max:w-7/12 md:w-5/12 overflow-hidden max-h-full hover:w-10/12 "
+        alt=""
+        src="../Devfolio.png"
+        data-animate-on-scroll
+      />
+        </a>
                 </div>
               </div>
             </div>
