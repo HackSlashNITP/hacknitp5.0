@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React,{useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import ThemeCard from "../components/themeCard";
@@ -11,6 +11,18 @@ import girlsPrize from "../components/prev_prizes/girlsPrize";
 import trackPrize from "../components/prev_prizes/trackPrize";
 
 const Rules = () => {
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -386,6 +398,27 @@ const Rules = () => {
                   })}
                 </ul>
               </div>
+
+             
+              <div
+                className="flex flex-col justify-center items-center rounded-xl p-10  [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+
+                data-animate-on-scroll
+              >
+
+              <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:text-white w-[400px]  h-[50px] flex justify-center items-center text-black rounded-[15px]"> 
+                  <div
+                    className="apply-button"
+                    data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                    data-button-theme="light"
+                    style={{
+                      height: "44px",
+                      width: "312px"
+                    }}
+                  ></div>
+                </div>
+
+                 </div>
             </section>
           </main>
         </div>
