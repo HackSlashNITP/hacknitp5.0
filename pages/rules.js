@@ -1,4 +1,4 @@
-import React,{useEffect } from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import ThemeCard from "../components/themeCard";
@@ -213,7 +213,7 @@ const Rules = () => {
               >
                 PREVIOUS YEAR PRIZES & PERKS
               </h1>
-              
+
               {/* For winners */}
               <div
                 className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
@@ -399,26 +399,24 @@ const Rules = () => {
                 </ul>
               </div>
 
-             
+
+              
               <div
-                className="flex flex-col justify-center items-center rounded-xl p-10  [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
-
-                data-animate-on-scroll
+               className=" flex flex-col justify-center items-center bg-black w-full h-32 overflow-y-auto text-center text-2xl text-white font-space-grotesk"
+              
               >
-
-              <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:text-white w-[400px]  h-[50px] flex justify-center items-center text-black rounded-[15px]"> 
-                  <div
-                    className="apply-button"
-                    data-hackathon-slug="YOUR-HACKATHON-SLUG"
-                    data-button-theme="light"
-                    style={{
-                      height: "44px",
-                      width: "312px"
-                    }}
-                  ></div>
+                <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:bg-[#2563eb] w-[400px]   bg-[#3b82f6] flex justify-center items-center text-black rounded">
+                  {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
+                  <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
+                    <img className="w-1/12 mt-2 overflow-hidden "
+                      alt=""
+                      src="../logoD.png"
+                      data-animate-on-scroll /><p className="relative bottom-2 left-1 inline-block text-white text-sm sm:text-xs ">Apply with Devfolio</p>
+                  </a>
                 </div>
-
-                 </div>
+                </div>
+           
+           
             </section>
           </main>
         </div>
