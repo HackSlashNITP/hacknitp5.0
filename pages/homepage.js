@@ -53,7 +53,7 @@ const Homepage = () => {
               id="date"
               data-animate-on-scroll
             >
-              March 15,2023 - April 22,2023
+              March 25,2023 - April 22,2023
             </h3>
             <h6
               className="m-[0] md:text-[16px] bg-clip-text bg-black text-xs font-normal font-noto-sans text-left md:text-center inline-block w-[100%] [-webkit-text-stroke:3px_rgba(255,_255,_255,_0)] [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Form from "../components/form";
@@ -9,6 +9,18 @@ import Organizers from "../components/organizers/organizers.js";
 import { IoIosArrowDown } from "react-icons/io";
 
 function useWindowSize() {
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   const [windowWidth, setWindowWidth] = useState({ width: undefined });
 
   //handle to call on window resize
@@ -164,14 +176,25 @@ const ContactUs = () => {
                 </p>
                 <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:text-white w-[400px]  h-[50px] flex justify-center items-center text-black rounded-[15px]">
                   {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
-                <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
+                  {/* <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
                   <img
         className="max:w-7/12 md:w-5/12 overflow-hidden max-h-full hover:w-10/12 "
         alt=""
         src="../Devfolio.png"
         data-animate-on-scroll
       />
-        </a>
+        </a> */}
+
+                  <div
+                    className="apply-button"
+                    data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                    data-button-theme="light"
+                    style={{
+                      height: "44px",
+                      width: "312px"
+                    }}
+                  ></div>
+
                 </div>
               </div>
             </div>
