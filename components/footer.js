@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex items-center justify-between sm:flex-col md:flex-col mb-3 gap-y-5 text-center">
         <Link href="/homepage" className="items-center flex-1">
           <img
-            src="../hacknitp5.svg"
+            src="../Byteverse_logo2.png"
             className="mr-3 min-w-[100px] w-[200px]"
             alt="Flowbite Logo"
           />
