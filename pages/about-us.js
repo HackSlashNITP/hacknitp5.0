@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import JudgesCarousel from "../components/judgesCarousel";
 import Hacknitp from "../public/hacknitp.png";
-import gdsc from "../public/gdsc.png";
+import Desco from "../public/Desco.png";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -65,12 +65,12 @@ const AboutUs = () => {
       desc: "HackSlash Developer Club, NIT Patna is a community intended to provide a room for college students to learn and collaborate on a plethora of projects among themselves as well as with mentors. It is open for every student, ranging from novice developers who are just starting, to advanced developers who want to further enhance their skills.",
     },
     {
-      name: "GDSC NIT Patna",
-      logo: gdsc,
-      facebook: "https://www.facebook.com/gdscnitp",
-      insta: "https://www.instagram.com/gdscnitp",
-      linkedin: "https://www.linkedin.com/company/gdscnitp",
-      desc: "Google Developer Student Clubs NIT Patna is local community group of NIT Patna college students interested in Google developer technologies. The GDSC organizes numerous events ranging from small meetups for working on projects to large-scale hackathons.",
+      name: "Desco NIT Patna",
+      logo: Desco,
+      // facebook: "https://www.facebook.com/gdscnitp",
+      insta: "https://instagram.com/desco.nitp?igshid=YmMyMTA2M2Y=",
+      linkedin: "https://www.linkedin.com/company/desco-nitp/",
+      desc: "Design Company NIT Patna, is a community for the students which aims to provide a platform for them to express themselves in a creative way and dive deep into the realm of designing. DesCo organizes various events, workshops and contests in order to expand the world of designing.",
     },
   ];
 
