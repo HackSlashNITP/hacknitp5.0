@@ -18,38 +18,38 @@ const subevent = [
     logo: interview,
     link: "https://www.interviewcake.com/",
   },
-  {
-    logo: voiceflow,
-    link: "https://www.voiceflow.com/",
-  },
-  {
-    logo: clerky,
-    link: "https://www.clerky.com/",
-  },
+  // {
+  //   logo: voiceflow,
+  //   link: "https://www.voiceflow.com/",
+  // },
+  // {
+  //   logo: clerky,
+  //   link: "https://www.clerky.com/",
+  // },
   {
     logo: Axure,
     link: "https://www.axure.com/",
   },
-  {
-    logo: Taskade,
-    link: "https://www.taskade.com/",
-  },
-  {
-    logo: gfg,
-    link: "https://www.geeksforgeeks.org/",
-  },
+  // {
+  //   logo: Taskade,
+  //   link: "https://www.taskade.com/",
+  // },
+  // {
+  //   logo: gfg,
+  //   link: "https://www.geeksforgeeks.org/",
+  // },
   {
     logo: wolfram,
     link: "https://www.wolfram.com/",
   },
-  {
-    logo: Sketch,
-    link: "https://www.sketch.com/",
-  },
-  {
-    logo: Github,
-    link: "https://github.com/",
-  },
+  // {
+  //   logo: Sketch,
+  //   link: "https://www.sketch.com/",
+  // },
+  // {
+  //   logo: Github,
+  //   link: "https://github.com/",
+  // },
 ];
 
 export default subevent;
