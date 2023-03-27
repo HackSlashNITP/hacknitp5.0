@@ -174,34 +174,18 @@ const ContactUs = () => {
                 <p className="my-5 text-base font-bold text-[#1BFF25]">
                   What are you waiting for? Register Now!!
                 </p>
-                {/* <div className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] flex justify-center items-center"> */}
-                  {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
-                  {/* <a href="https://devfolio.co/" target="blank" className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] py-1 no-underline text-white hover: w-[400px] bg-black">
-                  <img src="../logoD.png" className="p-auto w-6" alt=""/><p className="inline-block text-sm sm:text-xs pb-2 pl-1"> Apply with Devfolio</p>
-        </a> */}
-                  
-                  <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:bg-[#2563eb] w-[400px]   bg-[#3b82f6] flex justify-center items-center text-black rounded">
-                  {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
-                <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
-                  <img  className="w-1/12 mt-2 overflow-hidden "
-        alt=""
-        src="../logoD.png"
-        data-animate-on-scroll/><p className="relative bottom-2 left-1 inline-block text-white text-sm sm:text-xs ">Apply with Devfolio</p>
-        </a>
+                <div className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] flex justify-center items-center">
+                <div
+                  class="apply-button"
+                  data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                  data-button-theme="light"
+                  style={{
+                    height: "44px",
+                    width: "312px"
+                  }}
+                >
                 </div>
-
-                  
-
-                  {/* <div
-                    className="apply-button"
-                    data-hackathon-slug=""
-                    data-button-theme="light"
-                    style={{
-                      height: "44px",
-                      width: "312px"
-                    }}
-                  ></div> */}
-
+              </div>
 
               </div>
             </div>
@@ -214,3 +198,28 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+
+
+
+
+
+
+//  for custom devfolio button
+
+{/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
+                {/* <a href="https://devfolio.co/" target="blank" className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] py-1 no-underline text-white hover: w-[400px] bg-black">
+                  <img src="../logoD.png" className="p-auto w-6" alt=""/><p className="inline-block text-sm sm:text-xs pb-2 pl-1"> Apply with Devfolio</p>
+        </a> */}
+
+                {/* <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:bg-[#2563eb] w-[400px]   bg-[#3b82f6] flex justify-center items-center text-black rounded">
+                  */}
+                {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
+
+                {/* <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
+                  <img  className="w-1/12 mt-2 overflow-hidden "
+        alt=""
+        src="../logoD.png"
+        data-animate-on-scroll/><p className="relative bottom-2 left-1 inline-block text-white text-sm sm:text-xs ">Apply with Devfolio</p>
+        </a>
+                </div> */}

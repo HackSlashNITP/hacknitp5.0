@@ -179,6 +179,90 @@ const Rules = () => {
                 </a>
               </div>
             </section>
+
+            
+            {/* <section
+              className="w-[70%] text-left text-white font-inherit md:w-[100%] sm:w-[100%] pt-12"
+              id="instructions"
+            >
+              <div
+                className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0.5s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="instruction"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  INSTRUCTIONS
+                </h1>
+                <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  <li>
+                    <h3 className="m-2 md:m-[5px] sm:m-[5px] font-normal font-inherit">
+                      The 32 hours hybrid hackathon would be live on 14/04/2023
+                      at 12:00 IST till 16/04/2022 at 20:00 IST
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The registration for the event is absolutely free of cost,
+                      implying there is no registration fee.
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      To participate in the hackathon, register through{" "}
+                      <a
+                        className="text-[#2BFF08] hover:[border:2px_solid_#2BFF08] "
+                        href="https://hacknitp-4.devfolio.co/."
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        Devfolio.
+                      </a>
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The competition is open for teams comprising of students
+                      currently enrolled in any educational institution.
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The hackathon allows a maximum of four members in a team,
+                      for participation in the hackathon.
+                    </h3>
+                  </li>
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      Participants are allowed to form a team with members from
+                      educational institutions other than where they are
+                      enrolled in. That is, a team may have members from
+                      multiple educational institutions.
+                    </h3>
+                  </li>
+                </ul>
+                <a
+                  href="https://rebrand.ly/hacknitp-4/rulebook"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    className="cursor-pointer hover:bg-[#22c55e] hover:[border:3px_solid_transparent] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                    data-animate-on-scroll
+                  >
+                    Download Rulebook
+                  </button>
+                </a>
+              </div>
+            </section> */}
+
+
+
+
+
             <section
               className="flex flex-col my-10 items-center justify-between w-full md:mx-auto sm:mx-auto [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] text-center text-6xl text-black font-space-grotesk"
               id="themes"
@@ -399,21 +483,29 @@ const Rules = () => {
                 </ul>
               </div>
 
-
-              
               <div
-               className=" flex flex-col justify-center items-center bg-black w-full h-32 overflow-y-auto text-center text-2xl text-white font-space-grotesk"
+               className=" flex flex-col justify-center items-center bg-black w-full h-32 overflow-y-auto 
+               text-center text-2xl text-white font-space-grotesk"
               
               >
-                <div className="md:w-[70%] sm:w-[70%] cursor-pointer hover:bg-[#2563eb] w-[400px]   bg-[#3b82f6] flex justify-center items-center text-black rounded">
-                  {/* <b className="text-xs"><a src="../Byteverse_logo2.png"></a></b> */}
-                  <a href="https://devfolio.co/" target="blank" className="hover:text-white w-[400px]">
-                    <img className="w-1/12 mt-2 overflow-hidden "
-                      alt=""
-                      src="../logoD.png"
-                      data-animate-on-scroll /><p className="relative bottom-2 left-1 inline-block text-white text-sm sm:text-xs ">Apply with Devfolio</p>
-                  </a>
+                 <div className="flex flex-col justify-center items-center">
+                <p className="my-5 text-base font-bold text-[#1BFF25]">
+                  What are you waiting for? Register Now!!
+                </p>
+                <div className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] flex justify-center items-center">
+                <div
+                  class="apply-button"
+                  data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                  data-button-theme="light"
+                  style={{
+                    height: "44px",
+                    width: "312px"
+                  }}
+                >
                 </div>
+              </div>
+
+              </div>
                 </div>
            
            
