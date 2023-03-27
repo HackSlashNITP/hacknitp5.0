@@ -22,7 +22,7 @@ const data = [
     {
         id: 4,
         title: 'Workshop Series Ends',
-        schedule: '13th April 2023',
+        schedule: '14th April 2023',
     },
     {
         id: 5,
@@ -36,12 +36,12 @@ const data = [
     },
     {
         id: 7,
-        title: 'Hackathon Starts',
+        title: 'Coding Phase Starts',
         schedule: '15th April 2023, 12:00 IST',
     },
     {
         id: 8,
-        title: 'Hackathon Ends',
+        title: 'Coding Phase Ends',
         schedule: '16th April 2023, 20:00 IST',
     },
     {
