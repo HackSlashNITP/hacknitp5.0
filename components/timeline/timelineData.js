@@ -7,7 +7,7 @@ const data = [
     {
         id: 1,
         title: 'Info Session',
-        schedule: '01st April 2023, To be decided',
+        schedule: '02nd April 2023, To be decided',
     },
     {
         id: 2,

@@ -495,7 +495,7 @@ const Rules = () => {
                 <div className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] flex justify-center items-center">
                 <div
                   class="apply-button"
-                  data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                  data-hackathon-slug="byteverse"
                   data-button-theme="light"
                   style={{
                     height: "44px",
