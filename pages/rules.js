@@ -121,19 +121,17 @@ const Rules = () => {
                 <ul className="w-[85%] md:w-[100%] sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   <li>
                     <h3 className="m-2 md:m-[5px] sm:m-[5px] font-normal font-inherit">
-                      The 32 hours hybrid hackathon would be live on 14/04/2023
-                      at 12:00 IST till 16/04/2022 at 20:00 IST
+                      The 28 hours hybrid hackathon would be live on 15/04/2023 at 16:00 IST till 16/04/2022 at 20:00 IST
                     </h3>
                   </li>
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
-                      The registration for the event is absolutely free of cost,
-                      implying there is no registration fee.
+                      The registration for the event is absolutely free of cost, implying there is no registration fee
                     </h3>
                   </li>
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
-                      To participate in the hackathon, register through{" "}
+                      To participate in the hackathon, register through {" "}
                       <a
                         className="text-[#2BFF08] hover:[border:2px_solid_#2BFF08] "
                         href="https://hacknitp-4.devfolio.co/."
@@ -145,12 +143,41 @@ const Rules = () => {
                       </a>
                     </h3>
                   </li>
+
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
-                      The competition is open for teams comprising of students
-                      currently enrolled in any educational institution.
+                      Discord will be the only mode of communication throughout the hackathon, 
+                      for all announcements or queries. Make sure to join the Discord Channel of HackSlash.
                     </h3>
                   </li>
+
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The competition is open for teams comprising of students currently 
+                      enrolled in Bachelor of Technology(1st,2nd & 3rd year) and Bachelor 
+                      of Computer Applications( All years) in any educational institution.
+                    </h3>
+                  </li>
+
+                  {/* for ui/ux */}
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                  	There will be a UI/UX hackathon on 8-9th April,2023. Register 
+                      through {" "}
+                      <a
+                        className="text-[#2BFF08] hover:[border:2px_solid_#2BFF08]  m-2"
+                        href="https://hacknitp-4.devfolio.co/."
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        Unstop
+                      </a>
+                       (For more info, refer to the UI/UX Rulebook given below).
+                    </h3>
+                  </li>
+
+
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
                       The hackathon allows a maximum of four members in a team,
@@ -159,13 +186,25 @@ const Rules = () => {
                   </li>
                   <li>
                     <h3 className="m-2 font-normal font-inherit">
-                      Participants are allowed to form a team with members from
-                      educational institutions other than where they are
-                      enrolled in. That is, a team may have members from
-                      multiple educational institutions.
+                      Participants are allowed to form a team with members from educational 
+                      institutions other than where they are enrolled in. That is, a team may
+                       have members from multiple educational institutions.
+                    </h3>
+                  </li>
+
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                      The hackathon will be hybrid mode, 20 teams from Patna will be shortlisted
+                       on the basis of their project overview report and will be invited to NIT
+                        Patna for offline hackathon. All other teams will be allowed to participate in online mode.
                     </h3>
                   </li>
                 </ul>
+                
+                    <h3 className="m-2 font-normal font-inherit">
+                    For more details, refer to the rulebook below:
+                    </h3>
+                
                 <a
                   href="https://rebrand.ly/hacknitp-4/rulebook"
                   target={"_blank"}
@@ -181,7 +220,7 @@ const Rules = () => {
               </div>
             </section>
 
-            
+
             {/* <section
               className="w-[70%] text-left text-white font-inherit md:w-[100%] sm:w-[100%] pt-12"
               id="instructions"
@@ -375,7 +414,7 @@ const Rules = () => {
                   })}
                 </ul>
               </div>
-              
+
               <div
                 className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
@@ -408,8 +447,29 @@ const Rules = () => {
                 <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">POLYGON</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   {trackPrize[0].map((prize, index) => {
-                    return <ListItem key={index} msg={prize} />;
+                    return<> 
+                    <ListItem key={index} msg={prize} />
+                    </>
                   })}
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                  	Click {" "}
+                      <a
+                        className="text-[#2BFF08] hover:bg-[#22c55e] hover:text-black text-[#2BFF08]  m-2"
+                        href="https://nsb.dev/polygon-bounty"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        here
+                      </a>
+                       for info and resources.
+                    </h3>
+                  </li>
+
+
+
+
                 </ul>
               </div>
               <div
@@ -428,6 +488,21 @@ const Rules = () => {
                   {trackPrize[1].map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
                   })}
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                  	Click {" "}
+                      <a
+                        className="text-[#2BFF08] hover:bg-[#22c55e] hover:text-black text-[#2BFF08]  m-2"
+                        href="https://nsb.dev/filecoin-bounty"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        here
+                      </a>
+                       for info and resources.
+                    </h3>
+                  </li>
                 </ul>
               </div>
               <div
@@ -446,6 +521,21 @@ const Rules = () => {
                   {trackPrize[2].map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
                   })}
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                  	Click {" "}
+                      <a
+                        className="text-[#2BFF08] hover:bg-[#22c55e] hover:text-black text-[#2BFF08]  m-2"
+                        href="https://nsb.dev/solana-bounty"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        here
+                      </a>
+                       for info and resources.
+                    </h3>
+                  </li>
                 </ul>
               </div>
               <div
@@ -464,6 +554,21 @@ const Rules = () => {
                   {trackPrize[3].map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
                   })}
+                  <li>
+                    <h3 className="m-2 font-normal font-inherit">
+                  	Click {" "}
+                      <a
+                        className="text-[#2BFF08] hover:bg-[#22c55e] hover:text-black text-[#2BFF08]  m-2"
+                        href="https://nsb.dev/replit-bounty"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        here
+                      </a>
+                       for info and resources.
+                    </h3>
+                  </li>
                 </ul>
               </div>
               {/* <div
@@ -503,31 +608,31 @@ const Rules = () => {
               </div>
 
               <div
-               className=" flex flex-col justify-center items-center bg-black w-full h-32 overflow-y-auto 
+                className=" flex flex-col justify-center items-center bg-black w-full h-32 overflow-y-auto 
                text-center text-2xl text-white font-space-grotesk"
-              
+
               >
-                 <div className="flex flex-col justify-center items-center">
-                <p className="my-5 text-base font-bold text-[#1BFF25]">
-                  What are you waiting for? Register Now!!
-                </p>
-                <div className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] flex justify-center items-center">
-                <div
-                  class="apply-button"
-                  data-hackathon-slug="byteverse"
-                  data-button-theme="light"
-                  style={{
-                    height: "44px",
-                    width: "312px"
-                  }}
-                >
+                <div className="flex flex-col justify-center items-center">
+                  <p className="my-5 text-base font-bold text-[#1BFF25]">
+                    What are you waiting for? Register Now!!
+                  </p>
+                  <div className="md:w-[70%] sm:w-[70%]  w-[400px]  h-[50px] flex justify-center items-center">
+                    <div
+                      class="apply-button"
+                      data-hackathon-slug="byteverse"
+                      data-button-theme="light"
+                      style={{
+                        height: "44px",
+                        width: "312px"
+                      }}
+                    >
+                    </div>
+                  </div>
+
                 </div>
               </div>
 
-              </div>
-                </div>
-           
-           
+
             </section>
           </main>
         </div>
