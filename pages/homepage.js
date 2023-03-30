@@ -63,7 +63,7 @@ const Homepage = () => {
               While it might appear at first stance that the logistics of a
               hackathon seemingly only pivot around rigorous and brain-wracking
               coding discourses, its composition is not solely limited to
-              problem solving. Hack NITP has been engineered so to provide
+              problem solving. ByteVerse has been engineered so to provide
               medium for like-minded individuals with a technical bent of mind
               to get together and evolve into bigger, better communities and
               forums, thereby facilitating efficient networking in the
@@ -72,9 +72,9 @@ const Homepage = () => {
               of domains as in Machine Learning, Web Technology, Blockchain, so
               on and so forth. For the likes of absolute beginners as well as
               trained professionals all set to step into the corporate world,
-              the ideals of HACK NITP have been built to appeal to serve to one
+              the ideals of ByteVerse have been built to appeal to serve to one
               and all. Hereby lies altiore proposito for our collective
-              endeavor, HACK NITP.
+              endeavor, ByteVerse NIT Patna.
             </h6>
           </div>
         </div>
