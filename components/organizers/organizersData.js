@@ -14,9 +14,9 @@ import Mohit from "../../public/organizers/Mohit Kumar.jpg";
 import Jatin from "../../public/organizers/Jatin Chauhan.png";
 import Kalpesh from "../../public/organizers/Kalpesh_Meena.jpg";
 import Ayush from "../../public/organizers/Ayush Gautam.jpg";
-import Shashank from "../../public/organizers/Shashank Yadav.jpg";
+import Shashank from "../../public/organizers/Shashank.png";
 import Shrey from "../../public/organizers/Shrey Kashyap.jpg";
-import Devatraj from "../../public/organizers/Devatraj Bhattacharya.jpeg";
+import Devatraj from "../../public/organizers/Devatraj Bhattacharya.png";
 import Sakshi from "../../public/organizers/Sakshi Singh.jpg";
 import Ashutosh from "../../public/organizers/Ashutosh Bind.png";
 import Manvendra from "../../public/organizers/Manvendra_Pratap_Singh.jpeg";
@@ -39,41 +39,104 @@ import Simranpreet from "../../public/organizers/Simranpreet Kaur.jpg";
 import Anushka from "../../public/organizers/anushka dubey.jpg";
 import Pawni from "../../public/organizers/pawni chauhan.jpg";
 import AnshuG from "../../public/organizers/anshu gupta.jpg";
-import Avinash from "../../public/organizers/Avinash Kumar.jpg";
+import Avvinash from "../../public/organizers/Avvinash.png";
 import Rakshit from "../../public/organizers/rakshit.jpg";
 import Pushkar from "../../public/organizers/Pushkar_Raj.png"
 import Aditya from "../../public/organizers/Aditya.png"
+import Progoti from "../../public/organizers/Progoti.png"
+import Sneh from "../../public/organizers/Sneh.png"
+import Rachit from "../../public/organizers/Rachit.png"
+import Anshu from "../../public/organizers/Anshu.png"
+import Akshat from "../../public/organizers/Akshat.png"
+
 
 const organizersList = [
   // lead organizer
- {
-  id: 0,
-  imgUrl: Shivam.src,
-  name: "Shivam Jha",
-  role: "Lead Organizer",
-  linkedin: "https://www.linkedin.com/in/shivam-jha-78421592",
-  github: "http://github.com/jhashivam-2001",
-},
-{
-  id: 1,
-  imgUrl: Saizal.src,
-  name: "Saizal Sinha",
-  role: "Lead Organizer",
-  linkedin: "https://www.linkedin.com/in/saizal",
-  github: "https://github.com/Saizalsinha",
-},
+  {
+    id: 0,
+    imgUrl: Shivam.src,
+    name: "Shivam Jha",
+    role: "Lead Organizer",
+    linkedin: "https://www.linkedin.com/in/shivam-jha-78421592",
+    github: "http://github.com/jhashivam-2001",
+  },
+  {
+    id: 1,
+    imgUrl: Saizal.src,
+    name: "Saizal Sinha",
+    role: "Lead Organizer",
+    linkedin: "https://www.linkedin.com/in/saizal",
+    github: "https://github.com/Saizalsinha",
+  },
 
-// events lead
-{
-  id: 2,
-  imgUrl:Pushkar.src,
-  name: "Pushkar Raj",
-  role: "Discipline Lead",
-  linkedin: "https://www.linkedin.com/in/pushkar-raj-560531223/?originalSubdomain=in",
-  github: "https://github.com/pushkarraj21",
-},
-{
-  id: 3,
+  
+  {
+    id: 2,
+    imgUrl: Mohit.src,
+    name: "Mohit Kumar",
+    role: "PR Lead",
+    linkedin: "https://www.linkedin.com/in/mohit-kumar-02b07667",
+    github: "https://github.com/mohit-kumar-b2",
+  },
+
+
+
+  // rachit sir data
+  {
+    id: 3,
+    imgUrl: Rachit.src,
+    name: "Rachit Suneja",
+    role: "Outreach Lead",
+    linkedin: "https://www.linkedin.com/in/rachit-suneja-99843721a",
+    github: "https://github.com/RachitSuneja",
+  },
+
+  {
+    id: 4,
+    imgUrl: Rishav.src,
+    name: "Rishav Jain",
+    role: "Outreach Lead",
+    linkedin: "https://www.linkedin.com/in/rishav-jain-33859921a",
+    github: "http://github.com/RishavJain21",
+  },
+
+  {
+    id: 5,
+    imgUrl: Avvinash.src,
+    name: "Avinash Kumar",
+    role: "Content Lead",
+    linkedin: "https://www.linkedin.com/in/avinash-kumar-0a66a782/",
+    github: "https://github.com/Avik17",
+  },
+
+  {
+    id: 6,
+    imgUrl: Ayush.src,
+    name: "Ayush Gautam",
+    role: "Social Media Lead",
+    linkedin: "https://www.linkedin.com/in/ayushgautam07",
+    github: "https://github.com/ayushgautam7",
+  },
+
+  {
+    id: 7,
+    imgUrl: Paras.src,
+    name: "Paras Punjabi",
+    role: "Web Lead",
+    linkedin: "https://www.linkedin.com/in/paras-punjabi-0b7669220/",
+    github: "https://github.com/Paras-Punjabi",
+  },
+
+  {
+    id: 8,
+    imgUrl: Pushkar.src,
+    name: "Pushkar Raj",
+    role: "Discipline Lead",
+    linkedin: "https://www.linkedin.com/in/pushkar-raj-560531223/?originalSubdomain=in",
+    github: "https://github.com/pushkarraj21",
+  },
+  {
+  id: 9,
   imgUrl: PragatiV.src,
   name: "Pragati Verma",
   role: "Discipline Lead",
@@ -81,247 +144,249 @@ const organizersList = [
   github: "https://github.com/Pragati1122",
 },
 
-// mentorship
-{
-  id: 4,
-  imgUrl: Manvendra.src,
-  name: "Manvendra Pratap Singh",
-  role: "Mentorship Lead",
-  linkedin: "https://www.linkedin.com/in/manvendra-pratap-singh-629a251b9/",
-  github: "https://github.com/MPSINGH5",
-},
-{
-  id: 5,
-  imgUrl: Srijan.src,
-  name: "Srijan Shovit",
-  role: "Mentorship Lead",
-  linkedin: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba",
-  github: "https://github.com/SrijanShovit",
-},
+  {
+    id: 10,
+    imgUrl: Priyanshu.src,
+    name: "Priyanshu Shekhar",
+    role: "Design Lead",
+    linkedin: "",
+    github: "",
+  },
 
-//  events lead
-{
-  id:6,
-  imgUrl: Sanya.src,
-  name: "Sanya Kumari",
-  role: "Event Management Lead",
-  linkedin: "https://www.linkedin.com/in/sanya-kumari-8ba878228",
-  github: "https://www.github.com/Sanaya56",
-},
-{
-  id:7,
-  imgUrl: Rakshit.src,
-  name: "Rakshit Sinha",
-  role: "Event Management Lead",
-  linkedin: "https://www.linkedin.com/in/rakshit-sinha-089992234",
-  github: "https://www.github.com/Vicrease",
-},
+  {
+    id: 11,
+    imgUrl: Srijan.src,
+    name: "Srijan Shovit",
+    role: "Mentorship Lead",
+    linkedin: "https://www.linkedin.com/in/srijan-shovit-6b3b131ba",
+    github: "https://github.com/SrijanShovit",
+  },
 
-// pr
-{
-  id: 8,
-  imgUrl: Mohit.src,
-  name: "Mohit Kumar",
-  role: "PR Lead",
-  linkedin: "https://www.linkedin.com/in/mohit-kumar-02b07667",
-  github: "https://github.com/mohit-kumar-b2",
-},
+  {
+    id: 12,
+    imgUrl: Manvendra.src,
+    name: "Manvendra Pratap Singh",
+    role: "Mentorship Lead",
+    linkedin: "https://www.linkedin.com/in/manvendra-pratap-singh-629a251b9/",
+    github: "https://github.com/MPSINGH5",
+  },
 
-{
-  id: 9,
-  imgUrl: Simranpreet.src,
-  name: "Simranpreet Kaur",
-  role: "PR Co-Lead",
-  linkedin: "https://www.linkedin.com/in/simranpreet-kaur-8b669b238",
-  github: "https://github.com/03Simran",
-},
-{
-  id: 10,
-  imgUrl: Ifra.src,
-  name: "Ifra Ali",
-  role: "PR Manager",
-  linkedin: "",
-  github: "",
-},
-{
-  id: 11,
-  imgUrl: Devatraj.src,
-  name: "Devatraj Bhattarcharya",
-  role: "PR Manager",
-  linkedin: "https://www.linkedin.com/in/devatraj-bhattacharya-6a22611b4",
-  github: "https://www.github.com/devatraj",
-},
-{
-  id: 12,
-  imgUrl: Shrey.src,
-  name: "Shrey Kashyap",
-  role: "PR Manager",
-  linkedin: "https://www.linkedin.com/in/shrey-kashyap-a47b67240",
-  github: "https://github.com/shreyneol",
-},
-{
-  id: 13,
-  imgUrl: Sachin.src,
-  name: "Sachin Kumar",
-  role: "PR Manager",
-  linkedin: "https://www.linkedin.com/public-profile/settings",
-  github: "https://github.com/sAchin12320-web",
-},
-{
-  id: 14,
-  imgUrl: Mandeep.src,
-  name: "Mandeep Singh Saluja",
-  role: "PR Manager",
-  linkedin: "https://www.linkedin.com/in/mandeep-singh-saluja-70a695231",
-  github: "https://github.com/MandeepSaluja",
-},
-{
-  id: 15,
-  imgUrl: RohanS.src,
-  name: "Rohan Shetty",
-  role: "PR Manager",
-  linkedin: "https://www.linkedin.com/in/rohan-shetty-7b87a2229",
-  github: "https://github.com/RohanShetty2003",
-},
+  //Akshat data
+  {
+    id: 13,
+    imgUrl: Akshat.src,
+    name: "Akshat Suryawanshi",
+    role: "Discipline Incharge",
+    linkedin: "",
+    github: "",
+  },
+  {
+    id: 14,
+    imgUrl: Sneh.src,
+    name: "Sneh Kumar",
+    role: "Discipline Incharge",
+    linkedin: "",
+    github: "",
+  },
 
-{
-  id: 16,
-  imgUrl: Aditya.src,
-  name: "Aditya Jaiswal",
-  role: "PR Manager",
-  linkedin: "https://www.linkedin.com/in/aditya-jaiswal-740377226",
-  github: "",
-},
+  //sneh
 
-// web-lead
-{
-  id: 17,
-  imgUrl: Paras.src,
-  name: "Paras Punjabi",
-  role: "Web Lead",
-  linkedin: "https://www.linkedin.com/in/paras-punjabi-0b7669220/",
-  github: "https://github.com/Paras-Punjabi",
-},
-{
-  id: 18,
-  imgUrl: Shashank.src,
-  name: "Shashank Yadav",
-  role: "Web Co-Lead",
-  linkedin: "https://www.linkedin.com/in/shashank-yadav-294092230",
-  github: "https://github.com/Shashank2104125",
-},
-{
-  id: 19,
-  imgUrl: Ritwik.src,
-  name: "Ritwik Singh",
-  role: "Web Co-Lead",
-  linkedin: "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
-  github: "https://github.com/RitwikSingh28",
-},
+  {
+    id: 15,
+    imgUrl: Sanya.src,
+    name: "Sanya Kumari",
+    role: "Event Management Lead",
+    linkedin: "https://www.linkedin.com/in/sanya-kumari-8ba878228",
+    github: "https://www.github.com/Sanaya56",
+  },
+  {
+    id: 16,
+    imgUrl: Rakshit.src,
+    name: "Rakshit Sinha",
+    role: "Event Management Lead",
+    linkedin: "https://www.linkedin.com/in/rakshit-sinha-089992234",
+    github: "https://www.github.com/Vicrease",
+  },
 
+  {
+    id: 17,
+    imgUrl: Simranpreet.src,
+    name: "Simranpreet Kaur",
+    role: "PR Co-Lead",
+    linkedin: "https://www.linkedin.com/in/simranpreet-kaur-8b669b238",
+    github: "https://github.com/03Simran",
+  },
 
-// outreach
+  {
+    id: 18,
+    imgUrl: Sakshi.src,
+    name: "Sakshi Singh",
+    role: "Outreach Manager",
+    linkedin: "https://www.linkedin.com/in/sakshi-singh-02658a22b",
+    github: "https://github.com/sakship806",
+  },
+  {
+    id: 19,
+    imgUrl: Susajjit.src,
+    name: "Susajjit Kumar Singh",
+    role: "Outreach Manager",
+    linkedin: "http://www.linkedin.com/in/susajjit",
+    github: "https://github.com/SUSAJJIT",
+  },
 
 {
   id: 20,
-  imgUrl: Rishav.src,
-  name: "Rishav Jain",
-  role: "Outreach Lead",
-  linkedin: "https://www.linkedin.com/in/rishav-jain-33859921a",
-  github: "http://github.com/RishavJain21",
-},
-{
-  id: 21,
   imgUrl: Rani.src,
   name: "Rani Kumari",
-  role: "Outreach Lead",
+  role: "Event Management Lead",
   linkedin: "https://www.linkedin.com/in/rani-kumari-a74915229/",
   github: "https://github.com/rani620",
 },
-{
-  id: 22,
-  imgUrl: Sakshi.src,
-  name: "Sakshi Singh",
-  role: "Outreach Manager",
-  linkedin: "https://www.linkedin.com/in/sakshi-singh-02658a22b",
-  github: "https://github.com/sakship806",
-},
-{
-  id: 23,
-  imgUrl: Susajjit.src,
-  name: "Susajjit Kumar Singh",
-  role: "Outreach Manager",
-  linkedin: "http://www.linkedin.com/in/susajjit",
-  github: "https://github.com/SUSAJJIT",
-},
 
-// design lead
-{
-  id: 24,
-  imgUrl: Priyanshu.src,
-  name: "Priyanshu Shekhar",
-  role: "Design Lead",
-  linkedin: "",
-  github: "",
-},
-{
-  id: 25,
-  imgUrl: Sameer.src,
-  name: "Sameer Choudhary",
-  role: "Design Co-Lead",
-  linkedin: "https://www.linkedin.com/in/sameer-choudhary-2255ab222",
-  github: "https://github.com/samzorroak",
-},
-{
-  id: 26,
-  imgUrl: Nisarg.src,
-  name: "Nisarg Patel",
-  role: "Design Co-Lead",
-  linkedin: "https://www.linkedin.com/in/nisarg-patel-293454229/",
-  github: "https://github.com/Nisarg1206",
-},
-{
-  id: 27,
-  imgUrl: Rohan.src,
-  name: "Rohan Choudhary",
-  role: "Design Co-Lead",
-  linkedin: "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
-  github: "https://github.com/RohanKumarChoudhary",
-},
+  {
+    id: 21,
+    imgUrl: Shashank.src,
+    name: "Shashank Yadav",
+    role: "Web Co-Lead",
+    linkedin: "https://www.linkedin.com/in/shashank-yadav-294092230",
+    github: "https://github.com/Shashank2104125",
+  },
+  {
+    id: 22,
+    imgUrl: Ritwik.src,
+    name: "Ritwik Singh",
+    role: "Web Co-Lead",
+    linkedin: "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
+    github: "https://github.com/RitwikSingh28",
+  },
+  {
+    id: 23,
+    imgUrl: Anushka.src,
+    name: "Anushka Dubey",
+    role: "Content Co-Lead",
+    linkedin: "https://www.linkedin.com/in/anushka-d-751b20229",
+    github: "https://github.com/anush07k",
+  },
+  {
+    id: 24,
+    imgUrl: Pawni.src,
+    name: "Pawni Chauhan",
+    role: "Content Co-Lead",
+    linkedin: "",
+    github: "",
+  },
 
-// content lead
-{
-  id: 28,
-  imgUrl: Avinash.src,
-  name: "Avinash Kumar",
-  role: "Content Lead",
-  linkedin: "https://www.linkedin.com/in/avinash-kumar-0a66a782/",
-  github: "https://github.com/Avik17",
-},
-{
-  id: 29,
-  imgUrl: Anushka.src,
-  name: "Anushka Dubey",
-  role: "Content Co-Lead",
-  linkedin: "https://www.linkedin.com/in/anushka-d-751b20229",
-  github: "https://github.com/anush07k",
-},
-{
-  id: 30,
-  imgUrl: Pawni.src,
-  name: "Pawni Chauhan",
-  role: "Content Co-Lead",
-  linkedin: "",
-  github: "",
-},
-{
-  id: 31,
-  imgUrl: Ayush.src,
-  name: "Ayush Gautam",
-  role: "Social Media Lead",
-  linkedin: "https://www.linkedin.com/in/ayushgautam07",
-  github: "https://github.com/ayushgautam7",
-},
+  //progoti das
+  {
+    id: 25,
+    imgUrl: Progoti.src,
+    name: "Progati Das",
+    role: "Content Co-Lead",
+    linkedin: "https://www.linkedin.com/in/progati-das-68a8a4256",
+    github: "https://github.com/pro2003",
+  },
+
+
+  {
+    id: 26,
+    imgUrl: Devatraj.src,
+    name: "Devatraj Bhattarcharya",
+    role: "PR Manager",
+    linkedin: "https://www.linkedin.com/in/devatraj-bhattacharya-6a22611b4",
+    github: "https://www.github.com/devatraj",
+  },
+  {
+    id: 27,
+    imgUrl: Shrey.src,
+    name: "Shrey Kashyap",
+    role: "PR Manager",
+    linkedin: "https://www.linkedin.com/in/shrey-kashyap-a47b67240",
+    github: "https://github.com/shreyneol",
+  },
+
+  {
+    id: 28,
+    imgUrl: Ifra.src,
+    name: "Ifra Ali",
+    role: "PR Manager",
+    linkedin: "",
+    github: "",
+  },
+  {
+    id: 29,
+    imgUrl: Aditya.src,
+    name: "Aditya Jaiswal",
+    role: "PR Manager",
+    linkedin: "https://www.linkedin.com/in/aditya-jaiswal-740377226",
+    github: "",
+  },
+
+  {
+    id: 30,
+    imgUrl: Sachin.src,
+    name: "Sachin Kumar",
+    role: "PR Manager",
+    linkedin: "https://www.linkedin.com/public-profile/settings",
+    github: "https://github.com/sAchin12320-web",
+  },
+
+
+  {
+    id: 31,
+    imgUrl: RohanS.src,
+    name: "Rohan Shetty",
+    role: "PR Manager",
+    linkedin: "https://www.linkedin.com/in/rohan-shetty-7b87a2229",
+    github: "https://github.com/RohanShetty2003",
+  },
+
+  {
+    id: 32,
+    imgUrl: Mandeep.src,
+    name: "Mandeep Singh Saluja",
+    role: "PR Manager",
+    linkedin: "https://www.linkedin.com/in/mandeep-singh-saluja-70a695231",
+    github: "https://github.com/MandeepSaluja",
+  },
+
+
+  //anshu gupta
+  {
+    id: 33,
+    imgUrl: Anshu.src,
+    name: "Anshu Gupta",
+    role: "Social Media Co-Lead",
+    linkedin: "https://www.linkedin.com/in/anshu-gupta-66519122a/",
+    github: "https://github.com/Anshu1Gupta",
+  },
+
+  {
+    id: 34,
+    imgUrl: Sameer.src,
+    name: "Sameer Choudhary",
+    role: "Design Co-Lead",
+    linkedin: "https://www.linkedin.com/in/sameer-choudhary-2255ab222",
+    github: "https://github.com/samzorroak",
+  },
+
+  {
+    id: 35,
+    imgUrl: Rohan.src,
+    name: "Rohan Choudhary",
+    role: "Design Co-Lead",
+    linkedin: "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
+    github: "https://github.com/RohanKumarChoudhary",
+  },
+
+  {
+    id: 36,
+    imgUrl: Nisarg.src,
+    name: "Nisarg Patel",
+    role: "Design Co-Lead",
+    linkedin: "https://www.linkedin.com/in/nisarg-patel-293454229/",
+    github: "https://github.com/Nisarg1206",
+  },
+
 ];
 
 export default organizersList;
