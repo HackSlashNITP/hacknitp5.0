@@ -7,7 +7,7 @@ import Tanvi from "../../public/organizers/Tanvi Tanya.jpg";
 import Srijan from "../../public/organizers/Srijan Shovit.png";
 import Paras from "../../public/organizers/Paras punjabi.jpg";
 import Harsh from "../../public/organizers/Harsh Anand.JPG";
-import Priyanshu from "../../public/organizers/Priyanshu Shekhar.jpg";
+import Priyanshu from "../../public/organizers/Priyanshu.png";
 import Rishav from "../../public/organizers/RISHAV JAIN.jpeg";
 import PragatiP from "../../public/organizers/Pragati Priya.jpg";
 import Mohit from "../../public/organizers/Mohit Kumar.jpg";
@@ -273,8 +273,8 @@ const organizersList = [
 {
   id: 26,
   imgUrl: Rohan.src,
-  name: "Design Co-Lead",
-  role: "Event Management Lead",
+  name: "Rohan Choudhary",
+  role: "Design Co-Lead",
   linkedin: "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
   github: "https://github.com/RohanKumarChoudhary",
 },
