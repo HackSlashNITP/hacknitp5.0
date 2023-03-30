@@ -296,7 +296,7 @@ const Rules = () => {
                 className="m-[0] my-5 text-6xl sm:text-xl md:text-xl font-bold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                 data-animate-on-scroll
               >
-                PREVIOUS YEAR PRIZES & PERKS
+                PRIZES & PERKS
               </h1>
 
               {/* For winners */}
@@ -366,7 +366,7 @@ const Rules = () => {
                   className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                   data-animate-on-scroll
                 >
-                  WINNING WOMEN'S TEAM
+                  TOP ALL GIRLS TEAM
                 </h1>
                 <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 5000/- Cash Prize</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">

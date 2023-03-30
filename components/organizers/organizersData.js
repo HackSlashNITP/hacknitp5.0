@@ -42,6 +42,7 @@ import AnshuG from "../../public/organizers/anshu gupta.jpg";
 import Avinash from "../../public/organizers/Avinash Kumar.jpg";
 import Rakshit from "../../public/organizers/rakshit.jpg";
 import Pushkar from "../../public/organizers/Pushkar_Raj.png"
+import Aditya from "../../public/organizers/Aditya.png"
 
 const organizersList = [
   // lead organizer
@@ -183,9 +184,18 @@ const organizersList = [
   github: "https://github.com/RohanShetty2003",
 },
 
-// web-lead
 {
   id: 16,
+  imgUrl: Aditya.src,
+  name: "Aditya Jaiswal",
+  role: "PR Manager",
+  linkedin: "https://www.linkedin.com/in/aditya-jaiswal-740377226",
+  github: "",
+},
+
+// web-lead
+{
+  id: 17,
   imgUrl: Paras.src,
   name: "Paras Punjabi",
   role: "Web Lead",
@@ -193,7 +203,7 @@ const organizersList = [
   github: "https://github.com/Paras-Punjabi",
 },
 {
-  id: 17,
+  id: 18,
   imgUrl: Shashank.src,
   name: "Shashank Yadav",
   role: "Web Co-Lead",
@@ -201,7 +211,7 @@ const organizersList = [
   github: "https://github.com/Shashank2104125",
 },
 {
-  id: 18,
+  id: 19,
   imgUrl: Ritwik.src,
   name: "Ritwik Singh",
   role: "Web Co-Lead",
@@ -213,7 +223,7 @@ const organizersList = [
 // outreach
 
 {
-  id: 19,
+  id: 20,
   imgUrl: Rishav.src,
   name: "Rishav Jain",
   role: "Outreach Lead",
@@ -221,7 +231,7 @@ const organizersList = [
   github: "http://github.com/RishavJain21",
 },
 {
-  id: 20,
+  id: 21,
   imgUrl: Rani.src,
   name: "Rani Kumari",
   role: "Outreach Lead",
@@ -229,7 +239,7 @@ const organizersList = [
   github: "https://github.com/rani620",
 },
 {
-  id: 21,
+  id: 22,
   imgUrl: Sakshi.src,
   name: "Sakshi Singh",
   role: "Outreach Manager",
@@ -237,7 +247,7 @@ const organizersList = [
   github: "https://github.com/sakship806",
 },
 {
-  id: 22,
+  id: 23,
   imgUrl: Susajjit.src,
   name: "Susajjit Kumar Singh",
   role: "Outreach Manager",
@@ -247,7 +257,7 @@ const organizersList = [
 
 // design lead
 {
-  id: 23,
+  id: 24,
   imgUrl: Priyanshu.src,
   name: "Priyanshu Shekhar",
   role: "Design Lead",
@@ -255,7 +265,7 @@ const organizersList = [
   github: "",
 },
 {
-  id: 24,
+  id: 25,
   imgUrl: Sameer.src,
   name: "Sameer Choudhary",
   role: "Design Co-Lead",
@@ -263,7 +273,7 @@ const organizersList = [
   github: "https://github.com/samzorroak",
 },
 {
-  id: 25,
+  id: 26,
   imgUrl: Nisarg.src,
   name: "Nisarg Patel",
   role: "Design Co-Lead",
@@ -271,7 +281,7 @@ const organizersList = [
   github: "https://github.com/Nisarg1206",
 },
 {
-  id: 26,
+  id: 27,
   imgUrl: Rohan.src,
   name: "Rohan Choudhary",
   role: "Design Co-Lead",
@@ -281,7 +291,7 @@ const organizersList = [
 
 // content lead
 {
-  id: 27,
+  id: 28,
   imgUrl: Avinash.src,
   name: "Avinash Kumar",
   role: "Content Lead",
@@ -289,7 +299,7 @@ const organizersList = [
   github: "https://github.com/Avik17",
 },
 {
-  id: 28,
+  id: 29,
   imgUrl: Anushka.src,
   name: "Anushka Dubey",
   role: "Content Co-Lead",
@@ -297,7 +307,7 @@ const organizersList = [
   github: "https://github.com/anush07k",
 },
 {
-  id: 29,
+  id: 30,
   imgUrl: Pawni.src,
   name: "Pawni Chauhan",
   role: "Content Co-Lead",
@@ -305,7 +315,7 @@ const organizersList = [
   github: "",
 },
 {
-  id: 30,
+  id: 31,
   imgUrl: Ayush.src,
   name: "Ayush Gautam",
   role: "Social Media Lead",
