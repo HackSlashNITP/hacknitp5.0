@@ -9,7 +9,7 @@ import secondPrize from "../components/prev_prizes/secondPrize";
 import thirdPrize from "../components/prev_prizes/thirdPrize";
 import girlsPrize from "../components/prev_prizes/girlsPrize";
 import trackPrize from "../components/prev_prizes/trackPrize";
-import designPrize from "./designPrize";
+import designPrize from "../components/prev_prizes/designPrize";
 
 const Rules = () => {
 
