@@ -1,10 +1,11 @@
 const girlsPrize = [
-  "5 Year free Taskade Workspace upgrade to the team.",
+  "INR 5,000/-Cash Prize.",
+  "Lifetime Taskade workspace upgrade to the team .",
+  "Wolfram Award Letter to all members of the team comprising of a One Year subscription to Wolfram |   One Personal Edition and a One Year subscription to Wolfram | Alpha Pro worth $375 each.",
   "1-month FREE access to all Business Plan features of the echo3D platform. ($89 each)",
-  "INR 300/- GeeksForGeeks discount coupon to all team members.",
+
   "1-month access to all courses on Interview Cake.",
-  "Voiceflow Professional License coupon to all team members (valued at $49 per month).",
-  "30 day free-license to Wolfram | One for each team members.",
+  "Swags Pack to all members of the team.",
   "Certificate of Excellence",
 ];
 

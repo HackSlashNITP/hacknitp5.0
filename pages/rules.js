@@ -9,6 +9,7 @@ import secondPrize from "../components/prev_prizes/secondPrize";
 import thirdPrize from "../components/prev_prizes/thirdPrize";
 import girlsPrize from "../components/prev_prizes/girlsPrize";
 import trackPrize from "../components/prev_prizes/trackPrize";
+import designPrize from "../components/prev_prizes/designPrize";
 
 const Rules = () => {
 
@@ -348,7 +349,7 @@ const Rules = () => {
                 >
                   2nd RUNNER UP
                 </h1>
-                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 5,000/- Cash Prize</b>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 6,000/- Cash Prize</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   {thirdPrize.map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
@@ -365,11 +366,29 @@ const Rules = () => {
                   className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
                   data-animate-on-scroll
                 >
-                  TOP ALL-GIRLS TEAM
+                  WINNING WOMEN'S TEAM
                 </h1>
-                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 2,500/- Cash Prize</b>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">₹ 5000/- Cash Prize</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   {girlsPrize.map((prize, index) => {
+                    return <ListItem key={index} msg={prize} />;
+                  })}
+                </ul>
+              </div>
+              
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  DESIGN WINNERS [ TOP 3 ]
+                </h1>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  {designPrize.map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
                   })}
                 </ul>
@@ -404,7 +423,7 @@ const Rules = () => {
                 >
                   TRACK PRIZE
                 </h1>
-                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">TEZOS</b>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">FILECOIN</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   {trackPrize[1].map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
@@ -422,7 +441,7 @@ const Rules = () => {
                 >
                   TRACK PRIZE
                 </h1>
-                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">FILECOIN</b>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">SOLANA</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   {trackPrize[2].map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
@@ -440,14 +459,14 @@ const Rules = () => {
                 >
                   TRACK PRIZE
                 </h1>
-                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">CELO</b>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">REPLIT</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   {trackPrize[3].map((prize, index) => {
                     return <ListItem key={index} msg={prize} />;
                   })}
                 </ul>
               </div>
-              <div
+              {/* <div
                 className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
                 data-animate-on-scroll
@@ -464,7 +483,7 @@ const Rules = () => {
                     return <ListItem key={index} msg={prize} />;
                   })}
                 </ul>
-              </div>
+              </div> */}
               <div
                 className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
