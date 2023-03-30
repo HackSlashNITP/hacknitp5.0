@@ -1,7 +1,7 @@
 import React from "react";
 import SponsorBox from "./sponsorBox";
 
-const SponsorGrid = ({sponsors, title}) => {
+const SponsorGrid = ({ sponsors, title }) => {
   return (
     <section className="title-sponsor w-full flex flex-col items-center">
       <h4 className="text-2xl font-normal my-5 md:text-lg md:my-3">{title}</h4>

@@ -1,5 +1,5 @@
-import digital from '../../public/prevSponsors/DIGITAL_OCEAN.png';
-import postman from '../../public/prevSponsors/postman.png';
+// import digital from '../../public/prevSponsors/DIGITAL_OCEAN.png';
+import postman from "../../public/prevSponsors/postman.png";
 
 const title = [
   // {
@@ -7,8 +7,8 @@ const title = [
   //   logo: digital,
   //   link: "https://www.digitalocean.com/",
   // },
-  { 
-    id:0,
+  {
+    id: 0,
     logo: postman,
     link: "https://www.postman.com/",
   },
