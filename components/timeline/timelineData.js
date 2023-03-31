@@ -32,7 +32,7 @@ const data = [
     {
         id: 6,
         title: 'Technical Workshop(API | POSTMAN | DOCKER | MONGODB)',
-        schedule: '14th April 2023 | 10:30 IST',
+        schedule: '15th April 2023 | 10:30 IST',
     },
     {
         id: 7,
