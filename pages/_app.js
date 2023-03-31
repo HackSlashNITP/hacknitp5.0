@@ -4,7 +4,7 @@ import Head from "next/head";
 import { ThemeProvider, createTheme } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 
-import '../styles/globals.css';
+import "../styles/globals.css";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
@@ -22,7 +22,7 @@ export default function MyApp(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>Hacknitp5.0</title>
+        <title>ByteVerse | NIT Patna</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

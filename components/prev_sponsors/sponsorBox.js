@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SponsorBox = ({ image, link }) => {
   return (
-    <div className="p-10 h-[30%] max-h-[250px] min-h-[200px] max-w-[300px] min-w-[200px] bg-white rounded-xl overflow-hidden flex justify-center items-center">
+    <div className="p-10 h-[30%] max-h-[200px] min-h-[200px] max-w-[300px] min-w-[200px] bg-white rounded-xl overflow-hidden flex justify-center items-center">
       <a
         href={link}
         target={"_blank"}
