@@ -586,6 +586,8 @@ const Rules = () => {
                   </li>
                 </ul>
               </div>
+
+              
               {/* <div
                 className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
@@ -604,7 +606,7 @@ const Rules = () => {
                   })}
                 </ul>
               </div> */}
-              <div
+               <div
                 className="flex flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
                 id="prizes"
                 data-animate-on-scroll
@@ -621,6 +623,52 @@ const Rules = () => {
                   })}
                 </ul>
               </div>
+
+              
+              <div
+                className="flex my-7 flex-col justify-center items-center rounded-xl p-10 bg-gray-1100 [&.animate]:animate-[2s_ease_0s_1_normal_forwards_fade-in] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_fade-in] lg:opacity-[0]"
+                id="prizes"
+                data-animate-on-scroll
+              >
+                <h1
+                  className="m-[0] my-2 text-4xl md:text-lg font-semibold font-noto-sans text-center [&.animate]:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] [&.animate]:lg:animate-[2s_ease_0s_1_normal_forwards_slide-in-top] lg:opacity-[0]"
+                  data-animate-on-scroll
+                >
+                  SPECIAL SIDE TRACK
+                </h1>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">ENTERPRENEURSHIP IDEAS</b>
+                <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
+                  <div>
+                   <li>
+                    <div >
+                     <div className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">As a collaboration cum sponsonship with the Incubation Center, NIT Patna,the top 5 projects  with the most potential to met out:
+                     </div>
+                     <ol className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center grid grid-cols-2 gap-4 place-content-evenly list-decimal">
+                     <li>Scalability</li>
+                     <li>Adaptability</li>
+                     <li>Real-World relevance</li>
+                     <li>Systems thinking</li>
+                     </ol>
+                           
+                    <div className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">Will be shortlisted to further pitch forth their ideas on the national Enterpreneurship spectrum,
+                       under the exclusive supervision of Incubation Center, NIT Patna</div>
+                      </div>
+                   </li>
+                  </div>
+                </ul>
+              </div>
+
+              
+
+              
+
+
+
+
+
+
+
+
 
               <div
                 className=" flex flex-col justify-center items-center bg-black w-full h-32 overflow-y-auto 
