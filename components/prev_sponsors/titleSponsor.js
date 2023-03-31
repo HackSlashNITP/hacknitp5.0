@@ -13,11 +13,11 @@ const title = [
     logo: postman,
     link: "https://www.postman.com/",
   },
-  { 
-    id:1,
-    logo: incubation,
-    link: "https://www.postman.com/",
-  },
+  // { 
+  //   id:1,
+  //   logo: incubation,
+  //   link: "https://www.postman.com/",
+  // },
 ];
 
 export default title;
