@@ -78,12 +78,12 @@ const Homepage = () => {
               endeavor, ByteVerse NIT Patna.
             </h6>
             </div>
-
+            
           </div>
+          <Footer />
         </div>
         
       </div>
-      <Footer />
     </div>
   );
 };

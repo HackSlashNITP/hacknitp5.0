@@ -11,6 +11,7 @@ import girlsPrize from "../components/prev_prizes/girlsPrize";
 import trackPrize from "../components/prev_prizes/trackPrize";
 import designPrize from "../components/prev_prizes/designPrize";
 
+
 const Rules = () => {
 
   React.useEffect(() => {
@@ -87,8 +88,8 @@ const Rules = () => {
     },
     {
       id: 7,
-      img: "/theme/blockchain.svg",
-      desc: "Blockchain",
+      img: "/theme/entreprenuer.png",
+      desc: "Entrepreneurship",
     },
     {
       id: 8,
@@ -205,21 +206,8 @@ const Rules = () => {
                     For more details, refer to the rulebook below:
                     </h3>
                 
-               <div className="space-x-4  overflow-y-auto text-center ">
-                <a
-                  href="http://bit.ly/3G20noI"
-                  target={"_blank"}
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    className="cursor-pointer m-4 hover:bg-[#22c55e] hover:[border:3px_solid_transparent] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
-                    data-animate-on-scroll
-                  >
-                    Download UI/UX Rulebook
-                  </button>
-                </a>
                  <a
-                  href="http://bit.ly/3G20noI"
+                  href="https://drive.google.com/drive/folders/1qP-MHn_e6xn6S97tXCdTUfDwt_ONEBtw?usp=share_link"
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
@@ -227,10 +215,10 @@ const Rules = () => {
                     className="cursor-pointer hover:bg-[#22c55e] hover:[border:3px_solid_transparent] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
                     data-animate-on-scroll
                   >
-                    Download Byteverse Rulebook
+                    Download Rulebook
                   </button>
                 </a>
-                </div> 
+                 
 
               </div>
             </section>

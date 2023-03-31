@@ -12,7 +12,7 @@ const title = [
   { 
     id:1,
     logo: incubation,
-    link: "https://www.postman.com/",
+    link: "https://www.linkedin.com/company/icnitp/?originalSubdomain=in",
   },
 ];
 
