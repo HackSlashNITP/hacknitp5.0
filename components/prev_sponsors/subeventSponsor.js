@@ -30,10 +30,10 @@ const subevent = [
     logo: Axure,
     link: "https://www.axure.com/",
   },
-  // {
-  //   logo: Taskade,
-  //   link: "https://www.taskade.com/",
-  // },
+  {
+    logo: Taskade,
+    link: "https://www.taskade.com/",
+  },
   // {
   //   logo: gfg,
   //   link: "https://www.geeksforgeeks.org/",
