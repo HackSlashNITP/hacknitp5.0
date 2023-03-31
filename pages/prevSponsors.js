@@ -16,6 +16,7 @@ const PrevSponsors = () => {
       <div className="w-full main-content flex flex-col items-center">
         <h2 className="text-6xl font-semibold my-10 md:text-4xl md:y-3">Sponsors</h2>
         <main className="sponsors w-full flex flex-col justify-between items-center">
+          {/* INCUBATION CENTRE LINK ADDING IS REMAIN */}
           <SponsorGrid sponsors={titleSponsor} title='Title Sponsor'/>
           <SponsorGrid sponsors={associateSponsor} title='Associate Sponsor'/>
           <SponsorGrid sponsors={subeventSponsor} title='Subevent Sponsor'/>
