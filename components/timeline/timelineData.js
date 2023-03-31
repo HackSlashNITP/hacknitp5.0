@@ -2,12 +2,12 @@ const data = [
     {
         id: 0,
         title: 'Hackathon Registration Starts',
-        schedule: '26th March 2023, 18:00 IST',
+        schedule: '30th March 2023, 18:00 IST',
     },
     {
         id: 1,
         title: 'Info Session',
-        schedule: '02nd April 2023, To be decided',
+        schedule: '02nd April 2023, 18:00 IST',
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const data = [
     {
         id: 4,
         title: 'Workshop Series Ends',
-        schedule: '14th April 2023',
+        schedule: '15th April 2023',
     },
     {
         id: 5,
@@ -32,12 +32,12 @@ const data = [
     {
         id: 6,
         title: 'Opening Ceremony',
-        schedule: '14th April 2023, 10:00 IST',
+        schedule: '14th April 2023, 18:00 IST',
     },
     {
         id: 7,
         title: 'Coding Phase Starts',
-        schedule: '15th April 2023, 12:00 IST',
+        schedule: '14th April 2023, 16:00 IST',
     },
     {
         id: 8,
@@ -47,7 +47,7 @@ const data = [
     {
         id: 9,
         title: 'Community Review Window Starts',
-        schedule: '16th April 2023, 21:00 IST',
+        schedule: '15th April 2023, 21:00 IST',
     },
     {
         id: 10,

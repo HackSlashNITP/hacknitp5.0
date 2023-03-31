@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Box2 from "../components/box2";
 import SponsorGrid from "../components/prev_sponsors/sponsorGrid";
-
+import socialMedia from "../components/prev_sponsors/socialMediaSponsor";
 import titleSponsor from "../components/prev_sponsors/titleSponsor";
 import associateSponsor from "../components/prev_sponsors/associateSponsor";
 import subeventSponsor from "../components/prev_sponsors/subeventSponsor";
@@ -19,7 +19,8 @@ const PrevSponsors = () => {
           <SponsorGrid sponsors={titleSponsor} title='Title Sponsor'/>
           <SponsorGrid sponsors={associateSponsor} title='Associate Sponsor'/>
           <SponsorGrid sponsors={subeventSponsor} title='Subevent Sponsor'/>
-          <SponsorGrid sponsors={certificationsSponsor} title='Media Sponsor'/>
+          <SponsorGrid sponsors={certificationsSponsor} title='Certificate Sponsor'/>
+          <SponsorGrid sponsors={socialMedia} title='Social Media Partner'/>
         </main>
         <Box2 />
       </div>

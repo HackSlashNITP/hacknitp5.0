@@ -134,7 +134,7 @@ const Rules = () => {
                       To participate in the hackathon, register through {" "}
                       <a
                         className="text-[#2BFF08] hover:[border:2px_solid_#2BFF08] "
-                        href="https://hacknitp-4.devfolio.co/."
+                        href="https://byteverse.devfolio.co/."
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -166,7 +166,7 @@ const Rules = () => {
                       through {" "}
                       <a
                         className="text-[#2BFF08] hover:[border:2px_solid_#2BFF08]  m-2"
-                        href="https://hacknitp-4.devfolio.co/."
+                        href="https://bit.ly/3G1ME0Y"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -205,8 +205,21 @@ const Rules = () => {
                     For more details, refer to the rulebook below:
                     </h3>
                 
+               <div className="space-x-4  overflow-y-auto text-center ">
                 <a
-                  href="https://rebrand.ly/hacknitp-4/rulebook"
+                  href="http://bit.ly/3G20noI"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    className="cursor-pointer m-4 hover:bg-[#22c55e] hover:[border:3px_solid_transparent] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
+                    data-animate-on-scroll
+                  >
+                    Download UI/UX Rulebook
+                  </button>
+                </a>
+                 <a
+                  href="http://bit.ly/3G20noI"
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
@@ -214,9 +227,11 @@ const Rules = () => {
                     className="cursor-pointer hover:bg-[#22c55e] hover:[border:3px_solid_transparent] hover:text-black text-[#2BFF08] text-base sm:text-xs md:text-xs [border:3px_solid_#2BFF08] p-3 bg-[transparent] rounded-xl box-border [&.animate]:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] [&.animate]:lg:animate-[0.75s_ease_0s_1_normal_forwards_slide-in-left] lg:opacity-[0]"
                     data-animate-on-scroll
                   >
-                    Download Rulebook
+                    Download Byteverse Rulebook
                   </button>
                 </a>
+                </div> 
+
               </div>
             </section>
 
