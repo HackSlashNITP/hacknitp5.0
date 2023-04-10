@@ -18,7 +18,7 @@ const Footer = () => {
         <ul className="text-center font-semibold flex flex-row flex-wrap justify-center gap-y-2 items-center md:text-[15px] sm:text-[15px] text-xs text-white list-none">
           <li className="mx-2">
             <a
-              href="https://rebrand.ly/hacknitp-4/rulebook"
+              href="https://drive.google.com/file/d/1Zm0_s_IW9BrJkJoE7kTRGQf9dphlXrxW/view"
               target={"_blank"}
               rel="noopener noreferrer"
               className="no-underline"

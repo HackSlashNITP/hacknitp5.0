@@ -624,12 +624,12 @@ const Rules = () => {
                 >
                   SPECIAL SIDE TRACK
                 </h1>
-                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">ENTERPRENEURSHIP IDEAS</b>
+                <b className="mb-3 text-xl md:text-xs font-bold text-[#28e806]">ENTREPRENEURSHIP IDEAS</b>
                 <ul className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">
                   <div>
                    <li>
                     <div >
-                     <div className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">As a collaboration cum sponsonship with the Incubation Center, NIT Patna,the top 5 projects  with the most potential to met out:
+                     <div className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">As a collaboration cum sponsorship with the Incubation Center, NIT Patna,the top 5 projects  with the most potential to met out:
                      </div>
                      <ol className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center grid grid-cols-2 gap-4 place-content-evenly list-decimal">
                      <li>Scalability</li>
@@ -638,7 +638,7 @@ const Rules = () => {
                      <li>Systems thinking</li>
                      </ol>
                            
-                    <div className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">Will be shortlisted to further pitch forth their ideas on the national Enterpreneurship spectrum,
+                    <div className="w-[85%] md:w-[100%] text-xs sm:w-[100%] md:text-[15px] sm:text-[15px] flex-col justify-center">Will be shortlisted to further pitch forth their ideas on the national Entrepreneurship spectrum,
                        under the exclusive supervision of Incubation Center, NIT Patna</div>
                       </div>
                    </li>
