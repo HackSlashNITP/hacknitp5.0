@@ -6,7 +6,7 @@ import PragatiV from "../../public/organizers/Pragati Verma.jpg";
 import Tanvi from "../../public/organizers/Tanvi Tanya.jpg";
 import Srijan from "../../public/organizers/Srijan Shovit.png";
 import Paras from "../../public/organizers/Paras punjabi.jpg";
-import Harsh from "../../public/organizers/Harsh Anand.JPG";
+import Harsh from "../../public/organizers/Harsh.png";
 import Priyanshu from "../../public/organizers/Priyanshu.png";
 import Rishav from "../../public/organizers/RISHAV JAIN.jpeg";
 import PragatiP from "../../public/organizers/Pragati Priya.jpg";
@@ -122,7 +122,15 @@ const organizersList = [
   },
 
   {
-    id: 7,
+  id: 7,
+  imgUrl: Harsh.src,
+  name: "Harsh Anand",
+  role: "Discord Lead",
+  linkedin: "https://www.linkedin.com/in/devharsh01",
+  github: "https://github.com/its-me-Harsh-Anand",
+},
+  {
+    id: 8,
     imgUrl: Ayush.src,
     name: "Ayush Gautam",
     role: "Social Media Lead",
@@ -131,7 +139,7 @@ const organizersList = [
   },
 
   {
-    id: 8,
+    id: 9,
     imgUrl: Paras.src,
     name: "Paras Punjabi",
     role: "Web Lead",
@@ -140,7 +148,7 @@ const organizersList = [
   },
 
   {
-    id: 9,
+    id: 10,
     imgUrl: Pushkar.src,
     name: "Pushkar Raj",
     role: "Discipline Lead",
@@ -148,7 +156,7 @@ const organizersList = [
     github: "https://github.com/pushkarraj21",
   },
   {
-    id: 10,
+    id: 11,
     imgUrl: PragatiV.src,
     name: "Pragati Verma",
     role: "Discipline Lead",
@@ -157,7 +165,7 @@ const organizersList = [
   },
 
   {
-    id: 11,
+    id: 12,
     imgUrl: Priyanshu.src,
     name: "Priyanshu Shekhar",
     role: "Design Lead",
@@ -166,7 +174,7 @@ const organizersList = [
   },
 
   {
-    id: 12,
+    id: 13,
     imgUrl: Srijan.src,
     name: "Srijan Shovit",
     role: "Mentorship Lead",
@@ -175,7 +183,7 @@ const organizersList = [
   },
 
   {
-    id: 13,
+    id: 14,
     imgUrl: Manvendra.src,
     name: "Manvendra Pratap Singh",
     role: "Mentorship Lead",
@@ -185,7 +193,7 @@ const organizersList = [
 
   //Akshat data
   {
-    id: 14,
+    id: 15,
     imgUrl: Akshat.src,
     name: "Akshat Suryawanshi",
     role: "Discipline Incharge",
@@ -193,7 +201,7 @@ const organizersList = [
     github: "",
   },
   {
-    id: 15,
+    id: 16,
     imgUrl: Sneh.src,
     name: "Sneh Kumar",
     role: "Discipline Incharge",
@@ -202,7 +210,7 @@ const organizersList = [
   },
 
   {
-    id: 16,
+    id: 17,
     imgUrl: Prashant.src,
     name: "Prashant Kumar",
     role: "Discipline Incharge",
@@ -213,7 +221,7 @@ const organizersList = [
   //sneh
 
   {
-    id: 17,
+    id: 18,
     imgUrl: Sanya.src,
     name: "Sanya Kumari",
     role: "Event Management Lead",
@@ -221,7 +229,7 @@ const organizersList = [
     github: "https://www.github.com/Sanaya56",
   },
   {
-    id: 18,
+    id: 19,
     imgUrl: Rakshit.src,
     name: "Rakshit Sinha",
     role: "Event Management Lead",
@@ -230,7 +238,7 @@ const organizersList = [
   },
 
   {
-    id: 19,
+    id: 20,
     imgUrl: Simranpreet.src,
     name: "Simranpreet Kaur",
     role: "PR Co-Lead",
@@ -239,7 +247,7 @@ const organizersList = [
   },
 
   {
-    id: 20,
+    id: 21,
     imgUrl: Sakshi.src,
     name: "Sakshi Singh",
     role: "Outreach Manager",
@@ -247,7 +255,7 @@ const organizersList = [
     github: "https://github.com/sakship806",
   },
   {
-    id: 21,
+    id: 22,
     imgUrl: Susajjit.src,
     name: "Susajjit Kumar Singh",
     role: "Outreach Manager",
@@ -256,7 +264,7 @@ const organizersList = [
   },
 
   {
-    id: 22,
+    id: 23,
     imgUrl: Rani.src,
     name: "Rani Kumari",
     role: "Outreach Manager",
@@ -265,7 +273,7 @@ const organizersList = [
   },
 
   {
-    id: 23,
+    id: 24,
     imgUrl: Shashank.src,
     name: "Shashank Yadav",
     role: "Web Co-Lead",
@@ -273,7 +281,7 @@ const organizersList = [
     github: "https://github.com/Shashank2104125",
   },
   {
-    id: 24,
+    id: 25,
     imgUrl: Ritwik.src,
     name: "Ritwik Singh",
     role: "Web Co-Lead",
@@ -281,7 +289,7 @@ const organizersList = [
     github: "https://github.com/RitwikSingh28",
   },
   {
-    id: 25,
+    id: 26,
     imgUrl: Anushka.src,
     name: "Anushka Dubey",
     role: "Content Co-Lead",
@@ -289,7 +297,7 @@ const organizersList = [
     github: "https://github.com/anush07k",
   },
   {
-    id: 26,
+    id: 27,
     imgUrl: Pawni.src,
     name: "Pawni Chauhan",
     role: "Content Co-Lead",
@@ -299,7 +307,7 @@ const organizersList = [
 
   //progoti das
   {
-    id: 27,
+    id: 28,
     imgUrl: Progoti.src,
     name: "Progati Das",
     role: "Content Co-Lead",
@@ -309,7 +317,7 @@ const organizersList = [
 
 
   {
-    id: 28,
+    id: 29,
     imgUrl: Devatraj.src,
     name: "Devatraj Bhattarcharya",
     role: "PR Manager",
@@ -317,7 +325,7 @@ const organizersList = [
     github: "https://www.github.com/devatraj",
   },
   {
-    id: 29,
+    id: 30,
     imgUrl: Shrey.src,
     name: "Shrey Kashyap",
     role: "PR Manager",
@@ -326,7 +334,7 @@ const organizersList = [
   },
 
   {
-    id: 30,
+    id: 31,
     imgUrl: Ifra.src,
     name: "Ifra Ali",
     role: "PR Manager",
@@ -334,7 +342,7 @@ const organizersList = [
     github: "",
   },
   {
-    id: 31,
+    id: 32,
     imgUrl: Aditya.src,
     name: "Aditya Jaiswal",
     role: "PR Manager",
@@ -343,7 +351,7 @@ const organizersList = [
   },
 
   {
-    id: 32,
+    id: 33,
     imgUrl: Sachin.src,
     name: "Sachin Kumar",
     role: "PR Manager",
@@ -353,7 +361,7 @@ const organizersList = [
 
 
   {
-    id: 33,
+    id: 34,
     imgUrl: RohanS.src,
     name: "Rohan Shetty",
     role: "PR Manager",
@@ -362,7 +370,7 @@ const organizersList = [
   },
 
   {
-    id: 34,
+    id: 35,
     imgUrl: Mandeep.src,
     name: "Mandeep Singh Saluja",
     role: "PR Manager",
@@ -373,7 +381,7 @@ const organizersList = [
 
   //anshu gupta
   {
-    id: 35,
+    id: 36,
     imgUrl: Anshu.src,
     name: "Anshu Gupta",
     role: "Social Media Co-Lead",
@@ -382,7 +390,7 @@ const organizersList = [
   },
 
   {
-    id: 36,
+    id: 37,
     imgUrl: Sameer.src,
     name: "Sameer Choudhary",
     role: "Design Co-Lead",
@@ -391,7 +399,7 @@ const organizersList = [
   },
 
   {
-    id: 37,
+    id: 38,
     imgUrl: Rohan.src,
     name: "Rohan Choudhary",
     role: "Design Co-Lead",
@@ -400,7 +408,7 @@ const organizersList = [
   },
 
   {
-    id: 38,
+    id: 39,
     imgUrl: Nisarg.src,
     name: "Nisarg Patel",
     role: "Design Co-Lead",
