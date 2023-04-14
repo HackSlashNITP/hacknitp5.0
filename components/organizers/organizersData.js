@@ -258,7 +258,7 @@ const organizersList = [
     id: 22,
     imgUrl: Susajjit.src,
     name: "Susajjit Kumar Singh",
-    role: "Outreach Manager",
+    role: "Web Co-Lead",
     linkedin: "http://www.linkedin.com/in/susajjit",
     github: "https://github.com/SUSAJJIT",
   },
