@@ -22,6 +22,7 @@ const PrevSponsors = () => {
           <SponsorGrid sponsors={subeventSponsor} title='Subevent Sponsor'/>
           <SponsorGrid sponsors={certificationsSponsor} title='Certificate Sponsor'/>
           <SponsorGrid sponsors={socialMedia} title='Social Media Partner'/>
+          <SponsorGrid sponsors={socialMedia} title='Merch Partner'/>
         </main>
         <Box2 />
       </div>

@@ -8,6 +8,7 @@ import titleSponsor from "../components/prev_sponsors/titleSponsor";
 import associateSponsor from "../components/prev_sponsors/associateSponsor";
 import subeventSponsor from "../components/prev_sponsors/subeventSponsor";
 import certificationsSponsor from "../components/prev_sponsors/certificationsSponsor";
+import merchSponsors from "../components/prev_sponsors/merchSponsor";
 
 const Sponsors = () => {
   return (
@@ -23,6 +24,7 @@ const Sponsors = () => {
           <SponsorGrid sponsors={subeventSponsor} title="Subevent Sponsor" />
           <SponsorGrid sponsors={certificationsSponsor} title='Certificate Sponsor'/>
           <SponsorGrid sponsors={socialMedia} title='Social Media Partner'/>
+          <SponsorGrid sponsors={merchSponsors} title='Merch Partner'/>
         </main>
         <Box2 />
       </div>
