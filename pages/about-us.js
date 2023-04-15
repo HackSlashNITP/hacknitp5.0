@@ -174,7 +174,7 @@ const AboutUs = () => {
             </div>
             <div className="about-us-judges w-full flex flex-col justify-center items-center my-3">
               <h1 className="text-5xl md:text-[25px] sm:text-[25px] my-10 md:my-0 sm:my-0">
-                PAST-YEAR JUDGES
+                JUDGES
               </h1>
               <JudgesCarousel />
             </div>
